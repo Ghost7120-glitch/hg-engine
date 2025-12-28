@@ -29837,12 +29837,14 @@ trainerdata 693, "Linden"
         abilityslot 0
         level 18
         pokemon SPECIES_PORYGON
+        ballseal 0
 
         // mon 1
         ivs 0
         abilityslot 0
         level 19
         pokemon SPECIES_GIBLE
+        ballseal 0
 
         // mon 2
         ivs 0
