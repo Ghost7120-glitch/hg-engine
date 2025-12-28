@@ -55,12 +55,12 @@
 
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
-//#define IMPLEMENT_TRANSPARENT_TEXTBOXES
+#define IMPLEMENT_TRANSPARENT_TEXTBOXES
 
 // IMPLEMENT_WILD_DOUBLE_BATTLES defines whether or not grass tiles will have a 10% chance of starting a wild double battle
 // commenting this line out disables wild double battles entirely
 // NOTE:  wild double battles are currently unstable and broken.  i would not use them at this time.  see this issue for updates on this problem: https://github.com/BluRosie/hg-engine/issues/86
-//#define IMPLEMENT_WILD_DOUBLE_BATTLES
+#define IMPLEMENT_WILD_DOUBLE_BATTLES
 
 // IMPLEMENT_CAPTURE_EXPERIENCE defines whether or not capturing wild pokemon will net experience
 // commenting this line out disables capture experience
@@ -98,7 +98,7 @@
 
 // DISABLE_END_OF_TURN_WEATHER_MESSAGE removes the weather messages at the end of the turn.  instead the bottom screen icon can be used
 // uncomment the line out to get this functionality
-//#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
+#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // IMPLEMENT_SEASONS currently implements season mechanics. Used for changing forms of Deerling and Sawsbuck.
 // Comment the line out to disable this functionality (Gen 6+)
@@ -107,7 +107,7 @@
 // IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS allows wild species to appear with different forms if it has multiple forms.
 // Normally you will use monwithform, encounterwithform, headbuttencounterwithform to specify different forms (similar to Gen 5+)
 // Uncomment this line to enable this functionality
-// #define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
+#define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
 
 // Some forms only exist in their debut games, with accompying mechanics. IMPLEMENT_GONE_SPECIES_MECHANICS lets these forms' mechanics coexist with the latest mechanics. Examples include Noble Pokémon
 #define IMPLEMENT_DEXIT_FORMS_MECHANICS
@@ -182,10 +182,10 @@
 
 // THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN makes the Thunder & Storm map header weathers set permanent
 // Electric Terrain (and rain) in battle
-//#define THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN
+#define THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN
 
 // FOG_SETS_MISTY_TERRAIN makes the Fog map header weather set permanent Misty Terrain in battle
-//#define FOG_WEATHER_MISTY_TERRAIN
+#define FOG_WEATHER_MISTY_TERRAIN
 
 // NATURAL_GIFT_POWER_GEN defines the power of Natural Gift based on generation. Gen 6 or higher are modernized values.
 #define NATURAL_GIFT_POWER_GEN GEN_LATEST
