@@ -272,9 +272,9 @@ trainerdata 7, "Irwin"
         ballseal 0
     endparty
 
-trainerdata 8, "Joey"
+trainerdata 8, "Elio"
     trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_YOUNGSTER
+    trainerclass TRAINERCLASS_PKMN_TRAINER_ELIO
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
