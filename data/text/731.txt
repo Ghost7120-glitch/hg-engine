@@ -157,7 +157,7 @@ a Leader
 a Leader
 a Leader
 a ₧₦ Trainer
-an Elite Four
+a Unovan Prodigy
 an Elite Four
 a ₧₦ Trainer
 a ₧₦ Trainer
@@ -184,11 +184,11 @@ a Commander
 a Galactic Boss
 a Lady
 a ₧₦ Trainer
-a ₧₦ Trainer
-a ₧₦ Trainer
-a ₧₦ Trainer
-a ₧₦ Trainer
-an Evil Trainer
+a ₧₦ Legend
+a ₧₦ Legend
+a Arc Champion
+a Hoenn Champion
+a ₧₦ Legend
 a ₧₦ Trainer
 a Champion
 a Champion
@@ -202,7 +202,7 @@ a Leader
 a Leader
 a Leader
 a Leader
-an Elite Four
+a ₧₦ Trainer
 a Champion
 a Leader
 a Leader
@@ -211,7 +211,7 @@ an Elite Four
 an Elite Four
 a Leader
 a Leader
-an Elite Four
+a Distant Traveller
 a Plasma Boss
 a Plasma Leader
 a Plasma King
@@ -220,7 +220,7 @@ a Trainer
 a Trainer
 a Trainer
 a Trainer
-a Elite Four
+a ₧₦ Trainer
 a Trainer
 an Elite Four
 a Leader
@@ -236,20 +236,20 @@ an Elite Four
 an Elite Four
 an Elite Four
 a Flare Boss
-a Flare Admin
+a Galar Champion
 a ₧₦ Trainer
 a ₧₦ Trainer
 a Champion
-a Rocket
+a ₧₦ Trainer
 a Friend
 a Friend
 a Friend
 a Shadow Triad
 an Elite Four
-a Rival
-a Creator
-a Nerd
 an Elite Four
+a Dragon Master
+a Future Legend
+a Nexon Champion
 a Plasma Admin
 a Subway Boss
 a Subway Boss

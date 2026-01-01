@@ -25886,7 +25886,7 @@ mondata SPECIES_LYCANROC_DUSK, "-----"
     basefriendship 70
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_TOUGH_CLAWS, ABILITY_NONE
+    abilities ABILITY_TOUGH_CLAWS, ABILITY_ROCK_HEAD
     runchance 0
     colorflip BODY_COLOR_BROWN, 0
 

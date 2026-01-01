@@ -22420,7 +22420,7 @@ trainerdata 510, "Joey"
 
 trainerdata 511, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
@@ -22592,7 +22592,7 @@ trainerdata 513, "Arnie"
 
 trainerdata 514, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 5
     item ITEM_NONE
     item ITEM_NONE
@@ -22714,7 +22714,7 @@ trainerdata 515, "Ralph"
 
 trainerdata 516, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -22906,7 +22906,7 @@ trainerdata 518, "Liz"
 
 trainerdata 519, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23051,7 +23051,7 @@ trainerdata 520, "Gina"
 
 trainerdata 521, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23221,7 +23221,7 @@ trainerdata 523, "Anthony"
 
 trainerdata 524, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23373,7 +23373,7 @@ trainerdata 525, "Todd"
 
 trainerdata 526, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23577,7 +23577,7 @@ trainerdata 528, "Dana"
 
 trainerdata 529, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_DISTANT_TRAVELLER_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23727,9 +23727,9 @@ trainerdata 530, "Brent"
         ballseal 0
     endparty
 
-trainerdata 531, "Skye"
+trainerdata 531, "Umara"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    trainerclass TRAINERCLASS_NEXON_CHAMPION_UMARA
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -23839,7 +23839,7 @@ trainerdata 531, "Skye"
 
 trainerdata 532, "Corey"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_YOUNGSTER
+    trainerclass TRAINERCLASS_DRAGON_MASTER_COREY
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -24298,7 +24298,7 @@ trainerdata 542, "Jay"
 
 trainerdata 543, "Logan"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_JUGGLER
+    trainerclass TRAINERCLASS_UNOVAN_PRODIGY_LOGAN
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
@@ -24361,7 +24361,7 @@ trainerdata 543, "Logan"
         ivs 0
         abilityslot 0
         level 98
-        monwithform SPECIES_LYCANROC, 1
+        monwithform SPECIES_LYCANROC, 2
         item ITEM_NONE
         move MOVE_HEAD_SMASH
         move MOVE_STONE_EDGE
@@ -24408,7 +24408,7 @@ trainerdata 543, "Logan"
 
 trainerdata 544, "Kyle"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY | TRAINER_DATA_TYPE_IV_EV_SET | TRAINER_DATA_TYPE_NATURE_SET
-    trainerclass TRAINERCLASS_ACE_TRAINER_M
+    trainerclass TRAINERCLASS_FUTURE_LEGEND_KYLE
     nummons 6
     item ITEM_NONE
     item ITEM_NONE
