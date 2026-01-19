@@ -47,10 +47,10 @@ pokemon SPECIES_CHIMCHAR
 pokemon SPECIES_PIPLUP
 
 // night encounter slots
-monwithform SPECIES_CALYREX, 1
-monwithform SPECIES_CALYREX, 2
-pokemon SPECIES_COSMOG
-pokemon SPECIES_COSMOEM
+pokemon SPECIES_SLAKOTH
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_DRIFLOON
+pokemon SPECIES_SLAKOTH
 pokemon SPECIES_HOUNDOUR
 pokemon SPECIES_DRIFLOON
 pokemon SPECIES_MUNNA
