@@ -21614,7 +21614,7 @@ mondata SPECIES_TATSUGIRI, "Tatsugiri"
     basefriendship 50
     growthrate GROWTH_MEDIUM_SLOW
     egggroups EGG_GROUP_WATER_2, EGG_GROUP_WATER_2
-    abilities ABILITY_COMMANDER, ABILITY_NONE
+    abilities ABILITY_COMMANDER, ABILITY_STORM_DRAIN
     runchance 0
     colorflip BODY_COLOR_PINK, 0
     mondexentry SPECIES_TATSUGIRI, "This is a small dragon Pokémon.\nIt lives inside the mouth of Dondozo to\nprotect itself from enemies on the outside."
