@@ -376,3 +376,4 @@ BOOL ScrCmd_BufferItemName(SCRIPTCONTEXT *ctx) {
     BufferItemNameGiveItem(*msgFmt, idx, itemId);
     return FALSE;
 }
+*/
