@@ -19489,7 +19489,7 @@ trainerdata 430, "Diantha"
         ballseal 0
     endparty
 
-trainerdata 431, "Jack"
+trainerdata 431, "Calem"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_TRAINER_CALEM
     nummons 6
@@ -19503,109 +19503,173 @@ trainerdata 431, "Jack"
 
     party 431
         // mon 0
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_CHESNAUGHT
+        item ITEM_ROCKY_HELMET
+        move MOVE_BULK_UP
+        move MOVE_CLOSE_COMBAT
+        move MOVE_WOOD_HAMMER
+        move MOVE_SPIKY_SHIELD
+        ability ABILITY_DAUNTLESS_SHIELD
+        ballseal 0
+
+        // mon 1
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_KANGASKHAN
+        item ITEM_FOCUS_SASH
+        move MOVE_REVERSAL
+        move MOVE_DRAIN_PUNCH
+        move MOVE_BODY_PRESS
+        move MOVE_POWER_UP_PUNCH
+        ability ABILITY_SCRAPPY
+        ballseal 0
+
+        // mon 2
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_GENGAR
+        item ITEM_SPELL_TAG
+        move MOVE_SUBSTITUTE
+        move MOVE_SHADOW_BALL
+        move MOVE_NASTY_PLOT
+        move MOVE_SLUDGE_BOMB
+        ability ABILITY_LEVITATE
+        ballseal 0
+
+        // mon 3
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_CHARIZARD
+        item ITEM_SITRUS_BERRY
+        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_CLAW
+        move MOVE_FLY
+        move MOVE_FIRE_BLAST
+        ability ABILITY_BEAST_BOOST
+        ballseal 0
+
+        // mon 4
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_MANECTRIC
+        item ITEM_KINGS_ROCK
+        move MOVE_ZAP_CANNON
+        move MOVE_NASTY_PLOT
+        move MOVE_FLAMETHROWER
+        move MOVE_THUNDERBOLT
+        ability ABILITY_STATIC
+        ballseal 0
+
+        // mon 5
+        ivs 200
+        abilityslot 0
+        level 80
+        pokemon SPECIES_PINSIR
+        item ITEM_SHELL_BELL
+        move MOVE_SWORDS_DANCE
+        move MOVE_LEECH_LIFE
+        move MOVE_DRAIN_PUNCH
+        move MOVE_MEGAHORN
+        ability ABILITY_HYPER_CUTTER
+        ballseal 0
+    endparty
+
+trainerdata 432, "Lance"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_ARC_CHAMPION_LANCE
+    nummons 6
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype SINGLE_BATTLE
+    endentry
+
+    party 432
+        // mon 0
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_AURORUS
-        item ITEM_LIGHT_CLAY
-        move MOVE_THUNDER
-        move MOVE_BLIZZARD
-        move MOVE_LIGHT_SCREEN
-        move MOVE_REFLECT
-        ability ABILITY_REFRIDGERATE
+        pokemon SPECIES_ARCHALUDON
+        item ITEM_LEFTOVERS
+        move MOVE_ELECTRO_SHOT
+        move MOVE_FLASH_CANNON
+        move MOVE_DRAGON_PULSE
+        move MOVE_DRAGON_DANCE
+        ability ABILITY_STAMINA
         ballseal 0
 
         // mon 1
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_TYRANTRUM
+        pokemon SPECIES_SALAMENCE
         item ITEM_EXPERT_BELT
-        move MOVE_HEAD_SMASH
-        move MOVE_EARTHQUAKE
+        move MOVE_DRAGON_DANCE
+        move MOVE_FLY
         move MOVE_DRAGON_CLAW
-        move MOVE_CRUNCH
-        ability ABILITY_RECKLESS
+        move MOVE_FLAMETHROWER
+        ability ABILITY_INTIMIDATE
         ballseal 0
 
         // mon 2
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_GOODRA
+        pokemon SPECIES_DRAGONITE
         item ITEM_LEFTOVERS
-        move MOVE_DRAGON_PULSE
-        move MOVE_MUDDY_WATER
-        move MOVE_FIRE_BLAST
-        move MOVE_FOCUS_BLAST
-        ability ABILITY_SAP_SIPPER
+        move MOVE_FIRE_PUNCH
+        move MOVE_THUNDER_PUNCH
+        move MOVE_EARTHQUAKE
+        move MOVE_DRAGON_CLAW
+        ability ABILITY_MULTISCALE
         ballseal 0
 
         // mon 3
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_HAWLUCHA
-        item ITEM_FLYING_GEM
-        move MOVE_POISON_JAB
-        move MOVE_ACROBATICS
-        move MOVE_X_SCISSOR
-        move MOVE_SWORDS_DANCE
-        ability ABILITY_LIMBER
+        pokemon SPECIES_HYDREIGON
+        item ITEM_WHITE_HERB
+        move MOVE_DRAGON_PULSE
+        move MOVE_DRACO_METEOR
+        move MOVE_DARK_PULSE
+        move MOVE_AGILITY
+        ability ABILITY_LEVITATE
         ballseal 0
 
         // mon 4
         ivs 250
         abilityslot 0
-        level 100
-        pokemon SPECIES_DIANCIE
-        item ITEM_DIANCITE
-        move MOVE_DIAMOND_STORM
-        move MOVE_POWER_GEM
-        move MOVE_MOONBLAST
-        move MOVE_STONE_EDGE
-        ability ABILITY_LEVITATE
+        level 105
+        pokemon SPECIES_DRAGONITE
+        item ITEM_FLYING_GEM
+        move MOVE_DRAGON_DANCE
+        move MOVE_DRAGON_CLAW
+        move MOVE_HURRICANE
+        move MOVE_GIGA_IMPACT
+        ability ABILITY_AERILATE
         ballseal 0
 
         // mon 5
         ivs 250
         abilityslot 0
         level 100
-        pokemon SPECIES_GARDEVOIR
-        item ITEM_LUM_BERRY
-        move MOVE_MOONBLAST
-        move MOVE_PSYCHIC
-        move MOVE_SHADOW_BALL
-        move MOVE_THUNDERBOLT
-        ability ABILITY_TRACE
-        ballseal 0
-    endparty
-
-trainerdata 432, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 2
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
-    endentry
-
-    party 432
-        // mon 0
-        ivs 0
-        abilityslot 0
-        level 32
-        pokemon SPECIES_TANGELA
-        ballseal 0
-
-        // mon 1
-        ivs 0
-        abilityslot 0
-        level 30
-        pokemon SPECIES_YANMA
+        pokemon SPECIES_DIALGA
+        item ITEM_QUICK_CLAW
+        move MOVE_NASTY_PLOT
+        move MOVE_AURA_SPHERE
+        move MOVE_FLASH_CANNON
+        move MOVE_ROAR_OF_TIME
+        ability ABILITY_LEVITATE
         ballseal 0
     endparty
 
