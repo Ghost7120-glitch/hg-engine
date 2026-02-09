@@ -19674,44 +19674,68 @@ trainerdata 432, "Lance"
     endparty
 
 trainerdata 433, "Alan"
-    trainermontype TRAINER_DATA_TYPE_NOTHING
-    trainerclass TRAINERCLASS_SCHOOL_KID_M
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_TRAINER_SERENA
     nummons 4
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 433
         // mon 0
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 32
-        pokemon SPECIES_XATU
+        level 28
+        pokemon SPECIES_MEOWSTIC
+        item ITEM_LEFTOVERS
+        move MOVE_FAKE_OUT
+        move MOVE_SHADOW_BALL
+        move MOVE_DISARMING_VOICE
+        move MOVE_PSYBEAM
+        ability ABILITY_INFILTRATOR
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 36
-        pokemon SPECIES_TANGROWTH
+        level 28
+        pokemon SPECIES_ABSOL
+        item ITEM_EXPERT_BELT
+        move MOVE_AERIAL_ACE
+        move MOVE_SWORDS_DANCE
+        move MOVE_PLAY_ROUGH
+        move MOVE_KNOCK_OFF
+        ability ABILITY_SUPER_LUCK
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 32
-        pokemon SPECIES_QUAGSIRE
+        level 30
+        pokemon SPECIES_JOLTEON
+        item ITEM_SITRUS_BERRY
+        move MOVE_MUD_SLAP
+        move MOVE_VOLT_SWITCH
+        move MOVE_DOUBLE_KICK
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_VOLT_ABSORB
         ballseal 0
 
         // mon 3
-        ivs 0
+        ivs 150
         abilityslot 0
-        level 34
-        pokemon SPECIES_YANMEGA
+        level 30
+        pokemon SPECIES_BRAIXEN
+        item ITEM_WIDE_LENS
+        move MOVE_HEAT_WAVE
+        move MOVE_CALM_MIND
+        move MOVE_PSYSHOCK
+        move MOVE_PSYBEAM
+        ability ABILITY_PSYCHIC_SURGE
         ballseal 0
     endparty
 
