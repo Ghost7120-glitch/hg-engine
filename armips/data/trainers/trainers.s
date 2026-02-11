@@ -19673,7 +19673,7 @@ trainerdata 432, "Lance"
         ballseal 0
     endparty
 
-trainerdata 433, "Alan"
+trainerdata 433, "Serena"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
     trainerclass TRAINERCLASS_TRAINER_SERENA
     nummons 4
@@ -22819,50 +22819,95 @@ trainerdata 502, "Clea & Gil"
         ballseal 0
     endparty
 
-trainerdata 503, "Jack"
-    trainermontype TRAINER_DATA_TYPE_MOVES
-    trainerclass TRAINERCLASS_SCHOOL_KID_M
-    nummons 3
-    item ITEM_HYPER_POTION
+trainerdata 503, "Serena"
+    trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
+    trainerclass TRAINERCLASS_TRAINER_SERENA
+    nummons 6
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EXPERT_ATTACKS | 0
-    battletype SINGLE_BATTLE
+    item ITEM_NONE
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 503
         // mon 0
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 43
-        pokemon SPECIES_ELECTRODE
-        move MOVE_CHARGE
-        move MOVE_CHARGE_BEAM
-        move MOVE_SWIFT
-        move MOVE_ROLLOUT
+        level 80
+        pokemon SPECIES_MEOWSTIC
+        item ITEM_LEFTOVERS
+        move MOVE_FAKE_OUT
+        move MOVE_SHADOW_BALL
+        move MOVE_ALLURING_VOICE
+        move MOVE_PSYCHIC
+        ability ABILITY_INFILTRATOR
         ballseal 0
 
         // mon 1
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 52
-        pokemon SPECIES_VILEPLUME
-        move MOVE_SOLAR_BEAM
-        move MOVE_GIGA_DRAIN
-        move MOVE_MOONLIGHT
-        move MOVE_SUNNY_DAY
+        level 80
+        pokemon SPECIES_ABSOL
+        item ITEM_EXPERT_BELT
+        move MOVE_AERIAL_ACE
+        move MOVE_SWORDS_DANCE
+        move MOVE_PLAY_ROUGH
+        move MOVE_KNOCK_OFF
+        ability ABILITY_SUPER_LUCK
         ballseal 0
 
         // mon 2
-        ivs 0
+        ivs 250
         abilityslot 0
-        level 52
-        pokemon SPECIES_ARCANINE
-        move MOVE_EXTREME_SPEED
-        move MOVE_FLAMETHROWER
-        move MOVE_CRUNCH
-        move MOVE_REVERSAL
+        level 80
+        pokemon SPECIES_JOLTEON
+        item ITEM_SITRUS_BERRY
+        move MOVE_SHADOW_BALL
+        move MOVE_VOLT_SWITCH
+        move MOVE_DOUBLE_KICK
+        move MOVE_THUNDER_WAVE
+        ability ABILITY_VOLT_ABSORB
+        ballseal 0
+
+        // mon 3
+        ivs 250
+        abilityslot 0
+        level 80
+        pokemon SPECIES_CLEFABLE
+        item ITEM_LUM_BERRY
+        move MOVE_MOONBLAST
+        move MOVE_CALM_MIND
+        move MOVE_FOCUS_BLAST
+        move MOVE_PSYCHIC
+        ability ABILITY_MAGIC_GUARD
+        ballseal 0
+
+        // mon 4
+        ivs 250
+        abilityslot 0
+        level 82
+        pokemon SPECIES_ALTARIA
+        item ITEM_DRAGON_FANG
+        move MOVE_DRAGON_PULSE
+        move MOVE_DAZZLING_GLEAM
+        move MOVE_DRAGON_DANCE
+        move MOVE_ICE_FANG
+        ability ABILITY_COTTON_DOWN
+        ballseal 0
+
+        // mon 5
+        ivs 250
+        abilityslot 0
+        level 82
+        pokemon SPECIES_DELPHOX
+        item ITEM_SITRUS_BERRY
+        move MOVE_HEAT_WAVE
+        move MOVE_CALM_MIND
+        move MOVE_PSYSHOCK
+        move MOVE_PSYchi
+        ability ABILITY_PSYCHIC_SURGE
         ballseal 0
     endparty
 
