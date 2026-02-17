@@ -4131,7 +4131,7 @@ mondata SPECIES_QUAGSIRE, "Quagsire"
 
 
 mondata SPECIES_ESPEON, "Espeon"
-    basestats 65, 65, 60, 110, 130, 95
+    basestats 75, 75, 65, 110, 130, 100
     types TYPE_PSYCHIC, TYPE_FAIRY
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -4152,7 +4152,7 @@ mondata SPECIES_ESPEON, "Espeon"
 
 
 mondata SPECIES_UMBREON, "Umbreon"
-    basestats 95, 65, 110, 65, 60, 130
+    basestats 100, 75, 110, 75, 65, 130
     types TYPE_DARK, TYPE_GHOST
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9885,7 +9885,7 @@ mondata SPECIES_YANMEGA, "Yanmega"
 
 
 mondata SPECIES_LEAFEON, "Leafeon"
-    basestats 65, 110, 130, 95, 60, 65
+    basestats 75, 110, 130, 100, 65, 75
     types TYPE_GRASS, TYPE_BUG
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -9906,7 +9906,7 @@ mondata SPECIES_LEAFEON, "Leafeon"
 
 
 mondata SPECIES_GLACEON, "Glaceon"
-    basestats 65, 60, 110, 65, 130, 95
+    basestats 75, 65, 110, 75, 130, 100
     types TYPE_ICE, TYPE_DARK
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -15765,7 +15765,7 @@ mondata SPECIES_AURORUS, "Aurorus"
 
 
 mondata SPECIES_SYLVEON, "Sylveon"
-    basestats 95, 65, 65, 60, 110, 130
+    basestats 100, 75, 75, 65, 110, 130
     types TYPE_FAIRY, TYPE_STEEL
     catchrate 45
     baseexp 0 // defined in baseexp.s
@@ -22675,7 +22675,7 @@ mondata SPECIES_MEGA_BLASTOISE, "-----"
     colorflip 0, 0
 
 mondata SPECIES_MEGA_BEEDRILL, "-----"
-    basestats 65, 150, 45, 145, 45, 100
+    basestats 65, 150, 70, 145, 45, 100
     types TYPE_BUG, TYPE_POISON
     catchrate 45
     baseexp 159
