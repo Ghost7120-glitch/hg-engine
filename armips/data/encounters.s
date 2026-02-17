@@ -4216,7 +4216,7 @@ pokemon SPECIES_ANORITH
 pokemon SPECIES_CRANIDOS
 pokemon SPECIES_SHIELDON
 pokemon SPECIES_TIRTOUGA
-pokemon SPECIES_ARCEUS
+pokemon SPECIES_ARCHEN
 pokemon SPECIES_TYRUNT
 pokemon SPECIES_AMAURA
 monwithform SPECIES_LYCANROC, 2
@@ -10001,7 +10001,7 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
 pokemon SPECIES_SUNFLORA
