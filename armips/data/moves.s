@@ -1019,7 +1019,7 @@ movedata MOVE_AURORA_BEAM, "Aurora Beam"
     movedescription MOVE_AURORA_BEAM, "The foe is hit with a\nrainbow-colored beam.\nIt may also lower the\ntarget’s Attack\nstat."
 
 movedata MOVE_HYPER_BEAM, "Hyper Beam"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_NORMAL
@@ -4923,7 +4923,7 @@ movedata MOVE_CRUSH_CLAW, "Crush Claw"
     movedescription MOVE_CRUSH_CLAW, "The user slashes the\nfoe with hard and\nsharp claws.\nIt may also lower the\ntarget’s Defense."
 
 movedata MOVE_BLAST_BURN, "Blast Burn"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_FIRE
@@ -4939,7 +4939,7 @@ movedata MOVE_BLAST_BURN, "Blast Burn"
     movedescription MOVE_BLAST_BURN, "The foe is razed by\na fiery explosion.\nThe user must rest\non the next turn,\nhowever."
 
 movedata MOVE_HYDRO_CANNON, "Hydro Cannon"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_WATER
@@ -5419,7 +5419,7 @@ movedata MOVE_DRAGON_CLAW, "Dragon Claw"
     movedescription MOVE_DRAGON_CLAW, "The user slashes the\nfoe with huge, sharp\nclaws.\n\n"
 
 movedata MOVE_FRENZY_PLANT, "Frenzy Plant"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_GRASS
@@ -6667,7 +6667,7 @@ movedata MOVE_SWITCHEROO, "Switcheroo"
     movedescription MOVE_SWITCHEROO, "The user trades held\nitems with the foe\nfaster than the eye\ncan follow.\n"
 
 movedata MOVE_GIGA_IMPACT, "Giga Impact"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_NORMAL
@@ -7035,7 +7035,7 @@ movedata MOVE_POWER_WHIP, "Power Whip"
     movedescription MOVE_POWER_WHIP, "The user violently\nwhirls its vines or\ntentacles to harshly\nlash the foe.\n"
 
 movedata MOVE_ROCK_WRECKER, "Rock Wrecker"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_THIRD
     pss SPLIT_PHYSICAL
     basepower 150
     type TYPE_ROCK
@@ -7355,7 +7355,7 @@ movedata MOVE_DOUBLE_HIT, "Double Hit"
     movedescription MOVE_DOUBLE_HIT, "The user slams the\nfoe with a long tail,\nvines, etc. The\ntarget is hit\ntwice in a row."
 
 movedata MOVE_ROAR_OF_TIME, "Roar of Time"
-    battleeffect MOVE_EFFECT_RECHARGE_AFTER
+    battleeffect MOVE_EFFECT_RECOIL_HALF
     pss SPLIT_SPECIAL
     basepower 150
     type TYPE_DRAGON
