@@ -34727,6 +34727,10 @@
         "Move": "MOVE_BULLET_SEED"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_FLAME_BURST"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_PETAL_DANCE"
       },
@@ -34735,8 +34739,16 @@
         "Move": "MOVE_SOLAR_BEAM"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_FLAMETHROWER"
+      },
+      {
         "Level": 34,
         "Move": "MOVE_DOUBLE_EDGE"
+      },
+      {
+        "Level": 37,
+        "Move": "MOVE_HEAT_WAVE"
       },
       {
         "Level": 39,
@@ -34745,6 +34757,10 @@
       {
         "Level": 43,
         "Move": "MOVE_LEAF_STORM"
+      },
+      {
+        "Level": 47,
+        "Move": "MOVE_SEARING_SHOT"
       },
       {
         "Level": 50,
@@ -35418,8 +35434,16 @@
         "Move": "MOVE_PSYBEAM"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_DRAINING_KISS"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_MORNING_SUN"
+      },
+      {
+        "Level": 32,
+        "Move": "MOVE_DAZZLING_GLEAM"
       },
       {
         "Level": 35,
@@ -35428,6 +35452,10 @@
       {
         "Level": 40,
         "Move": "MOVE_PSYCHIC"
+      },
+      {
+        "Level": 42,
+        "Move": "MOVE_MOONBLAST"
       },
       {
         "Level": 45,
@@ -35655,8 +35683,16 @@
         "Move": "MOVE_ASSURANCE"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_SHADOW_SNEAK"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_MOONLIGHT"
+      },
+      {
+        "Level": 32,
+        "Move": "MOVE_SHADOW_CLAW"
       },
       {
         "Level": 35,
@@ -35665,6 +35701,10 @@
       {
         "Level": 40,
         "Move": "MOVE_DARK_PULSE"
+      },
+      {
+        "Level": 42,
+        "Move": "MOVE_PHANTOM_FORCE"
       },
       {
         "Level": 45,
@@ -36283,12 +36323,20 @@
         "Move": "MOVE_HEX"
       },
       {
+        "Level": 25,
+        "Move": "MOVE_DAZZLING_GLEAM"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_PSYBEAM"
       },
       {
         "Level": 32,
         "Move": "MOVE_PAIN_SPLIT"
+      },
+      {
+        "Level": 35,
+        "Move": "MOVE_MOONBLAST"
       },
       {
         "Level": 37,
@@ -37117,6 +37165,10 @@
         "Move": "MOVE_DRILL_RUN"
       },
       {
+        "Level": 26,
+        "Move": "MOVE_DRAGON_TAIL"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_YAWN"
       },
@@ -37125,11 +37177,19 @@
         "Move": "MOVE_HYPER_DRILL"
       },
       {
+        "Level": 34,
+        "Move": "MOVE_DRAGON_DANCE"
+      },
+      {
         "Level": 36,
         "Move": "MOVE_ROOST"
       },
       {
         "Level": 40,
+        "Move": "MOVE_DRAGON_RUSH"
+      },
+      {
+        "Level": 42,
         "Move": "MOVE_DRAGON_RUSH"
       },
       {
@@ -43602,12 +43662,24 @@
         "Move": "MOVE_CRUNCH"
       },
       {
+        "Level": 45,
+        "Move": "MOVE_VOLT_SWITCH"
+      },
+      {
         "Level": 48,
         "Move": "MOVE_EXTRASENSORY"
       },
       {
+        "Level": 51,
+        "Move": "MOVE_FLASH_CANNON"
+      },
+      {
         "Level": 54,
         "Move": "MOVE_DISCHARGE"
+      },
+      {
+        "Level": 57,
+        "Move": "MOVE_SHIFT_GEAR"
       },
       {
         "Level": 60,
@@ -43781,12 +43853,24 @@
         "Move": "MOVE_CRUNCH"
       },
       {
+        "Level": 45,
+        "Move": "MOVE_BULLDOZE"
+      },
+      {
         "Level": 48,
         "Move": "MOVE_EXTRASENSORY"
       },
       {
+        "Level": 52,
+        "Move": "MOVE_EARTHQUAKE"
+      },
+      {
         "Level": 54,
         "Move": "MOVE_LAVA_PLUME"
+      },
+      {
+        "Level": 57,
+        "Move": "MOVE_HEADLONG_RUSH"
       },
       {
         "Level": 60,
@@ -43953,12 +44037,24 @@
         "Move": "MOVE_CRUNCH"
       },
       {
+        "Level": 45,
+        "Move": "MOVE_FREEZE_DRY"
+      },
+      {
         "Level": 48,
         "Move": "MOVE_EXTRASENSORY"
       },
       {
+        "Level": 50,
+        "Move": "MOVE_ICE_BEAM"
+      },
+      {
         "Level": 54,
         "Move": "MOVE_SURF"
+      },
+      {
+        "Level": 57,
+        "Move": "MOVE_SHEER_COLD"
       },
       {
         "Level": 60,
