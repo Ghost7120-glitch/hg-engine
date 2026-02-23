@@ -113754,12 +113754,20 @@
         "Move": "MOVE_ECHOED_VOICE"
       },
       {
+        "Level": 36,
+        "Move": "MOVE_EARTH_POWER"
+      },
+      {
         "Level": 38,
         "Move": "MOVE_FLAMETHROWER"
       },
       {
         "Level": 42,
         "Move": "MOVE_CRUNCH"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_SANDSEAR_STORM"
       },
       {
         "Level": 48,
