@@ -87917,6 +87917,10 @@
         "Move": "MOVE_GROWTH"
       },
       {
+        "Level": 15,
+        "Move": "MOVE_TWISTER"
+      },
+      {
         "Level": 16,
         "Move": "MOVE_MAGICAL_LEAF"
       },
@@ -88052,6 +88056,10 @@
         "Move": "MOVE_GROWTH"
       },
       {
+        "Level": 15,
+        "Move": "MOVE_TWISTER"
+      },
+      {
         "Level": 16,
         "Move": "MOVE_MAGICAL_LEAF"
       },
@@ -88062,6 +88070,10 @@
       {
         "Level": 24,
         "Move": "MOVE_MEGA_DRAIN"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_DRAGON_TAIL"
       },
       {
         "Level": 28,
@@ -88191,6 +88203,10 @@
         "Move": "MOVE_GROWTH"
       },
       {
+        "Level": 15,
+        "Move": "MOVE_TWISTER"
+      },
+      {
         "Level": 16,
         "Move": "MOVE_MAGICAL_LEAF"
       },
@@ -88201,6 +88217,10 @@
       {
         "Level": 24,
         "Move": "MOVE_MEGA_DRAIN"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_DRAGON_TAIL"
       },
       {
         "Level": 28,
@@ -88219,8 +88239,16 @@
         "Move": "MOVE_GIGA_DRAIN"
       },
       {
+        "Level": 47,
+        "Move": "MOVE_DRAGON_PULSE"
+      },
+      {
         "Level": 50,
         "Move": "MOVE_GASTRO_ACID"
+      },
+      {
+        "Level": 53,
+        "Move": "MOVE_DRACO_METEOR"
       },
       {
         "Level": 56,
@@ -88501,6 +88529,10 @@
         "Move": "MOVE_ROLLOUT"
       },
       {
+        "Level": 25,
+        "Move": "MOVE_ROCK_TOMB"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_TAKE_DOWN"
       },
@@ -88680,6 +88712,10 @@
         "Move": "MOVE_ROLLOUT"
       },
       {
+        "Level": 25,
+        "Move": "MOVE_ROCK_TOMB"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_TAKE_DOWN"
       },
@@ -88694,6 +88730,10 @@
       {
         "Level": 43,
         "Move": "MOVE_FLAMETHROWER"
+      },
+      {
+        "Level": 46,
+        "Move": "MOVE_STONE_EDGE"
       },
       {
         "Level": 50,
@@ -89007,12 +89047,20 @@
         "Move": "MOVE_FURY_CUTTER"
       },
       {
+        "Level": 24,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 26,
         "Move": "MOVE_WATER_PULSE"
       },
       {
         "Level": 29,
         "Move": "MOVE_AERIAL_ACE"
+      },
+      {
+        "Level": 32,
+        "Move": "MOVE_VACUUM_WAVE"
       },
       {
         "Level": 34,
@@ -89165,6 +89213,10 @@
         "Move": "MOVE_FURY_CUTTER"
       },
       {
+        "Level": 24,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 25,
         "Move": "MOVE_WATER_PULSE"
       },
@@ -89173,12 +89225,24 @@
         "Move": "MOVE_AERIAL_ACE"
       },
       {
+        "Level": 32,
+        "Move": "MOVE_VACUUM_WAVE"
+      },
+      {
         "Level": 34,
         "Move": "MOVE_AQUA_JET"
       },
       {
         "Level": 39,
         "Move": "MOVE_ENCORE"
+      },
+      {
+        "Level": 43,
+        "Move": "MOVE_SACRED_SWORD"
+      },
+      {
+        "Level": 43,
+        "Move": "MOVE_SECRET_SWORD"
       },
       {
         "Level": 46,
@@ -90419,7 +90483,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_BITE"
+        "Move": "MOVE_FORCE_PALM"
       },
       {
         "Level": 0,
@@ -90427,7 +90491,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_FLING"
+        "Move": "MOVE_BRICK_BREAK"
       },
       {
         "Level": 0,
@@ -90443,15 +90507,15 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_PLAY_NICE"
+        "Move": "MOVE_SEISMIC_TOSS"
       },
       {
         "Level": 0,
-        "Move": "MOVE_RECYCLE"
+        "Move": "MOVE_MACH_PUNCH"
       },
       {
         "Level": 0,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_DRAIN_PUNCH"
       },
       {
         "Level": 0,
@@ -90713,7 +90777,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_BITE"
+        "Move": "MOVE_FORCE_PALM"
       },
       {
         "Level": 0,
@@ -90725,7 +90789,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_FLING"
+        "Move": "MOVE_BRICK_BREAK"
       },
       {
         "Level": 0,
@@ -90737,15 +90801,15 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_PLAY_NICE"
+        "Move": "MOVE_SEISMIC_TOSS"
       },
       {
         "Level": 0,
-        "Move": "MOVE_RECYCLE"
+        "Move": "MOVE_MACH_PUNCH"
       },
       {
         "Level": 0,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_DRAIN_PUNCH"
       },
       {
         "Level": 0,
@@ -91001,7 +91065,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_BITE"
+        "Move": "MOVE_FORCE_PALM"
       },
       {
         "Level": 0,
@@ -91013,7 +91077,7 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_FLING"
+        "Move": "MOVE_BRICK_BREAK"
       },
       {
         "Level": 0,
@@ -91021,15 +91085,15 @@
       },
       {
         "Level": 0,
-        "Move": "MOVE_PLAY_NICE"
+        "Move": "MOVE_SEISMIC_TOSS"
       },
       {
         "Level": 0,
-        "Move": "MOVE_RECYCLE"
+        "Move": "MOVE_MACH_PUNCH"
       },
       {
         "Level": 0,
-        "Move": "MOVE_SCRATCH"
+        "Move": "MOVE_DRAIN_PUNCH"
       },
       {
         "Level": 0,
@@ -91932,7 +91996,11 @@
       },
       {
         "Level": 53,
-        "Move": "MOVE_THRASH"
+        "Move": "MOVE_FLARE_BLITZ"
+      },
+      {
+        "Level": 56,
+        "Move": "MOVE_RAGING_FURY"
       }
     ],
     "MachineMoves": [
@@ -92176,8 +92244,20 @@
         "Move": "MOVE_ROCK_SLIDE"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_IRON_HEAD"
+      },
+      {
         "Level": 36,
         "Move": "MOVE_ROCK_BLAST"
+      },
+      {
+        "Level": 39,
+        "Move": "MOVE_METEOR_MASH"
+      },
+      {
+        "Level": 47,
+        "Move": "MOVE_WILD_CHARGE"
       },
       {
         "Level": 42,
@@ -92295,8 +92375,16 @@
         "Move": "MOVE_ROCK_SLIDE"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_IRON_HEAD"
+      },
+      {
         "Level": 36,
         "Move": "MOVE_ROCK_BLAST"
+      },
+      {
+        "Level": 39,
+        "Move": "MOVE_METEOR_MASH"
       },
       {
         "Level": 42,
@@ -99415,8 +99503,16 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_NASTY_PLOT"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_HYPNOSIS"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_PARTING_SHOT"
       },
       {
         "Level": 28,
@@ -99573,12 +99669,24 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_NASTY_PLOT"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_HYPNOSIS"
       },
       {
+        "Level": 26,
+        "Move": "MOVE_PARTING_SHOT"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_FAKE_TEARS"
+      },
+      {
+        "Level": 33,
+        "Move": "MOVE_SNARL"
       },
       {
         "Level": 35,
@@ -99728,24 +99836,44 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_NASTY_PLOT"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_HYPNOSIS"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_PARTING_SHOT"
       },
       {
         "Level": 28,
         "Move": "MOVE_FAKE_TEARS"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_SNARL"
+      },
+      {
         "Level": 35,
         "Move": "MOVE_PSYCH_UP"
       },
       {
-        "Level": 40,
+        "Level": 42,
         "Move": "MOVE_PSYCHIC"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_DARK_PULSE"
       },
       {
         "Level": 48,
         "Move": "MOVE_FLATTER"
+      },
+      {
+        "Level": 52,
+        "Move": "MOVE_NIGHT_DAZE"
       },
       {
         "Level": 56,
@@ -99896,12 +100024,20 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_CONFUSE_RAY"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_LIGHT_SCREEN"
       },
       {
         "Level": 24,
         "Move": "MOVE_REFLECT"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_DESTINY_BOND"
       },
       {
         "Level": 28,
@@ -100055,6 +100191,10 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_CONFUSE_RAY"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_LIGHT_SCREEN"
       },
@@ -100063,12 +100203,20 @@
         "Move": "MOVE_REFLECT"
       },
       {
+        "Level": 26,
+        "Move": "MOVE_DESTINY_BOND"
+      },
+      {
         "Level": 28,
         "Move": "MOVE_ALLY_SWITCH"
       },
       {
         "Level": 35,
         "Move": "MOVE_PAIN_SPLIT"
+      },
+      {
+        "Level": 38,
+        "Move": "MOVE_NIGHT_SHADE"
       },
       {
         "Level": 40,
@@ -100218,12 +100366,20 @@
         "Move": "MOVE_PSYSHOCK"
       },
       {
+        "Level": 22,
+        "Move": "MOVE_CONFUSE_RAY"
+      },
+      {
         "Level": 24,
         "Move": "MOVE_LIGHT_SCREEN"
       },
       {
         "Level": 24,
         "Move": "MOVE_REFLECT"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_DESTINY_BOND"
       },
       {
         "Level": 28,
@@ -100234,12 +100390,24 @@
         "Move": "MOVE_PAIN_SPLIT"
       },
       {
-        "Level": 40,
+        "Level": 38,
+        "Move": "MOVE_NIGHT_SHADE"
+      },
+      {
+        "Level": 42,
         "Move": "MOVE_PSYCHIC"
+      },
+      {
+        "Level": 45,
+        "Move": "MOVE_SHADOW_BALL"
       },
       {
         "Level": 48,
         "Move": "MOVE_SKILL_SWAP"
+      },
+      {
+        "Level": 53,
+        "Move": "MOVE_ASTRAL_BARRAGE"
       },
       {
         "Level": 56,
@@ -102228,16 +102396,32 @@
         "Move": "MOVE_SOAK"
       },
       {
+        "Level": 35,
+        "Move": "MOVE_ZEN_HEADBUTT"
+      },
+      {
         "Level": 37,
         "Move": "MOVE_WISH"
+      },
+      {
+        "Level": 39,
+        "Move": "MOVE_PSYCHIC_TERRAIN"
       },
       {
         "Level": 41,
         "Move": "MOVE_BRINE"
       },
       {
+        "Level": 43,
+        "Move": "MOVE_POWER_SPLIT"
+      },
+      {
         "Level": 45,
         "Move": "MOVE_SAFEGUARD"
+      },
+      {
+        "Level": 47,
+        "Move": "MOVE_TRICK_ROOM"
       },
       {
         "Level": 49,
@@ -103557,8 +103741,16 @@
         "Move": "MOVE_GUARD_SPLIT"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_IRON_DEFENSE"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_HEADBUTT"
+      },
+      {
+        "Level": 33,
+        "Move": "MOVE_IRON_HEAD"
       },
       {
         "Level": 36,
@@ -103703,12 +103895,24 @@
         "Move": "MOVE_GUARD_SPLIT"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_IRON_DEFENSE"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_HEADBUTT"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_IRON_HEAD"
+      },
+      {
         "Level": 36,
         "Move": "MOVE_ZEN_HEADBUTT"
+      },
+      {
+        "Level": 43,
+        "Move": "MOVE_FLASH_CANNON"
       },
       {
         "Level": 45,
@@ -105880,12 +106084,24 @@
         "Move": "MOVE_DRAIN_PUNCH"
       },
       {
+        "Level": 37,
+        "Move": "MOVE_ZEN_HEADBUTT"
+      },
+      {
         "Level": 40,
         "Move": "MOVE_HONE_CLAWS"
       },
       {
+        "Level": 42,
+        "Move": "MOVE_PSYCHIC"
+      },
+      {
         "Level": 45,
         "Move": "MOVE_AURA_SPHERE"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_PSYSTRIKE"
       },
       {
         "Level": 53,
@@ -106037,12 +106253,24 @@
         "Move": "MOVE_HONE_CLAWS"
       },
       {
+        "Level": 37,
+        "Move": "MOVE_ACROBATICS"
+      },
+      {
         "Level": 40,
         "Move": "MOVE_CRUNCH"
       },
       {
+        "Level": 42,
+        "Move": "MOVE_DUAL_WINGBEAT"
+      },
+      {
         "Level": 45,
         "Move": "MOVE_IRON_HEAD"
+      },
+      {
+        "Level": 47,
+        "Move": "MOVE_BRAVE_BIRD"
       },
       {
         "Level": 50,
@@ -106076,6 +106304,7 @@
       "MOVE_FLAMETHROWER",
       "MOVE_FLASH_CANNON",
       "MOVE_FLING",
+      "MOVE_FLY",
       "MOVE_FOCUS_BLAST",
       "MOVE_FRUSTRATION",
       "MOVE_GIGA_IMPACT",
@@ -106874,6 +107103,10 @@
         "Move": "MOVE_SCARY_FACE"
       },
       {
+        "Level": 23,
+        "Move": "MOVE_BULLDOZE"
+      },
+      {
         "Level": 25,
         "Move": "MOVE_HORN_ATTACK"
       },
@@ -106882,8 +107115,16 @@
         "Move": "MOVE_REVERSAL"
       },
       {
+        "Level": 33,
+        "Move": "MOVE_MAGNITUDE"
+      },
+      {
         "Level": 35,
         "Move": "MOVE_THROAT_CHOP"
+      },
+      {
+        "Level": 38,
+        "Move": "MOVE_EARTHQUAKE"
       },
       {
         "Level": 40,
@@ -106892,6 +107133,10 @@
       {
         "Level": 45,
         "Move": "MOVE_SWORDS_DANCE"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_HEADLONG_RUSH"
       },
       {
         "Level": 50,
@@ -107614,6 +107859,10 @@
         "Move": "MOVE_SLASH"
       },
       {
+        "Level": 27,
+        "Move": "MOVE_POISON_JAB"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_BIND"
       },
@@ -107622,8 +107871,16 @@
         "Move": "MOVE_FIRE_LASH"
       },
       {
+        "Level": 37,
+        "Move": "MOVE_SLUDGE_BOMB"
+      },
+      {
         "Level": 40,
         "Move": "MOVE_HONE_CLAWS"
+      },
+      {
+        "Level": 36,
+        "Move": "MOVE_SLUDGE_WAVE"
       },
       {
         "Level": 45,
@@ -107639,7 +107896,7 @@
       },
       {
         "Level": 60,
-        "Move": "MOVE_FLARE_BLITZ"
+        "Move": "MOVE_OVERHEAT"
       }
     ],
     "MachineMoves": [
