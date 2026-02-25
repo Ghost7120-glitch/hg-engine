@@ -138961,12 +138961,20 @@
         "Move": "MOVE_UPROAR"
       },
       {
+        "Level": 42,
+        "Move": "MOVE_CLOSE_COMBAT"
+      },
+      {
         "Level": 46,
         "Move": "MOVE_WOOD_HAMMER"
       },
       {
+        "Level": 49,
+        "Move": "MOVE_SKY_UPPERCUT"
+      },
+      {
         "Level": 54,
-        "Move": "MOVE_ENDEAVOR"
+        "Move": "MOVE_DYNAMIC_PUNCH"
       },
       {
         "Level": 62,
@@ -139317,12 +139325,20 @@
         "Move": "MOVE_COUNTER"
       },
       {
+        "Level": 38,
+        "Move": "MOVE_WILD_CHARGE"
+      },
+      {
         "Level": 46,
         "Move": "MOVE_BOUNCE"
       },
       {
+        "Level": 49,
+        "Move": "MOVE_VOLT_TACKLE"
+      },
+      {
         "Level": 54,
-        "Move": "MOVE_DOUBLE_EDGE"
+        "Move": "MOVE_SUPERCELL_SLAM"
       },
       {
         "Level": 62,
@@ -139647,12 +139663,24 @@
         "Move": "MOVE_LIQUIDATION"
       },
       {
+        "Level": 42,
+        "Move": "MOVE_NIGHT_SHADE"
+      },
+      {
         "Level": 46,
         "Move": "MOVE_SOAK"
       },
       {
+        "Level": 49,
+        "Move": "MOVE_SHADOW_BALL"
+      },
+      {
         "Level": 54,
         "Move": "MOVE_RAIN_DANCE"
+      },
+      {
+        "Level": 58,
+        "Move": "MOVE_ASTRAL_BARRAGE"
       },
       {
         "Level": 62,
@@ -143019,16 +143047,32 @@
         "Move": "MOVE_DETECT"
       },
       {
+        "Level": 18,
+        "Move": "MOVE_AQUA_JET"
+      },
+      {
         "Level": 20,
         "Move": "MOVE_BRICK_BREAK"
+      },
+      {
+        "Level": 23,
+        "Move": "MOVE_JET_PUNCH"
       },
       {
         "Level": 25,
         "Move": "MOVE_BULK_UP"
       },
       {
+        "Level": 28,
+        "Move": "MOVE_TRIPLE_DIVE"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_SUBMISSION"
+      },
+      {
+        "Level": 33,
+        "Move": "MOVE_RAIN_DANCE"
       },
       {
         "Level": 35,
@@ -143121,28 +143165,56 @@
         "Move": "MOVE_DETECT"
       },
       {
+        "Level": 18,
+        "Move": "MOVE_AQUA_JET"
+      },
+      {
         "Level": 20,
         "Move": "MOVE_BRICK_BREAK"
+      },
+      {
+        "Level": 23,
+        "Move": "MOVE_JET_PUNCH"
       },
       {
         "Level": 25,
         "Move": "MOVE_BULK_UP"
       },
       {
+        "Level": 28,
+        "Move": "MOVE_TRIPLE_DIVE"
+      },
+      {
         "Level": 30,
         "Move": "MOVE_SUBMISSION"
+      },
+      {
+        "Level": 33,
+        "Move": "MOVE_RAIN_DANCE"
       },
       {
         "Level": 35,
         "Move": "MOVE_TAUNT"
       },
       {
+        "Level": 38,
+        "Move": "MOVE_AQUA_RING"
+      },
+      {
         "Level": 40,
         "Move": "MOVE_REVERSAL"
       },
       {
+        "Level": 43,
+        "Move": "MOVE_FLIP_TURN"
+      },
+      {
         "Level": 45,
         "Move": "MOVE_SUPERPOWER"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_WAVE_CRASH"
       },
       {
         "Level": 50,
