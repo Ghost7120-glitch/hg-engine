@@ -4489,49 +4489,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 42, 43, 42, 43, 44, 44, 43, 42, 42, 43, 42, 45
 
 // morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4593,49 +4593,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 42, 43, 42, 43, 44, 44, 43, 42, 42, 43, 42, 45
 
 // morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -4801,49 +4801,49 @@ rocksmashrate 0
 oldrodrate 25
 goodrodrate 50
 superrodrate 75
-walklevels 22, 23, 22, 23, 24, 24, 22, 22, 23, 24, 23, 24
+walklevels 42, 43, 42, 43, 44, 44, 43, 42, 42, 43, 42, 45
 
 // morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
@@ -5009,49 +5009,49 @@ rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 23, 24, 23, 24, 25, 25, 23, 23, 24, 25, 24, 25
+walklevels 42, 43, 42, 43, 44, 44, 43, 42, 42, 43, 42, 45
 
 // morning encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // day encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // night encounter slots
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_ZUBAT
-pokemon SPECIES_KRABBY
-pokemon SPECIES_KRABBY
-pokemon SPECIES_SEEL
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
-pokemon SPECIES_GOLBAT
-pokemon SPECIES_SEEL
+pokemon SPECIES_CLAYDOL
+pokemon SPECIES_CHIMECHO
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_HONEDGE
+pokemon SPECIES_INKAY
+pokemon SPECIES_INKAY
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_BERGMITE
+pokemon SPECIES_CROBAT
+pokemon SPECIES_GOLISOPOD
 
 // hoenn encounter slots
 pokemon SPECIES_ABSOL
