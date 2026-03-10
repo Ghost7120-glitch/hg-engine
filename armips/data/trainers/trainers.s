@@ -12738,7 +12738,7 @@ trainerdata 279, "Brendan"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype NO_PARTNER_DOUBLE_BATTLE_BATTLE
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 279
@@ -12804,7 +12804,7 @@ trainerdata 280, "Brendan"
     item ITEM_NONE
     item ITEM_NONE
     aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
-    battletype NO_PARTNER_DOUBLE_BATTLE_BATTLE
+    battletype NO_PARTNER_DOUBLE_BATTLE
     endentry
 
     party 280
@@ -19420,7 +19420,7 @@ trainerdata 430, "Diantha"
         move MOVE_BLIZZARD
         move MOVE_LIGHT_SCREEN
         move MOVE_REFLECT
-        ability ABILITY_REFRIDGERATE
+        ability ABILITY_REFRIGERATE
         ballseal 0
 
         // mon 1
@@ -22906,7 +22906,7 @@ trainerdata 503, "Serena"
         move MOVE_HEAT_WAVE
         move MOVE_CALM_MIND
         move MOVE_PSYSHOCK
-        move MOVE_PSYchi
+        move MOVE_PSYCHIC
         ability ABILITY_PSYCHIC_SURGE
         ballseal 0
     endparty
@@ -23586,7 +23586,7 @@ trainerdata 513, "Diantha"
         move MOVE_BLIZZARD
         move MOVE_LIGHT_SCREEN
         move MOVE_REFLECT
-        ability ABILITY_REFRIDGERATE
+        ability ABILITY_REFRIGERATE
         ballseal 0
 
         // mon 1
@@ -24015,7 +24015,7 @@ trainerdata 518, "Nemona"
         ivs 150
         abilityslot 0
         level 70
-        pokemon SPECIES_QUAQUAVEL
+        pokemon SPECIES_QUAQUAVAL
         item ITEM_FLYING_GEM
         move MOVE_LIQUIDATION
         move MOVE_ACROBATICS
