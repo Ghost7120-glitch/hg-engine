@@ -13967,7 +13967,7 @@ trainerdata 303, "Jose"
 
 trainerdata 304, "Dawn"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
-    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    trainerclass TRAINERCLASS_PKMN_TRAINER_DAWN_PT
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_NONE
@@ -21410,7 +21410,7 @@ trainerdata 474, "Kris"
 
 trainerdata 475, "Dawn"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
-    trainerclass TRAINERCLASS_ACE_TRAINER_F
+    trainerclass TRAINERCLASS_PKMN_TRAINER_DAWN_PT
     nummons 4
     item ITEM_FULL_RESTORE
     item ITEM_NONE
