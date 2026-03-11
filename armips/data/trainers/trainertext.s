@@ -2825,13 +2825,19 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and i am\r from the Unova Region! I wanna see\r how strong you are. Now lets go!!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers\r were this strong...\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going\r to beat you this time so\r prepare yourself!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise\r you that! for now have the\r TM next to me as a reward!!\n"
 
 _1974: // Trainer 618
-    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 618, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont hold\r back, get ready to lose!!\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "Even after I have gotten so strong\r I still cant beat you...\n"
+    trainertextentry 618, text TEXT_DEFEATED_IN_OVERWORLD, "For some reason I knew\r I would lose to you again.\r I'm glad that i got to meet\r a very strong trainer from\r the Johto Region!!\n"
 
 _1978: // Trainer 250
     trainertextentry 250, TEXT_DEFEATED_IN_BATTLE, "Waaaargh!\n"
@@ -2870,10 +2876,14 @@ _19A4: // Trainer 522
     trainertextentry 522, TEXT_DEFEATED_IN_BATTLE, "I played too much!\n"
 
 _19A8: // Trainer 100
-    trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei|r I am an Ex Elite Four\r member.\nI came to Johto to explore\r the Ice Path to see what\r ice type pokemon appeared here.\n We should have a battle\r to see what you are capableof!\n"
+    trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Well this is an interesting outcome!\n"
+    trainertextentry 100, TEXT_DEFEATED_IN_OVERWORLD, "this was a great battle\r experience!\nCollect the TM beside me to help\r you on your journey!\n"
 
 _19AC: // Trainer 155
-    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 155, TEXT_NOTICE_IN_OVERWORLD, "You remind me of a\r boy from pallet town that\r challenged the league 3 years\r ago!\nI am Agatha! an ex elite\r four member and I use Ghost\r type Pokemon!\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Beaten by a mere brat again...\nYou've got what it takes to\r compete in the Pokemon League\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_OVERWORLD, "There is a TM nearby.\nIt will help you on your journey.\n"
 
 _19B0: // Trainer 523
     trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
@@ -2996,13 +3006,19 @@ _1A4C: // Trainer 610
     trainertextentry 610, TEXT_DEFEATED_IN_BATTLE, "I couldn’t show off...\n"
 
 _1A50: // Trainer 142
-    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 142, TEXT_NOTICE_IN_OVERWORLD, "My name is Nate and I am\r also from the Unova Region!\r Lets see how good you are!\n"
+    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "You are strong!\r I gotta up my game to beat you...\n"
+    trainertextentry 142, TEXT_DEFEATED_IN_OVERWORLD, "Next time we meet im going\r to win for sure!!\n"
 
 _1A54: // Trainer 334
-    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do.\r Lets see who is stronger now,\r  Me or You!\n"
+    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Wow! you are a strong trainer\r thats for sure...\n"
+    trainertextentry 334, TEXT_DEFEATED_IN_OVERWORLD, "I can just tell you\r are going to be champion\r take this TM that is\r beside me it’ll help you on\r your journey!\n"
 
 _1A58: // Trainer 520
-    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "Oh, no! I just can’t win...\n"
+    trainertextentry 520, TEXT_NOTICE_IN_OVERWORLD, "So you became champion of\r the Johto Region? Thats great!\r Now I wanna battle you and\r your Pokemon at full power!!\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "I'm still not strong enough\r to beat you...\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_OVERWORLD, "You are a great trainer!\r You should come to the Unova\r Region sometime and take on the\r Unova League!!\n"
 
 _1A5C: // Trainer 622
     trainertextentry 622, TEXT_DEFEATED_IN_BATTLE, "Arrgh! This is NOT my day!\n"
@@ -3053,19 +3069,30 @@ _1A98: // Trainer 613
     trainertextentry 613, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
 
 _1A9C: // Trainer 614
-    trainertextentry 614, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
+    trainertextentry 614, TEXT_NOTICE_IN_OVERWORLD, "Hello there! Nate and Rosa\r have told me about you!\r My name is Bianca!\r I am Prof. Junipers assistant, I wanna see how good\r you are in double battle format!\n"
+    trainertextentry 614, TEXT_DEFEATED_IN_BATTLE, "You are pretty good in Double\r battle format...\n"
+    trainertextentry 614, TEXT_DEFEATED_IN_OVERWORLD, "Thank you for the battle!\r Take the TM beside me on your journey\r I'm sure you'll use it very well!!\n"
 
 _1AA0: // Trainer 615
-    trainertextentry 615, TEXT_DEFEATED_IN_BATTLE, "...Hmmm...\n"
+    trainertextentry 615, TEXT_NOTICE_IN_OVERWORLD, "Welcome. My name is Steven.\r I’m a Trainer who has devoted his life\r to studying rare stones and the pokemon\r that dwell within them…\n I currently stand as the Champion of Hoenn,\r Show me the strength that brought you this far.\n"
+    trainertextentry 615, TEXT_DEFEATED_IN_BATTLE, "Incredible… Your strength shines with\r the brilliance of a perfectly cut gemstone.\n"
+    trainertextentry 615, TEXT_DEFEATED_IN_OVERWORLD, "Battles like ours are treasures\r I’ll never forget.\n Continue polishing your skills,\r I have no doubt you’ll shine even brighter.\n"
 
 _1AA4: // Trainer 274
-    trainertextentry 274, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 274, TEXT_NOTICE_IN_OVERWORLD, "Why hello there! My name is\r Leaf! Judging by your\r Gym Badges you are from the johto\r Region? Let me test your\r skills to see how\r strong you are!!\n"
+    trainertextentry 274, TEXT_DEFEATED_IN_BATTLE, "That was a great battle!!\n"
+    trainertextentry 274, TEXT_DEFEATED_IN_OVERWORLD, "I hope to balle you again\r in the future!\n"
 
 _1AA8: // Trainer 275
-    trainertextentry 275, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 275, TEXT_NOTICE_IN_OVERWORLD, "Its been awhile! Remember me?\r I’ve gotten stronger since\r last time!\n"
+    trainertextentry 275, TEXT_DEFEATED_IN_BATTLE, "Haha i knew this was going\r to happen... You win.\n"
+    trainertextentry 275, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle\r i hope to battle you again!\n"
 
 _1AAC: // Trainer 525
-    trainertextentry 525, TEXT_DEFEATED_IN_BATTLE, "Maybe I didn’t train enough?\n"
+    trainertextentry 525, TEXT_NOTICE_IN_OVERWORLD, "Are you ready for Round 2?\r I am alot stronger then\r i was when you battled\r me as a Gym Leader!\n"
+    trainertextentry 525, TEXT_LAST_MON_SENT_OUT, "Heh, not bad! But this is where\r things get serious!\r let’s see you handle my best!\n"
+    trainertextentry 525, TEXT_DEFEATED_IN_BATTLE, "Whoa… you actually pulled it off!\r Guess I’ve still got room to grow.\n"
+    trainertextentry 525, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! Battles like that\r are what keep me pushing\r to get stronger.\n"
 
 _1AB0: // Trainer 360
     trainertextentry 360, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
@@ -3083,7 +3110,9 @@ _1AC0: // Trainer 465
     trainertextentry 465, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
 
 _1AC4: // Trainer 528
-    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 528, TEXT_NOTICE_IN_OVERWORLD, "Hey My name is Wally!\nI am from the Hoenn Region!\nI am good friends with Brendan\r and May! They have taught me\r what it means to be a trainer\nLet me see how strong you are\r as a Trainer!"
+    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "Brendan and May were right.\nYou really are strong...\n"
+    trainertextentry 528, TEXT_DEFEATED_IN_OVERWORLD, "I can't wait to battle with you again!\n"
 
 _1AC8: // Trainer 628
     trainertextentry 628, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
