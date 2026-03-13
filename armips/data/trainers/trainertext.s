@@ -2842,7 +2842,9 @@ _196C: // Trainer 616
     trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going\r to beat you this time so\r prepare yourself!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise\r you that! for now have the\r TM next to me as a reward!!\n"
 
 _1974: // Trainer 618
     trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
