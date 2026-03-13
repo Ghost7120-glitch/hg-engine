@@ -2837,13 +2837,19 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and i am\r from the Unova Region! I wanna see\r how strong you are. Now lets go!!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers\r were this strong...\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going\r to beat you this time so\r prepare yourself!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise\r you that! for now have the\r TM next to me as a reward!!\n"
 
 _1974: // Trainer 618
-    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 618, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont hold\r back, get ready to lose!!\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "Even after I have gotten so strong\r I still cant beat you...\n"
+    trainertextentry 618, text TEXT_DEFEATED_IN_OVERWORLD, "For some reason I knew\r I would lose to you again.\r I'm glad that i got to meet\r a very strong trainer from\r the Johto Region!!\n"
 
 _1978: // Trainer 250
     trainertextentry 250, TEXT_DEFEATED_IN_BATTLE, "Waaaargh!\n"
