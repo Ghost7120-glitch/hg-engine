@@ -2888,7 +2888,7 @@ _19AC: // Trainer 155
     trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
 
 _19B0: // Trainer 523
-    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them…\r the voices of your Pokémon. They speak\r of trust between you.\nI am N — a traveler who listens to\r the hearts of Pokémon.\r Let us battle, and see what\r truth your bond reveals.\n"
+    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them…\r the voices of your Pokémon. They speak\r of trust between you.\nI am N, a traveler who listens to\r the hearts of Pokémon.\r Let us battle, and see what\r truth your bond reveals.\n"
     trainertextentry 523, TEXT_LAST_MON_SENT_OUT, "So this is the strength born from\r your bond… Then my partner and I\r will answer with everything we have!\n"
     trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon… they’re happy.\r I can hear it clearly.\n"
     trainertextentry 523, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps the future I once believed\r in was incomplete…\nThe bond between people and Pokémon\r may be stronger than I imagined.\n"
