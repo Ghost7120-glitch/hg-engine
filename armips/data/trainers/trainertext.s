@@ -2837,7 +2837,9 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
+    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and i am\r from the Unova Region! I wanna see\r how strong you are. Now lets go!!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers\r were this strong...\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
 
 _1970: // Trainer 617
     trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
