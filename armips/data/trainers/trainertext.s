@@ -2888,7 +2888,7 @@ _19A4: // Trainer 522
     trainertextentry 522, TEXT_DEFEATED_IN_BATTLE, "I played too much!\n"
 
 _19A8: // Trainer 100
-    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei|r I am an Ex Elite Four\r member.\nI came to Johto to explore\r the Ice Path to see what\r ice type pokemon appeared here.\n We should have a battle\r to see what you are capableof!\n"
+    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei\r I am an Ex Elite Four\r member.\nI came to Johto to explore\r the Ice Path to see what\r ice type pokemon appeared here.\n We should have a battle\r to see what you are capableof!\n"
     trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Well this is an interesting outcome!\n"
     trainertextentry 100, TEXT_DEFEATED_IN_OVERWORLD, "this was a great battle\r experience!\nCollect the TM beside me to help\r you on your journey!\n"
 
