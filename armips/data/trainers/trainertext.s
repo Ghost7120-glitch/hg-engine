@@ -2236,9 +2236,9 @@ _1444: // Trainer 698
     trainertextentry 698, TEXT_DEFEATED_IN_OVERWORLD, "If this is it, then I don’t mind losing!\n"
 
 _1450: // Trainer 699
-    trainertextentry 699, TEXT_NOTICE_IN_OVERWORLD, "There are many people out there who\nprefer solid bug Pokémon over squishy\fbug Pokémon.\r"
-    trainertextentry 699, TEXT_DEFEATED_IN_BATTLE, "Thanks for your hard work,\nmy lovely Pokémon...\n"
-    trainertextentry 699, TEXT_DEFEATED_IN_OVERWORLD, "Doesn’t matter what kind of Pokémon--\fas long as you like them, they all\nlook cute.\n\n"
+    trainertextentry 699, TEXT_NOTICE_IN_OVERWORLD, "I come from the Hoenn Region.\r The name is Winstrate Vito and im gonna conquer\r the Johto League!\n"
+    trainertextentry 699, TEXT_DEFEATED_IN_BATTLE, "First the Hoenn Trainer beat me\r now the Johto Trainer?\n"
+    trainertextentry 699, TEXT_DEFEATED_IN_OVERWORLD, "That was a good battle...\r Guess ill try to take\r on the Unova League next...\n"
 
 _145C: // Trainer 686
     trainertextentry 686, TEXT_NOTICE_IN_OVERWORLD, "What did you come all the way out here\nfor, I wonder.\r"
@@ -2780,22 +2780,34 @@ _192C: // Trainer 509
     trainertextentry 509, TEXT_DEFEATED_IN_BATTLE, "Urf!\nI lose!\n"
 
 _1930: // Trainer 460
-    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 460, TEXT_NOTICE_IN_OVERWORLD, "Hey its you again!\nI've been training alot since\r you beat me and Barry in front\r of Bellsprout Tower.\n Lets see who is stronger!\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Guess I still got a ways\r to go...\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_OVERWORLD, "Take this TM that is near me\r im sure you'll have good use\r of it on your adventure!\n"
 
 _1934: // Trainer 461
-    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 461, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I'm not\r gonna lose this battle!\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "Thats 3 battles ive lost against you...\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle but\r next time i am gonna win for sure!\n"
 
 _1938: // Trainer 512
-    trainertextentry 512, TEXT_DEFEATED_IN_BATTLE, "Awwwww...\n"
+    trainertextentry 512, TEXT_NOTICE_IN_OVERWORLD, "This is where I am at\r my strongest.\nGet ready for one tough battle!!\n"
+    trainertextentry 512, TEXT_DEFEATED_IN_BATTLE, "You are the better Trainer...\n"
+    trainertextentry 512, TEXT_DEFEATED_IN_OVERWORLD, "I am glad to have met\r a trainer as strong as you!\nThis is motivation to get even more\r stronger!\n"
 
 _193C: // Trainer 279
-    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 279, TEXT_NOTICE_IN_OVERWORLD, "We meet again. I saw your\r battle with Morty.\nThat was a great battle but now lets\r see how you fare against me!\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "Guess you are better than I thought...\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_OVERWORLD, "Next time we battle its gonna\r be phenominal I can't wait!!\n"
 
 _1940: // Trainer 280
-    trainertextentry 280, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 280, TEXT_NOTICE_IN_OVERWORLD, "Me and Sceptile arent gonna\r lose. We have gotten stronger and even\r got Mega Evolution!\n"
+    trainertextentry 280, TEXT_DEFEATED_IN_BATTLE, "Even with Mega Evolution we cant win...\n"
+    trainertextentry 280, TEXT_DEFEATED_IN_OVERWORLD, "Looks like we gotta train\r even harder if we ever want\r a chance at beating you!\n"
 
 _1944: // Trainer 510
-    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "No...\nI’m out of Pokémon that can fight.\n"
+    trainertextentry 510, TEXT_NOTICE_IN_OVERWORLD, "I heard you became champion!\r Congratulations! Now is the perfect\r time to test my strength\r against the champion of Johto!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "Woah... This is how strong the champion\r of Johto is... Amazing!!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_OVERWORLD, "You should come to the Hoenn\r Region sometime to take on the Hoenn league!\n"
 
 _1948: // Trainer 430
     trainertextentry 430, TEXT_DEFEATED_IN_BATTLE, "Huh?\n"
@@ -2876,7 +2888,10 @@ _19AC: // Trainer 155
     trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
 
 _19B0: // Trainer 523
-    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Whoa!\nYou’ve got more zip than me!\n"
+    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them…\r the voices of your Pokémon. They speak\r of trust between you.\nI am N — a traveler who listens to\r the hearts of Pokémon.\r Let us battle, and see what\r truth your bond reveals.\n"
+    trainertextentry 523, TEXT_LAST_MON_SENT_OUT, "So this is the strength born from\r your bond… Then my partner and I\r will answer with everything we have!\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon… they’re happy.\r I can hear it clearly.\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps the future I once believed\r in was incomplete…\nThe bond between people and Pokémon\r may be stronger than I imagined.\n"
 
 _19B4: // Trainer 619
     trainertextentry 619, TEXT_DEFEATED_IN_BATTLE, "Ow!\nI scorched the tip of my nose!\n"
@@ -3041,10 +3056,14 @@ _1A88: // Trainer 612
     trainertextentry 612, TEXT_DEFEATED_IN_BATTLE, "Whew! You’re hot stuff.\n"
 
 _1A8C: // Trainer 462
-    trainertextentry 462, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
+    trainertextentry 462, TEXT_NOTICE_IN_OVERWORLD, "My name is Iris! I am a Dragon type\r Specialist from the Unova Region!\nI wanna see how strong a\r Johto Trainer is.\n"
+    trainertextentry 462, TEXT_DEFEATED_IN_BATTLE, "You really are strong...\n"
+    trainertextentry 462, TEXT_DEFEATED_IN_OVERWORLD, "I'm gonna get stronger just\r you wait!\n"
 
 _1A90: // Trainer 463
-    trainertextentry 463, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
+    trainertextentry 463, TEXT_NOTICE_IN_OVERWORLD, "Hey we run into each\r other again! ive gotten stronger,\r have you gotten stronger?\n"
+    trainertextentry 463, TEXT_DEFEATED_IN_BATTLE, "I really cant figure you out...\n"
+    trainertextentry 463, TEXT_DEFEATED_IN_OVERWORLD, "You won this battle but me\r and my pokemon are gonna train alot more!\n"
 
 _1A94: // Trainer 515
     trainertextentry 515, TEXT_DEFEATED_IN_BATTLE, "Tch! I tried to rush things...\n"
@@ -3077,10 +3096,14 @@ _1AB8: // Trainer 513
     trainertextentry 513, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
 
 _1ABC: // Trainer 464
-    trainertextentry 464, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 464, TEXT_NOTICE_IN_OVERWORLD, "I've been losing to Lucas\r alot and I have been doing\r alot of training so I wanna see how\r strong i have gotten!!\n"
+    trainertextentry 464, TEXT_DEFEATED_IN_BATTLE, "Wow you might even be stronger\r than lucas...\n"
+    trainertextentry 464, TEXT_DEFEATED_IN_OVERWORLD, "Alright I think I have gotten strong\r enough to take on Lucas now.\nThank you for the battle!!\n"
 
 _1AC0: // Trainer 465
-    trainertextentry 465, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+    trainertextentry 465, TEXT_NOTICE_IN_OVERWORLD, "Lets take this battle all the\r way to the top!!\n"
+    trainertextentry 465, TEXT_DEFEATED_IN_BATTLE, "I knew i would lose against you...\nYou are just like Lucas.\n"
+    trainertextentry 465, TEXT_DEFEATED_IN_OVERWORLD, "That was great! Lets battle again sometime!\n"
 
 _1AC4: // Trainer 528
     trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
