@@ -23584,7 +23584,7 @@ trainerdata 512, "Lucas"
 
     party 512
         // mon 0
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_LUXRAY
@@ -23597,7 +23597,7 @@ trainerdata 512, "Lucas"
         ballseal 0
 
         // mon 1
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_STARAPTOR
@@ -23610,7 +23610,7 @@ trainerdata 512, "Lucas"
         ballseal 0
 
         // mon 2
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_AZELF
@@ -23623,7 +23623,7 @@ trainerdata 512, "Lucas"
         ballseal 0
 
         // mon 3
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_WEAVILE
@@ -23636,7 +23636,7 @@ trainerdata 512, "Lucas"
         ballseal 0
 
         // mon 4
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_DIALGA
@@ -23649,7 +23649,7 @@ trainerdata 512, "Lucas"
         ballseal 0
 
         // mon 5
-        ivs 150
+        ivs 250
         abilityslot 0
         level 100
         pokemon SPECIES_INFERNAPE
@@ -31873,7 +31873,7 @@ trainerdata 699, "Winstrate Vito"
     item ITEM_NONE
     item ITEM_NONE
     item ITEM_NONE
-    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | 0
+    aiflags F_PRIORITIZE_SUPER_EFFECTIVE | F_EVALUATE_ATTACKS | F_EXPERT_ATTACKS | 0
     battletype SINGLE_BATTLE
     endentry
 
