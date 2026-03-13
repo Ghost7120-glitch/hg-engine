@@ -2837,14 +2837,10 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and i am\r from the Unova Region! I wanna see\r how strong you are. Now lets go!!\n"
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers\r were this strong...\n"
-    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going\r to beat you this time so\r prepare yourself!!\n"
-    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
-    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise\r you that! for now have the\r TM next to me as a reward!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
 
 _1974: // Trainer 618
     trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "No! There are better Trainers...\n"
@@ -3110,9 +3106,13 @@ _1AC0: // Trainer 465
     trainertextentry 465, TEXT_DEFEATED_IN_OVERWORLD, "That was great! Lets battle again sometime!\n"
 
 _1AC4: // Trainer 528
+<<<<<<< HEAD
     trainertextentry 528, TEXT_NOTICE_IN_OVERWORLD, "Hey My name is Wally!\nI am from the Hoenn Region!\nI am good friends with Brendan\r and May! They have taught me\r what it means to be a trainer\nLet me see how strong you are\r as a Trainer!\n"
     trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "Brendan and May were right.\nYou really are strong...\n"
     trainertextentry 528, TEXT_DEFEATED_IN_OVERWORLD, "I can't wait to battle with you again!\n"
+=======
+    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
+>>>>>>> parent of 94b9c2b0 (Reapply "Added Trainer Dialogue for some Boss Trainers")
 
 _1AC8: // Trainer 628
     trainertextentry 628, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
