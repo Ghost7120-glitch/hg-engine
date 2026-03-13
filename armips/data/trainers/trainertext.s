@@ -3106,9 +3106,7 @@ _1AC0: // Trainer 465
     trainertextentry 465, TEXT_DEFEATED_IN_OVERWORLD, "That was great! Lets battle again sometime!\n"
 
 _1AC4: // Trainer 528
-    trainertextentry 528, TEXT_NOTICE_IN_OVERWORLD, "Hey My name is Wally!\nI am from the Hoenn Region!\nI am good friends with Brendan\r and May! They have taught me\r what it means to be a trainer\nLet me see how strong you are\r as a Trainer!\n"
-    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "Brendan and May were right.\nYou really are strong...\n"
-    trainertextentry 528, TEXT_DEFEATED_IN_OVERWORLD, "I can't wait to battle with you again!\n"
+    trainertextentry 528, TEXT_DEFEATED_IN_BATTLE, "I see. So that’s how you battle.\n"
 
 _1AC8: // Trainer 628
     trainertextentry 628, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
