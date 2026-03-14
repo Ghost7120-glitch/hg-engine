@@ -3026,7 +3026,7 @@ _1A50: // Trainer 142
     trainertextentry 142, TEXT_DEFEATED_IN_OVERWORLD, "Next time we meet im going\r to win for sure!!\n"
 
 _1A54: // Trainer 334
-    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do.\r Lets see who is stronger now,\r  Me or You!\n"
+    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do.\n Lets see who is stronger now,\r  Me or You!\r"
     trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Wow! you are a strong trainer\r thats for sure...\n"
     trainertextentry 334, TEXT_DEFEATED_IN_OVERWORLD, "I can just tell you\r are going to be champion\r take this TM that is\r beside me it’ll help you on\r your journey!\n"
 
