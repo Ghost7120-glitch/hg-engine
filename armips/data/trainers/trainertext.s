@@ -9,103 +9,25 @@
 _0000: // Trainer 0
        // Trainer 2
        // Trainer 3
-       // Trainer 11
-       // Trainer 19
-       // Trainer 40
-       // Trainer 63
-       // Trainer 87
-       // Trainer 88
-       // Trainer 105
-       // Trainer 106
-       // Trainer 107
-       // Trainer 138
-       // Trainer 141
-       // Trainer 165
-       // Trainer 166
-       // Trainer 167
-       // Trainer 168
-       // Trainer 169
-       // Trainer 170
-       // Trainer 171
-       // Trainer 174
        // Trainer 175
        // Trainer 176
        // Trainer 177
-       // Trainer 180
-       // Trainer 194
-       // Trainer 207
-       // Trainer 208
        // Trainer 210
-       // Trainer 221
-       // Trainer 225
        // Trainer 226
        // Trainer 229
        // Trainer 243
-       // Trainer 262
        // Trainer 265
-       // Trainer 273
-       // Trainer 292
-       // Trainer 295
-       // Trainer 304
-       // Trainer 305
-       // Trainer 306
-       // Trainer 307
-       // Trainer 338
-       // Trainer 340
-       // Trainer 341
-       // Trainer 342
-       // Trainer 343
-       // Trainer 344
-       // Trainer 345
-       // Trainer 347
-       // Trainer 372
-       // Trainer 375
-       // Trainer 376
        // Trainer 377
        // Trainer 385
        // Trainer 387
-       // Trainer 394
        // Trainer 416
        // Trainer 426
-       // Trainer 442
-       // Trainer 443
-       // Trainer 473
-       // Trainer 474
-       // Trainer 475
-       // Trainer 476
-       // Trainer 477
        // Trainer 495
-       // Trainer 504
-       // Trainer 506
-       // Trainer 508
-       // Trainer 511
-       // Trainer 514
-       // Trainer 516
-       // Trainer 519
-       // Trainer 521
-       // Trainer 524
-       // Trainer 526
-       // Trainer 529
-       // Trainer 531
-       // Trainer 532
        // Trainer 533
        // Trainer 534
        // Trainer 535
        // Trainer 536
-       // Trainer 542
-       // Trainer 543
-       // Trainer 544
-       // Trainer 667
-       // Trainer 668
-       // Trainer 669
-       // Trainer 670
-       // Trainer 671
        // Trainer 675
-       // Trainer 707
-       // Trainer 708
-       // Trainer 709
-       // Trainer 710
-       // Trainer 711
     trainertextentry 495, TEXT_LAST_MON_CRITICAL, "...Humph!\nYou’re doing OK for someone weak.\n"
     trainertextentry 495, TEXT_DEFEATED_IN_BATTLE, "...Humph!\nAre you happy you won?\n"
     trainertextentry 495, TEXT_PLAYER_LOSES, "...Humph!\nThat was a waste of time.\n"
@@ -3146,6 +3068,397 @@ _1ACC: // Trainer 629
 _1AD0: // Trainer 630
     trainertextentry 630, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
 
+_1AD4: // Trainer 11
+    trainertextentry 11, TEXT_NOTICE_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+    trainertextentry 11, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+    trainertextentry 11, TEXT_DEFEATED_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+
+_1AD8: // Trainer 19
+    trainertextentry 19, TEXT_NOTICE_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+    trainertextentry 19, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+    trainertextentry 19, TEXT_DEFEATED_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+
+_1ADC: // Trainer 40
+    trainertextentry 40, TEXT_NOTICE_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+    trainertextentry 40, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+    trainertextentry 40, TEXT_DEFEATED_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+
+_1AE0: // Trainer 63
+    trainertextentry 63, TEXT_NOTICE_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+    trainertextentry 63, TEXT_DEFEATED_IN_BATTLE, "Whoa, you’re kickin’!\n"
+    trainertextentry 63, TEXT_DEFEATED_IN_OVERWORLD, "Whoa, you’re kickin’!\n"
+
+_1AE4: // Trainer 87
+    trainertextentry 87, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 87, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 87, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AE8: // Trainer 88
+    trainertextentry 88, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 88, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 88, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AEC: // Trainer 105
+    trainertextentry 105, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 105, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AF0: // Trainer 106
+    trainertextentry 106, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 106, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AF4: // Trainer 107
+    trainertextentry 107, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 107, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 107, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AF8: // Trainer 138
+    trainertextentry 138, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 138, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 138, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1AFC: // Trainer 141
+    trainertextentry 141, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 141, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 141, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B00: // Trainer 165
+    trainertextentry 165, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 165, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 165, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B04: // Trainer 166
+    trainertextentry 166, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 166, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 166, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B08: // Trainer 167
+    trainertextentry 167, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 167, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 167, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B0C: // Trainer 168
+    trainertextentry 168, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 168, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 168, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B10: // Trainer 169
+    trainertextentry 169, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 169, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 169, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B14: // Trainer 170
+    trainertextentry 170, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 170, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 170, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B18: // Trainer 171
+    trainertextentry 171, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 171, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 171, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B1C: // Trainer 174
+    trainertextentry 174, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 174, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 174, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B20: // Trainer 180
+    trainertextentry 180, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 180, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 180, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B24: // Trainer 194
+    trainertextentry 194, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 194, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 194, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B28: // Trainer 207
+    trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 207, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B2C: // Trainer 208
+    trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 208, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B30: // Trainer 221
+    trainertextentry 221, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 221, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 221, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B34: // Trainer 225
+    trainertextentry 225, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 225, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 225, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B38: // Trainer 262
+    trainertextentry 262, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 262, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 262, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B3C: // Trainer 273
+    trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B40: // Trainer 292
+    trainertextentry 292, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 292, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 292, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B44: // Trainer 295
+    trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 295, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B48: // Trainer 304
+    trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 304, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 304, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B4C: // Trainer 305
+    trainertextentry 305, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 305, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 305, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B50: // Trainer 306
+    trainertextentry 306, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 306, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 306, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B54: // Trainer 307
+    trainertextentry 307, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 307, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B58: // Trainer 338
+    trainertextentry 338, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 338, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 338, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B5C: // Trainer 340
+    trainertextentry 340, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 340, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 340, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B60: // Trainer 341
+    trainertextentry 341, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 341, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 341, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B64: // Trainer 342
+    trainertextentry 342, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 342, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 342, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B68: // Trainer 343
+    trainertextentry 343, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 343, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 343, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B6C: // Trainer 344
+    trainertextentry 344, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 344, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 344, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B70: // Trainer 345
+    trainertextentry 345, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 345, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 345, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B74: // Trainer 347
+    trainertextentry 347, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 347, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 347, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B78: // Trainer 372
+    trainertextentry 372, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 372, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 372, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B7C: // Trainer 375
+    trainertextentry 375, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 375, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 375, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B80: // Trainer 376
+    trainertextentry 376, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 376, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 376, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B84: // Trainer 394
+    trainertextentry 394, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 394, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 394, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B88: // Trainer 442
+    trainertextentry 442, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 442, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 442, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B8C: // Trainer 443
+    trainertextentry 443, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 443, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 443, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B90: // Trainer 473
+    trainertextentry 473, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 473, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 473, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B94: // Trainer 474
+    trainertextentry 474, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 474, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 474, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B98: // Trainer 475
+    trainertextentry 475, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 475, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 475, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1B9C: // Trainer 476
+    trainertextentry 476, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 476, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BA0: // Trainer 477
+    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 477, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BA4: // Trainer 504
+    trainertextentry 504, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 504, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 504, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BA8: // Trainer 506
+    trainertextentry 506, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 506, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 506, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BAC: // Trainer 508
+    trainertextentry 508, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 508, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 508, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BB0: // Trainer 511
+    trainertextentry 511, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 511, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 511, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BB4: // Trainer 514
+    trainertextentry 514, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 514, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 514, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BB8: // Trainer 516
+    trainertextentry 516, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 516, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 516, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BBC: // Trainer 519
+    trainertextentry 519, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 519, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 519, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BC0: // Trainer 521
+    trainertextentry 521, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 521, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 521, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BC4: // Trainer 524
+    trainertextentry 524, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 524, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 524, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BC8: // Trainer 526
+    trainertextentry 526, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 526, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 526, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BCC: // Trainer 529
+    trainertextentry 529, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 529, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 529, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BD0: // Trainer 531
+    trainertextentry 531, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 531, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 531, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BD4: // Trainer 532
+    trainertextentry 532, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 532, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 532, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BD8: // Trainer 542
+    trainertextentry 542, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 542, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 542, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BDC: // Trainer 543
+    trainertextentry 543, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 543, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 543, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BE0: // Trainer 544
+    trainertextentry 544, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 544, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 544, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BE4: // Trainer 667
+    trainertextentry 667, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 667, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 667, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BE8: // Trainer 668
+    trainertextentry 668, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 668, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 668, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BEC: // Trainer 669
+    trainertextentry 669, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 669, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 669, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BF0: // Trainer 670
+    trainertextentry 670, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 670, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 670, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BF4: // Trainer 671
+    trainertextentry 671, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 671, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 671, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BF8: // Trainer 707
+    trainertextentry 707, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 707, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 707, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1BFC: // Trainer 708
+    trainertextentry 708, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 708, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 708, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1C00: // Trainer 709
+    trainertextentry 709, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 709, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 709, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1C04: // Trainer 710
+    trainertextentry 710, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 710, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 710, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+_1C08: // Trainer 711
+    trainertextentry 711, TEXT_NOTICE_IN_OVERWORLD, "...\n"
+    trainertextentry 711, TEXT_DEFEATED_IN_BATTLE, "...\n"
+    trainertextentry 711, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
+
+
 .close
 
 
@@ -3163,7 +3476,7 @@ _1AD0: // Trainer 630
 /* Trainer   8 */ .halfword _0A14
 /* Trainer   9 */ .halfword _0C8C
 /* Trainer  10 */ .halfword _0224
-/* Trainer  11 */ .halfword _0000
+/* Trainer  11 */ .halfword _1AD4
 /* Trainer  12 */ .halfword _1218
 /* Trainer  13 */ .halfword _1230
 /* Trainer  14 */ .halfword _1370
@@ -3171,7 +3484,7 @@ _1AD0: // Trainer 630
 /* Trainer  16 */ .halfword _0C74
 /* Trainer  17 */ .halfword _0E08
 /* Trainer  18 */ .halfword _0A64
-/* Trainer  19 */ .halfword _0000
+/* Trainer  19 */ .halfword _1AD8
 /* Trainer  20 */ .halfword _014C
 /* Trainer  21 */ .halfword _0158
 /* Trainer  22 */ .halfword _0268
@@ -3192,7 +3505,7 @@ _1AD0: // Trainer 630
 /* Trainer  37 */ .halfword _1254
 /* Trainer  38 */ .halfword _0830
 /* Trainer  39 */ .halfword _0C68
-/* Trainer  40 */ .halfword _0000
+/* Trainer  40 */ .halfword _1ADC
 /* Trainer  41 */ .halfword _0FB4
 /* Trainer  42 */ .halfword _1170
 /* Trainer  43 */ .halfword _1008
@@ -3212,7 +3525,7 @@ _1AD0: // Trainer 630
 /* Trainer  57 */ .halfword _0A70
 /* Trainer  58 */ .halfword _08EC
 /* Trainer  59 */ .halfword _0764
-/* Trainer  60 */ .halfword _0A80
+/* Trainer  60 */ .halfword _1AE0
 /* Trainer  61 */ .halfword _0AB4
 /* Trainer  62 */ .halfword _0B20
 /* Trainer  63 */ .halfword _0000
@@ -3239,8 +3552,8 @@ _1AD0: // Trainer 630
 /* Trainer  84 */ .halfword _05A8
 /* Trainer  85 */ .halfword _0C98
 /* Trainer  86 */ .halfword _0C80
-/* Trainer  87 */ .halfword _0000
-/* Trainer  88 */ .halfword _0000
+/* Trainer  87 */ .halfword _1AE4
+/* Trainer  88 */ .halfword _1AE8
 /* Trainer  89 */ .halfword _02A4
 /* Trainer  90 */ .halfword _0CE0
 /* Trainer  91 */ .halfword _0CEC
@@ -3257,9 +3570,9 @@ _1AD0: // Trainer 630
 /* Trainer 102 */ .halfword _0980
 /* Trainer 103 */ .halfword _09D4
 /* Trainer 104 */ .halfword _09E0
-/* Trainer 105 */ .halfword _0000
-/* Trainer 106 */ .halfword _0000
-/* Trainer 107 */ .halfword _0000
+/* Trainer 105 */ .halfword _1AEC
+/* Trainer 106 */ .halfword _1AF0
+/* Trainer 107 */ .halfword _1AF4
 /* Trainer 108 */ .halfword _0DFC
 /* Trainer 109 */ .halfword _0E8C
 /* Trainer 110 */ .halfword _0334
@@ -3290,10 +3603,10 @@ _1AD0: // Trainer 630
 /* Trainer 135 */ .halfword _0808
 /* Trainer 136 */ .halfword _05B0
 /* Trainer 137 */ .halfword _0D94
-/* Trainer 138 */ .halfword _0000
+/* Trainer 138 */ .halfword _1AF8
 /* Trainer 139 */ .halfword _0F18
 /* Trainer 140 */ .halfword _061C
-/* Trainer 141 */ .halfword _0000
+/* Trainer 141 */ .halfword _1AFC
 /* Trainer 142 */ .halfword _1A50
 /* Trainer 143 */ .halfword _0E18
 /* Trainer 144 */ .halfword _0E24
@@ -3317,22 +3630,22 @@ _1AD0: // Trainer 630
 /* Trainer 162 */ .halfword _0E7C
 /* Trainer 163 */ .halfword _0E80
 /* Trainer 164 */ .halfword _0E84
-/* Trainer 165 */ .halfword _0000
-/* Trainer 166 */ .halfword _0000
-/* Trainer 167 */ .halfword _0000
-/* Trainer 168 */ .halfword _0000
-/* Trainer 169 */ .halfword _0000
-/* Trainer 170 */ .halfword _0000
-/* Trainer 171 */ .halfword _0000
+/* Trainer 165 */ .halfword _1B00
+/* Trainer 166 */ .halfword _1B04
+/* Trainer 167 */ .halfword _1B08
+/* Trainer 168 */ .halfword _1B0C
+/* Trainer 169 */ .halfword _1B10
+/* Trainer 170 */ .halfword _1B14
+/* Trainer 171 */ .halfword _1B18
 /* Trainer 172 */ .halfword _1A2C
 /* Trainer 173 */ .halfword _1A30
-/* Trainer 174 */ .halfword _0000
+/* Trainer 174 */ .halfword _1B1C
 /* Trainer 175 */ .halfword _0000
 /* Trainer 176 */ .halfword _0000
 /* Trainer 177 */ .halfword _0000
 /* Trainer 178 */ .halfword _10A0
 /* Trainer 179 */ .halfword _07FC
-/* Trainer 180 */ .halfword _0000
+/* Trainer 180 */ .halfword _1B20
 /* Trainer 181 */ .halfword _1074
 /* Trainer 182 */ .halfword _1080
 /* Trainer 183 */ .halfword _05AC
@@ -3346,7 +3659,7 @@ _1AD0: // Trainer 630
 /* Trainer 191 */ .halfword _1108
 /* Trainer 192 */ .halfword _1134
 /* Trainer 193 */ .halfword _1388
-/* Trainer 194 */ .halfword _0000
+/* Trainer 194 */ .halfword _1B24
 /* Trainer 195 */ .halfword _1394
 /* Trainer 196 */ .halfword _13B8
 /* Trainer 197 */ .halfword _13C4
@@ -3359,8 +3672,8 @@ _1AD0: // Trainer 630
 /* Trainer 204 */ .halfword _11DC
 /* Trainer 205 */ .halfword _11E8
 /* Trainer 206 */ .halfword _11F4
-/* Trainer 207 */ .halfword _0000
-/* Trainer 208 */ .halfword _0000
+/* Trainer 207 */ .halfword _1B28
+/* Trainer 208 */ .halfword _1B2C
 /* Trainer 209 */ .halfword _0F48
 /* Trainer 210 */ .halfword _0000
 /* Trainer 211 */ .halfword _127C
@@ -3373,11 +3686,11 @@ _1AD0: // Trainer 630
 /* Trainer 218 */ .halfword _12DC
 /* Trainer 219 */ .halfword _12E8
 /* Trainer 220 */ .halfword _12F4
-/* Trainer 221 */ .halfword _0000
+/* Trainer 221 */ .halfword _1B30
 /* Trainer 222 */ .halfword _1328
 /* Trainer 223 */ .halfword _12C8
 /* Trainer 224 */ .halfword _12CC
-/* Trainer 225 */ .halfword _0000
+/* Trainer 225 */ .halfword _1B34
 /* Trainer 226 */ .halfword _0000
 /* Trainer 227 */ .halfword _13D0
 /* Trainer 228 */ .halfword _13A0
@@ -3414,7 +3727,7 @@ _1AD0: // Trainer 630
 /* Trainer 259 */ .halfword _043C
 /* Trainer 260 */ .halfword _1418
 /* Trainer 261 */ .halfword _03E8
-/* Trainer 262 */ .halfword _0000
+/* Trainer 262 */ .halfword _1B38
 /* Trainer 263 */ .halfword _0054
 /* Trainer 264 */ .halfword _00B4
 /* Trainer 265 */ .halfword _0000
@@ -3425,7 +3738,7 @@ _1AD0: // Trainer 630
 /* Trainer 270 */ .halfword _0074
 /* Trainer 271 */ .halfword _00A4
 /* Trainer 272 */ .halfword _00D4
-/* Trainer 273 */ .halfword _0000
+/* Trainer 273 */ .halfword _1B3C
 /* Trainer 274 */ .halfword _1AA4
 /* Trainer 275 */ .halfword _1AA8
 /* Trainer 276 */ .halfword _18AC
@@ -3444,10 +3757,10 @@ _1AD0: // Trainer 630
 /* Trainer 289 */ .halfword _0094
 /* Trainer 290 */ .halfword _1050
 /* Trainer 291 */ .halfword _08BC
-/* Trainer 292 */ .halfword _0000
+/* Trainer 292 */ .halfword _1B40
 /* Trainer 293 */ .halfword _08D4
 /* Trainer 294 */ .halfword _08E0
-/* Trainer 295 */ .halfword _0000
+/* Trainer 295 */ .halfword _1B44
 /* Trainer 296 */ .halfword _0904
 /* Trainer 297 */ .halfword _051C
 /* Trainer 298 */ .halfword _0528
@@ -3456,10 +3769,10 @@ _1AD0: // Trainer 630
 /* Trainer 301 */ .halfword _0880
 /* Trainer 302 */ .halfword _088C
 /* Trainer 303 */ .halfword _1888
-/* Trainer 304 */ .halfword _0000
-/* Trainer 305 */ .halfword _0000
-/* Trainer 306 */ .halfword _0000
-/* Trainer 307 */ .halfword _0000
+/* Trainer 304 */ .halfword _1B48
+/* Trainer 305 */ .halfword _1B4C
+/* Trainer 306 */ .halfword _1B50
+/* Trainer 307 */ .halfword _1B54
 /* Trainer 308 */ .halfword _04EC
 /* Trainer 309 */ .halfword _0698
 /* Trainer 310 */ .halfword _06A4
@@ -3490,16 +3803,16 @@ _1AD0: // Trainer 630
 /* Trainer 335 */ .halfword _1894
 /* Trainer 336 */ .halfword _0590
 /* Trainer 337 */ .halfword _0540
-/* Trainer 338 */ .halfword _0000
+/* Trainer 338 */ .halfword _1B58
 /* Trainer 339 */ .halfword _0F6C
-/* Trainer 340 */ .halfword _0000
-/* Trainer 341 */ .halfword _0000
-/* Trainer 342 */ .halfword _0000
-/* Trainer 343 */ .halfword _0000
-/* Trainer 344 */ .halfword _0000
-/* Trainer 345 */ .halfword _0000
+/* Trainer 340 */ .halfword _1B5C
+/* Trainer 341 */ .halfword _1B60
+/* Trainer 342 */ .halfword _1B64
+/* Trainer 343 */ .halfword _1B68
+/* Trainer 344 */ .halfword _1B6C
+/* Trainer 345 */ .halfword _1B70
 /* Trainer 346 */ .halfword _059C
-/* Trainer 347 */ .halfword _0000
+/* Trainer 347 */ .halfword _1B74
 /* Trainer 348 */ .halfword _071C
 /* Trainer 349 */ .halfword _07B0
 /* Trainer 350 */ .halfword _07D8
@@ -3524,11 +3837,11 @@ _1AD0: // Trainer 630
 /* Trainer 369 */ .halfword _05DC
 /* Trainer 370 */ .halfword _08A4
 /* Trainer 371 */ .halfword _08B0
-/* Trainer 372 */ .halfword _0000
+/* Trainer 372 */ .halfword _1B78
 /* Trainer 373 */ .halfword _08C8
 /* Trainer 374 */ .halfword _08F8
-/* Trainer 375 */ .halfword _0000
-/* Trainer 376 */ .halfword _0000
+/* Trainer 375 */ .halfword _1B7C
+/* Trainer 376 */ .halfword _1B80
 /* Trainer 377 */ .halfword _0000
 /* Trainer 378 */ .halfword _0644
 /* Trainer 379 */ .halfword _0650
@@ -3546,7 +3859,7 @@ _1AD0: // Trainer 630
 /* Trainer 391 */ .halfword _1340
 /* Trainer 392 */ .halfword _134C
 /* Trainer 393 */ .halfword _1364
-/* Trainer 394 */ .halfword _0000
+/* Trainer 394 */ .halfword _1B84
 /* Trainer 395 */ .halfword _0BB4
 /* Trainer 396 */ .halfword _0558
 /* Trainer 397 */ .halfword _0C24
@@ -3594,8 +3907,8 @@ _1AD0: // Trainer 630
 /* Trainer 439 */ .halfword _1A48
 /* Trainer 440 */ .halfword _1924
 /* Trainer 441 */ .halfword _1928
-/* Trainer 442 */ .halfword _0000
-/* Trainer 443 */ .halfword _0000
+/* Trainer 442 */ .halfword _1B88
+/* Trainer 443 */ .halfword _1B8C
 /* Trainer 444 */ .halfword _19D8
 /* Trainer 445 */ .halfword _19DC
 /* Trainer 446 */ .halfword _188C
@@ -3625,11 +3938,11 @@ _1AD0: // Trainer 630
 /* Trainer 470 */ .halfword _12B0
 /* Trainer 471 */ .halfword _10E4
 /* Trainer 472 */ .halfword _1128
-/* Trainer 473 */ .halfword _0000
-/* Trainer 474 */ .halfword _0000
-/* Trainer 475 */ .halfword _0000
-/* Trainer 476 */ .halfword _0000
-/* Trainer 477 */ .halfword _0000
+/* Trainer 473 */ .halfword _1B90
+/* Trainer 474 */ .halfword _1B94
+/* Trainer 475 */ .halfword _1B98
+/* Trainer 476 */ .halfword _1B9C
+/* Trainer 477 */ .halfword _1BA0
 /* Trainer 478 */ .halfword _1150
 /* Trainer 479 */ .halfword _12D0
 /* Trainer 480 */ .halfword _02F8
@@ -3656,35 +3969,35 @@ _1AD0: // Trainer 630
 /* Trainer 501 */ .halfword _13EC
 /* Trainer 502 */ .halfword _13F8
 /* Trainer 503 */ .halfword _1950
-/* Trainer 504 */ .halfword _0000
+/* Trainer 504 */ .halfword _1BA4
 /* Trainer 505 */ .halfword _1A40
-/* Trainer 506 */ .halfword _0000
+/* Trainer 506 */ .halfword _1BA8
 /* Trainer 507 */ .halfword _1920
-/* Trainer 508 */ .halfword _0000
+/* Trainer 508 */ .halfword _1BAC
 /* Trainer 509 */ .halfword _192C
 /* Trainer 510 */ .halfword _1944
-/* Trainer 511 */ .halfword _0000
+/* Trainer 511 */ .halfword _1BB0
 /* Trainer 512 */ .halfword _1938
 /* Trainer 513 */ .halfword _1AB8
-/* Trainer 514 */ .halfword _0000
+/* Trainer 514 */ .halfword _1BB4
 /* Trainer 515 */ .halfword _1A94
-/* Trainer 516 */ .halfword _0000
+/* Trainer 516 */ .halfword _1BB8
 /* Trainer 517 */ .halfword _1A70
 /* Trainer 518 */ .halfword _18B4
-/* Trainer 519 */ .halfword _0000
+/* Trainer 519 */ .halfword _1BBC
 /* Trainer 520 */ .halfword _1A58
-/* Trainer 521 */ .halfword _0000
+/* Trainer 521 */ .halfword _1BC0
 /* Trainer 522 */ .halfword _19A4
 /* Trainer 523 */ .halfword _19B0
-/* Trainer 524 */ .halfword _0000
+/* Trainer 524 */ .halfword _1BC4
 /* Trainer 525 */ .halfword _1AAC
-/* Trainer 526 */ .halfword _0000
+/* Trainer 526 */ .halfword _1BC8
 /* Trainer 527 */ .halfword _1A1C
 /* Trainer 528 */ .halfword _1AC4
-/* Trainer 529 */ .halfword _0000
+/* Trainer 529 */ .halfword _1BCC
 /* Trainer 530 */ .halfword _1A34
-/* Trainer 531 */ .halfword _0000
-/* Trainer 532 */ .halfword _0000
+/* Trainer 531 */ .halfword _1BD0
+/* Trainer 532 */ .halfword _1BD4
 /* Trainer 533 */ .halfword _0000
 /* Trainer 534 */ .halfword _0000
 /* Trainer 535 */ .halfword _0000
@@ -3694,9 +4007,9 @@ _1AD0: // Trainer 630
 /* Trainer 539 */ .halfword _17D8
 /* Trainer 540 */ .halfword _0680
 /* Trainer 541 */ .halfword _068C
-/* Trainer 542 */ .halfword _0000
-/* Trainer 543 */ .halfword _0000
-/* Trainer 544 */ .halfword _0000
+/* Trainer 542 */ .halfword _1BD8
+/* Trainer 543 */ .halfword _1BDC
+/* Trainer 544 */ .halfword _1BE0
 /* Trainer 545 */ .halfword _1498
 /* Trainer 546 */ .halfword _14A4
 /* Trainer 547 */ .halfword _14B0
@@ -3819,11 +4132,11 @@ _1AD0: // Trainer 630
 /* Trainer 664 */ .halfword _1A20
 /* Trainer 665 */ .halfword _1A24
 /* Trainer 666 */ .halfword _1A28
-/* Trainer 667 */ .halfword _0000
-/* Trainer 668 */ .halfword _0000
-/* Trainer 669 */ .halfword _0000
-/* Trainer 670 */ .halfword _0000
-/* Trainer 671 */ .halfword _0000
+/* Trainer 667 */ .halfword _1BE4
+/* Trainer 668 */ .halfword _1BE8
+/* Trainer 669 */ .halfword _1BEC
+/* Trainer 670 */ .halfword _1BF0
+/* Trainer 671 */ .halfword _1BF4
 /* Trainer 672 */ .halfword _18A0
 /* Trainer 673 */ .halfword _18A4
 /* Trainer 674 */ .halfword _18A8
@@ -3859,11 +4172,11 @@ _1AD0: // Trainer 630
 /* Trainer 704 */ .halfword _03C4
 /* Trainer 705 */ .halfword _03D0
 /* Trainer 706 */ .halfword _1114
-/* Trainer 707 */ .halfword _0000
-/* Trainer 708 */ .halfword _0000
-/* Trainer 709 */ .halfword _0000
-/* Trainer 710 */ .halfword _0000
-/* Trainer 711 */ .halfword _0000
+/* Trainer 707 */ .halfword _1BF8
+/* Trainer 708 */ .halfword _1BFC
+/* Trainer 709 */ .halfword _1C00
+/* Trainer 710 */ .halfword _1C04
+/* Trainer 711 */ .halfword _1C08
 /* Trainer 712 */ .halfword _01AC
 /* Trainer 713 */ .halfword _01B8
 /* Trainer 714 */ .halfword _01C4
