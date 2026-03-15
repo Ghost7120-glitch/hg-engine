@@ -3021,19 +3021,19 @@ _1A4C: // Trainer 610
     trainertextentry 610, TEXT_DEFEATED_IN_BATTLE, "I couldn’t show off...\n"
 
 _1A50: // Trainer 142
-    trainertextentry 142, TEXT_NOTICE_IN_OVERWORLD, "My name is Nate and I am\r also from the Unova Region!\r Lets see how good you are!\n"
-    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "You are strong!\r I gotta up my game to beat you...\n"
-    trainertextentry 142, TEXT_DEFEATED_IN_OVERWORLD, "Next time we meet im going\r to win for sure!!\n"
+    trainertextentry 142, TEXT_NOTICE_IN_OVERWORLD, "My name is Nate and I am also from\nthe Unova Region! Lets see how good\fyou are!\r"
+    trainertextentry 142, TEXT_DEFEATED_IN_BATTLE, "You are strong! I gotta up my game to\nbeat you...\n"
+    trainertextentry 142, TEXT_DEFEATED_IN_OVERWORLD, "Next time we meet Im going to win for sure!!\n"
 
 _1A54: // Trainer 334
-    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do.\n Lets see who is stronger now,\r  Me or You!\r"
-    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Wow! you are a strong trainer\r thats for sure...\n"
-    trainertextentry 334, TEXT_DEFEATED_IN_OVERWORLD, "I can just tell you\r are going to be champion\r take this TM that is\r beside me it’ll help you on\r your journey!\n"
+    trainertextentry 334, TEXT_NOTICE_IN_OVERWORLD, "Remember me? I bet you do. Lets see\nwho is stronger now, Me or You!\r"
+    trainertextentry 334, TEXT_DEFEATED_IN_BATTLE, "Wow! you are a strong trainer thats\nfor sure...\n"
+    trainertextentry 334, TEXT_DEFEATED_IN_OVERWORLD, "I can just tell you are going to be\nchampion\rtake this TM that is beside\fme it’ll help you on your journey!\n"
 
 _1A58: // Trainer 520
-    trainertextentry 520, TEXT_NOTICE_IN_OVERWORLD, "So you became champion of\r the Johto Region? Thats great!\r Now I wanna battle you and\r your Pokemon at full power!!\n"
-    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "I'm still not strong enough\r to beat you...\n"
-    trainertextentry 520, TEXT_DEFEATED_IN_OVERWORLD, "You are a great trainer!\r You should come to the Unova\r Region sometime and take on the\r Unova League!!\n"
+    trainertextentry 520, TEXT_NOTICE_IN_OVERWORLD, "So you became champion of the Johto\nRegion? Thats great! Now I wanna\fbattle you and your Pokemon at full\npower!!\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_BATTLE, "I'm still not strong enough to beat\nyou...\n"
+    trainertextentry 520, TEXT_DEFEATED_IN_OVERWORLD, "You are a great trainer! You should\ncome to the Unova Region sometime and\ftake on the Unova League!!\n"
 
 _1A5C: // Trainer 622
     trainertextentry 622, TEXT_DEFEATED_IN_BATTLE, "Arrgh! This is NOT my day!\n"
