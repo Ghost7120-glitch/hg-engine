@@ -2780,34 +2780,34 @@ _192C: // Trainer 509
     trainertextentry 509, TEXT_DEFEATED_IN_BATTLE, "Urf!\nI lose!\n"
 
 _1930: // Trainer 460
-    trainertextentry 460, TEXT_NOTICE_IN_OVERWORLD, "Hey its you again!\nI've been training alot since\r you beat me and Barry in front\r of Bellsprout Tower.\n Lets see who is stronger!\n"
-    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Guess I still got a ways\r to go...\n"
-    trainertextentry 460, TEXT_DEFEATED_IN_OVERWORLD, "Take this TM that is near me\r im sure you'll have good use\r of it on your adventure!\n"
+    trainertextentry 460, TEXT_NOTICE_IN_OVERWORLD, "Hey its you again! I've been training\nalot since you beat me and Barry in\ffront of Bellsprout Tower. Lets see\nwho is stronger!\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_BATTLE, "Guess I still got a ways to go...\n"
+    trainertextentry 460, TEXT_DEFEATED_IN_OVERWORLD, "Take this TM that is near me, Im sure\nyou'll have good use of it on your\fadventure!\n"
 
 _1934: // Trainer 461
-    trainertextentry 461, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I'm not\r gonna lose this battle!\n"
-    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "Thats 3 battles ive lost against you...\n"
-    trainertextentry 461, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle but\r next time i am gonna win for sure!\n"
+    trainertextentry 461, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I'm not gonna lose\nthis battle!\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_BATTLE, "That's 3 battles I've lost against\nyou...\n"
+    trainertextentry 461, TEXT_DEFEATED_IN_OVERWORLD, "That was a great battle but next time\nI am gonna win for sure!\n"
 
 _1938: // Trainer 512
-    trainertextentry 512, TEXT_NOTICE_IN_OVERWORLD, "This is where I am at\r my strongest.\nGet ready for one tough battle!!\n"
+    trainertextentry 512, TEXT_NOTICE_IN_OVERWORLD, "This is where I am at my strongest.\nGet ready for one tough battle!!\n"
     trainertextentry 512, TEXT_DEFEATED_IN_BATTLE, "You are the better Trainer...\n"
-    trainertextentry 512, TEXT_DEFEATED_IN_OVERWORLD, "I am glad to have met\r a trainer as strong as you!\nThis is motivation to get even more\r stronger!\n"
+    trainertextentry 512, TEXT_DEFEATED_IN_OVERWORLD, "I am glad to have met a trainer as\nstrong as you! This is motivation to\fget even more stronger!\n"
 
 _193C: // Trainer 279
-    trainertextentry 279, TEXT_NOTICE_IN_OVERWORLD, "We meet again. I saw your\r battle with Morty.\nThat was a great battle but now lets\r see how you fare against me!\n"
-    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "Guess you are better than I thought...\n"
-    trainertextentry 279, TEXT_DEFEATED_IN_OVERWORLD, "Next time we battle its gonna\r be phenominal I can't wait!!\n"
+    trainertextentry 279, TEXT_NOTICE_IN_OVERWORLD, "We meet again. I saw your battle with\nMorty. That was a great battle but now\flets see how you fare against me!\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_BATTLE, "Guess you are better than I\nthought...\n"
+    trainertextentry 279, TEXT_DEFEATED_IN_OVERWORLD, "Next time we battle its gonna be\nphenomenal I can't wait!!\n"
 
 _1940: // Trainer 280
-    trainertextentry 280, TEXT_NOTICE_IN_OVERWORLD, "Me and Sceptile arent gonna\r lose. We have gotten stronger and even\r got Mega Evolution!\n"
+    trainertextentry 280, TEXT_NOTICE_IN_OVERWORLD, "Me and Sceptile arent gonna lose! We\nhave gotten stronger and even got Mega\fEvolution!\n"
     trainertextentry 280, TEXT_DEFEATED_IN_BATTLE, "Even with Mega Evolution we cant win...\n"
-    trainertextentry 280, TEXT_DEFEATED_IN_OVERWORLD, "Looks like we gotta train\r even harder if we ever want\r a chance at beating you!\n"
+    trainertextentry 280, TEXT_DEFEATED_IN_OVERWORLD, "Looks like we gotta train even harder\nif we ever want a chance at beating\fyou!\n"
 
 _1944: // Trainer 510
-    trainertextentry 510, TEXT_NOTICE_IN_OVERWORLD, "I heard you became champion!\r Congratulations! Now is the perfect\r time to test my strength\r against the champion of Johto!\n"
-    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "Woah... This is how strong the champion\r of Johto is... Amazing!!\n"
-    trainertextentry 510, TEXT_DEFEATED_IN_OVERWORLD, "You should come to the Hoenn\r Region sometime to take on the Hoenn league!\n"
+    trainertextentry 510, TEXT_NOTICE_IN_OVERWORLD, "I heard you became champion!\nCongratulations! Now is the perfect\ftime to test my strength against the\nchampion of Johto!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_BATTLE, "Woah... This is how strong the\nchampion of Johto is... Amazing!!\n"
+    trainertextentry 510, TEXT_DEFEATED_IN_OVERWORLD, "You should come to the Hoenn Region\nsometime to take on the Hoenn\fleague!\n"
 
 _1948: // Trainer 430
     trainertextentry 430, TEXT_DEFEATED_IN_BATTLE, "Huh?\n"
@@ -2837,19 +2837,19 @@ _1968: // Trainer 636
     trainertextentry 636, TEXT_DEFEATED_IN_BATTLE, "Hffff...hffff... I’m out of breath...\n"
 
 _196C: // Trainer 616
-    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and i am\r from the Unova Region! I wanna see\r how strong you are. Now lets go!!\n"
-    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers\r were this strong...\n"
-    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you \r again once i get stronger!\n"
+    trainertextentry 616, TEXT_NOTICE_IN_OVERWORLD, "Heya! My name is Rosa and I am from\nthe Unova Region! I wanna see how\fstrong you are. Now lets go!!\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_BATTLE, "I didn’t know Johto Trainers were\nthis strong...\n"
+    trainertextentry 616, TEXT_DEFEATED_IN_OVERWORLD, "I can’t wait to battle you again once\nI get stronger!\n"
 
 _1970: // Trainer 617
-    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going\r to beat you this time so\r prepare yourself!!\n"
+    trainertextentry 617, TEXT_NOTICE_IN_OVERWORLD, "Hey we meet again!! I'm going to beat\nyou this time so prepare yourself!!\n"
     trainertextentry 617, TEXT_DEFEATED_IN_BATTLE, "Damn... I lost to you again...\n"
-    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise\r you that! for now have the\r TM next to me as a reward!!\n"
+    trainertextentry 617, TEXT_DEFEATED_IN_OVERWORLD, "I’ll get you next time I promise you\nthat! for now have the TM next to me\fas a reward!!\n"
 
 _1974: // Trainer 618
-    trainertextentry 618, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont hold\r back, get ready to lose!!\n"
-    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "Even after I have gotten so strong\r I still cant beat you...\n"
-    trainertextentry 618, TEXT_DEFEATED_IN_OVERWORLD, "For some reason I knew\r I would lose to you again.\r I'm glad that i got to meet\r a very strong trainer from\r the Johto Region!!\n"
+    trainertextentry 618, TEXT_NOTICE_IN_OVERWORLD, "Alright this time I wont hold back,\nget ready to lose!!\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_BATTLE, "Even after I have gotten so strong I\nstill cant beat you...\n"
+    trainertextentry 618, TEXT_DEFEATED_IN_OVERWORLD, "For some reason I knew I would lose\nto you again. I'm glad that i got to\fmeet a very strong trainer from the\nJohto Region!!\n"
 
 _1978: // Trainer 250
     trainertextentry 250, TEXT_DEFEATED_IN_BATTLE, "Waaaargh!\n"
@@ -2888,20 +2888,20 @@ _19A4: // Trainer 522
     trainertextentry 522, TEXT_DEFEATED_IN_BATTLE, "I played too much!\n"
 
 _19A8: // Trainer 100
-    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei\r I am an Ex Elite Four\r member.\nI came to Johto to explore\r the Ice Path to see what\r ice type pokemon appeared here.\n We should have a battle\r to see what you are capableof!\n"
+    trainertextentry 100, TEXT_NOTICE_IN_OVERWORLD, "Hello! My name is Lorelei I am an Ex\nElite Four member. I came to Johto to\fexplore the Ice Path to see what ice\ntype pokemon appeared here. We should\fhave a battle to see what you are\ncapable of!\n"
     trainertextentry 100, TEXT_DEFEATED_IN_BATTLE, "Well this is an interesting outcome!\n"
-    trainertextentry 100, TEXT_DEFEATED_IN_OVERWORLD, "this was a great battle\r experience!\nCollect the TM beside me to help\r you on your journey!\n"
+    trainertextentry 100, TEXT_DEFEATED_IN_OVERWORLD, "This was a great battle experience!\nCollect the TM beside me to help you\fon your journey!\n"
 
 _19AC: // Trainer 155
-    trainertextentry 155, TEXT_NOTICE_IN_OVERWORLD, "You remind me of a\r boy from pallet town that\r challenged the league 3 years\r ago!\nI am Agatha! an ex elite\r four member and I use Ghost\r type Pokemon!\n"
-    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Beaten by a mere brat again...\nYou've got what it takes to\r compete in the Pokemon League\n"
-    trainertextentry 155, TEXT_DEFEATED_IN_OVERWORLD, "There is a TM nearby.\nIt will help you on your journey.\n"
+    trainertextentry 155, TEXT_NOTICE_IN_OVERWORLD, "You remind me of a boy from pallet\ntown that challenged the league 3\fyears ago!I am Agatha! an Ex Elite\nFour member and I use Ghost type\fPokemon!\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_BATTLE, "Beaten by a mere brat again... You've\ngot what it takes to compete in the\fPokemon League\n"
+    trainertextentry 155, TEXT_DEFEATED_IN_OVERWORLD, "There is a TM nearby. It will help\nyou on your journey.\n"
 
 _19B0: // Trainer 523
-    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them…\r the voices of your Pokémon. They speak\r of trust between you.\nI am N, a traveler who listens to\r the hearts of Pokémon.\r Let us battle, and see what\r truth your bond reveals.\n"
-    trainertextentry 523, TEXT_LAST_MON_SENT_OUT, "So this is the strength born from\r your bond… Then my partner and I\r will answer with everything we have!\n"
-    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon… they’re happy.\r I can hear it clearly.\n"
-    trainertextentry 523, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps the future I once believed\r in was incomplete…\nThe bond between people and Pokémon\r may be stronger than I imagined.\n"
+    trainertextentry 523, TEXT_NOTICE_IN_OVERWORLD, "I can hear them… the voices of your\nPokémon. They speak of trust between\fyou. I am N, a traveler who listens to\nthe hearts of Pokémon. Let us battle,\fand see what truth your bond\nreveals.\n"
+    trainertextentry 523, TEXT_LAST_MON_SENT_OUT, "So this is the strength born from\nyour bond… Then my partner and I will\fanswer with everything we have!\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_BATTLE, "Your Pokémon… they’re happy. I can\nhear it clearly.\n"
+    trainertextentry 523, TEXT_DEFEATED_IN_OVERWORLD, "Perhaps the future I once believed in\nwas incomplete… The bond between\fpeople and Pokémon may be stronger\nthan I imagined.\n"
 
 _19B4: // Trainer 619
     trainertextentry 619, TEXT_DEFEATED_IN_BATTLE, "Ow!\nI scorched the tip of my nose!\n"
