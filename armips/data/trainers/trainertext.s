@@ -3167,12 +3167,12 @@ _1B20: // Trainer 180
     trainertextentry 180, TEXT_DEFEATED_IN_OVERWORLD, "Wow… you’re really strong! That was\nfun!\n"
 
 _1B24: // Trainer 194
-    trainertextentry 194, TEXT_NOTICE_IN_OVERWORLD, "Alright! Time to show you the power of\ndigging into battle head-on! Let’s go,\fDad!\n"
+    trainertextentry 194, TEXT_NOTICE_IN_OVERWORLD, "Alright! Time to show you the power of\ndigging into battle head on! Let’s go,\fDad!\n"
     trainertextentry 194, TEXT_DEFEATED_IN_BATTLE, "Whoa… guess I still have more to\nlearn…\n"
     trainertextentry 194, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! Battling like this\nreally fires me up!\n"
 
 _1B28: // Trainer 207
-    trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "Stand firm, Roark. A true battle is\nbuilt on solid foundations. Now,\fchallenger—face the strength of steel\nand stone.\n"
+    trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "Stand firm, Roark. A true battle is\nbuilt on solid foundations. Now,\fchallenger, face the strength of steel\nand stone.\n"
     trainertextentry 207, TEXT_DEFEATED_IN_BATTLE, "Hm… our defenses were not enough…\n"
     trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "You’ve proven your strength. Continue\nto build it, layer by layer, like the\ffinest steel.\n"
 
