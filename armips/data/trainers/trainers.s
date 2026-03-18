@@ -14241,9 +14241,9 @@ trainerdata 306, "Noland"
         ballseal 0
     endparty
 
-trainerdata 307, "Greta"
+trainerdata 307, "Lucy"
     trainermontype TRAINER_DATA_TYPE_ITEMS | TRAINER_DATA_TYPE_MOVES | TRAINER_DATA_TYPE_ABILITY
-    trainerclass TRAINERCLASS_ARENA_TYCOON
+    trainerclass TRAINERCLASS_PIKE_QUEEN
     nummons 6
     item ITEM_FULL_RESTORE
     item ITEM_NONE
