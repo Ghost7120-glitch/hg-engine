@@ -3179,15 +3179,15 @@ _1B28: // Trainer 207
 _1B2C: // Trainer 208
     trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Welcome, challenger. I am Winona, who\nsoars with the wind and skies of\rHoenn. Let us see if your spirit can\nrise to meet mine.\n"
     trainertextentry 208, TEXT_DEFEATED_IN_BATTLE, "You have soared higher than I… a truly\nelegant battle.\n"
-    trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "Like the wind, you are ever-moving and\nfree. Continue to rise, and your\rstrength will know no bounds.\n"
+    trainertextentry 208, TEXT_DEFEATED_IN_OVERWORLD, "Like the wind, you are ever moving and\nfree. Continue to rise, and your\rstrength will know no bounds.\n"
 
 _1B30: // Trainer 221
-    trainertextentry 221, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Gardenia, the\nGrass-type Gym Leader! You ready to\rsee how tough nature can be when it’s\nin full bloom?\n"
+    trainertextentry 221, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Gardenia, the\nGrass type Gym Leader! You ready to\rsee how tough nature can be when it’s\nin full bloom?\n"
     trainertextentry 221, TEXT_DEFEATED_IN_BATTLE, "No way… you cut right through me!\n"
-    trainertextentry 221, TEXT_DEFEATED_IN_OVERWORLD, "Wow, that was an awesome battle!\nYou’ve really grown strong, just like\ra well-raised Pokémon!\n"
+    trainertextentry 221, TEXT_DEFEATED_IN_OVERWORLD, "Wow, that was an awesome battle!\nYou’ve really grown strong, just like\ra well raised Pokémon!\n"
 
 _1B34: // Trainer 225
-    trainertextentry 225, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Candice, the Snowpoint\nGym Leader! Ready to chill out with a\rred-hot battle?\n"
+    trainertextentry 225, TEXT_NOTICE_IN_OVERWORLD, "Hey there! I’m Candice, the Snowpoint\nGym Leader! Ready to chill out with a\rred hot battle?\n"
     trainertextentry 225, TEXT_DEFEATED_IN_BATTLE, "Whoa! You totally melted through my\nteam!\n"
     trainertextentry 225, TEXT_DEFEATED_IN_OVERWORLD, "That was so cool! You’ve got serious\nstrength, keep that fire burning\rbright!\n"
 
@@ -3198,7 +3198,7 @@ _1B38: // Trainer 262
 
 _1B3C: // Trainer 273
     trainertextentry 273, TEXT_NOTICE_IN_OVERWORLD, "Ahahaha! Welcome, young Trainer! I’m\nWattson, and I’ve got a shocking good\rtime planned for you!\n"
-    trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "Oh ho! You short-circuited my plans!\n"
+    trainertextentry 273, TEXT_DEFEATED_IN_BATTLE, "Oh ho! You short circuited my plans!\n"
     trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "Ahahaha! That was electrifying! Keep\nthat energy flowing, and you’ll go\rfar!\n"
 
 _1B40: // Trainer 292
@@ -3209,7 +3209,7 @@ _1B40: // Trainer 292
 _1B44: // Trainer 295
     trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "Whoa! You made it all the way here\ntoo? Hah! That means you’ve gotta be\rstrong! I’m Benga let’s have a battle\nthat’ll shake Victory Road!\n"
     trainertextentry 295, TEXT_DEFEATED_IN_BATTLE, "Haha! That was incredible! You’re\nseriously strong!\n"
-    trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "Battles like that are the best! I’m\ngonna keep training till I can match\ryou—no, beat you next time!\n"
+    trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "Battles like that are the best! I’m\ngonna keep training till I can match\ryou no, beat you next time!\n"
 
 _1B48: // Trainer 304
     trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "Hey… I was hoping we’d meet again.\nThis is it. our final battle. I’ve\rgiven it everything I’ve got to get\nhere, so I won’t hold anything back!\n"
