@@ -3407,7 +3407,7 @@ _1BE0: // Trainer 544
     trainertextentry 544, TEXT_DEFEATED_IN_OVERWORLD, "You won the bet... You may proceed to\nMt.Silver...\n"
 
 _1BE4: // Trainer 667
-    trainertextentry 667, TEXT_NOTICE_IN_OVERWORLD, "Oh… hello. My name is Cheryl. I’ll do\nmy best—please, let’s have a kind and\rfair battle.\n"
+    trainertextentry 667, TEXT_NOTICE_IN_OVERWORLD, "Oh… hello. My name is Cheryl. I’ll do\nmy best. please, let’s have a kind and\rfair battle.\n"
     trainertextentry 667, TEXT_DEFEATED_IN_BATTLE, "Oh… I see… You’re very strong.\n"
     trainertextentry 667, TEXT_DEFEATED_IN_OVERWORLD, "Thank you… that battle helped me grow\na little stronger.\n"
 
@@ -3417,24 +3417,24 @@ _1BE8: // Trainer 668
     trainertextentry 668, TEXT_DEFEATED_IN_OVERWORLD, "Battles like this… make you better.\nDon’t forget that.\n"
 
 _1BEC: // Trainer 669
-    trainertextentry 669, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Mira! Let’s have a fun\nbattle—I want to see how strong you\rare!\n"
+    trainertextentry 669, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Mira! Let’s have a fun\nbattle. I want to see how strong you\rare!\n"
     trainertextentry 669, TEXT_DEFEATED_IN_BATTLE, "Oh no! I messed up again…\n"
     trainertextentry 669, TEXT_DEFEATED_IN_OVERWORLD, "That was still fun! I’ll keep trying\nand get better next time!\n"
 
 _1BF0: // Trainer 670
-    trainertextentry 670, TEXT_NOTICE_IN_OVERWORLD, "I am Riley. Strength is not just\npower—it is understanding. Show me\ryours.\nn"
+    trainertextentry 670, TEXT_NOTICE_IN_OVERWORLD, "I am Riley. Strength is not just\npower. it is understanding. Show me\ryours.\nn"
     trainertextentry 670, TEXT_DEFEATED_IN_BATTLE, "…You’ve shown true strength. Well\ndone.\n"
     trainertextentry 670, TEXT_DEFEATED_IN_OVERWORLD, "Your bond with your Pokémon is\nadmirable. Continue to refine it.\n"
 
 _1BF4: // Trainer 671
-    trainertextentry 671, TEXT_NOTICE_IN_OVERWORLD, "Hey! I’m Buck! I’ve been waiting for a\nbattle like this—let’s see what you’ve\rgot!\n"
+    trainertextentry 671, TEXT_NOTICE_IN_OVERWORLD, "Hey! I’m Buck! I’ve been waiting for a\nbattle like this, let’s see what you’ve\rgot!\n"
     trainertextentry 671, TEXT_DEFEATED_IN_BATTLE, "Whoa! That was intense! You’ve got\nserious power!\n"
     trainertextentry 671, TEXT_DEFEATED_IN_OVERWORLD, "That was awesome! I’m gonna train even\nharder and come back stronger!\n"
 
 _1BF8: // Trainer 707
     trainertextentry 707, TEXT_NOTICE_IN_OVERWORLD, "So, you’ve climbed this far. I am\nPalmer, the Tower Tycoon and I don’t\rgo easy on challengers who make it to\nme. Show me the strength that brought\ryou here!\n"
     trainertextentry 707, TEXT_DEFEATED_IN_BATTLE, "Ha! Outstanding! You’ve got real power\nbehind you!\n"
-    trainertextentry 707, TEXT_DEFEATED_IN_OVERWORLD, "That was a battle worth remembering!\nKeep pushing forward—you’ve got what\rit takes to go even further!\n"
+    trainertextentry 707, TEXT_DEFEATED_IN_OVERWORLD, "That was a battle worth remembering!\nKeep pushing forward, you’ve got what\rit takes to go even further!\n"
 
 _1BFC: // Trainer 708
     trainertextentry 708, TEXT_NOTICE_IN_OVERWORLD, "…So, you are the one who has come this\nfar. I am Argenta, the Hall Matron.\rHere, adaptability is everything, let\nus see how well you can face what lies\rahead.\n"
