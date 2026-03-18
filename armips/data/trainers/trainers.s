@@ -2794,7 +2794,7 @@ trainerdata 63, "Cynthia"
         move MOVE_SLUDGE_BOMB
         move MOVE_DAZZLING_GLEAM
         move MOVE_SLEEP_POWDER
-        ability ABILITY_TECHNICIAN
+        ability ABILITY_POISON_POINT
         ballseal 0
 
         // mon 1
