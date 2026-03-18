@@ -3229,7 +3229,7 @@ _1B50: // Trainer 306
 _1B54: // Trainer 307
     trainertextentry 307, TEXT_NOTICE_IN_OVERWORLD, "Ah, a new challenger steps onto my\nturf! I am Lucy, the Pike Queen! Only\rthe boldest Trainers can survive the\ntwists and turns of my arena… do you\rhave what it takes?\n"
     trainertextentry 307, TEXT_DEFEATED_IN_BATTLE, "Hah! I didn’t expect that… you’ve got\nreal skill!\n"
-    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "Impressive! You navigated my Pike and\nbattled with flair. Keep it up—you’ve\rgot the heart of a true champion!\n"
+    trainertextentry 307, TEXT_DEFEATED_IN_OVERWORLD, "Impressive! You navigated my Pike and\nbattled with flair. Keep it up, you’ve\rgot the heart of a true champion!\n"
 
 _1B58: // Trainer 338
     trainertextentry 338, TEXT_NOTICE_IN_OVERWORLD, "Ha! You’ve come all this way, huh? I’m\nTucker, the Dome Ace! Prepare yourself\rfor a battle that’s nothing short of\nspectacular!\n"
