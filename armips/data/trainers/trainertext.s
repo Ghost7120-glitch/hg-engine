@@ -3277,7 +3277,7 @@ _1B78: // Trainer 372
     trainertextentry 372, TEXT_DEFEATED_IN_OVERWORLD, "Strength comes from the deepest roots.\nYou’ve proven yours today.\n"
 
 _1B7C: // Trainer 375
-    trainertextentry 375, TEXT_NOTICE_IN_OVERWORLD, "Ah! You’ve made it this far… I am\nFlint. Flames test both courage and\rresolve—let’s see if you can handle\nthe heat!\n"
+    trainertextentry 375, TEXT_NOTICE_IN_OVERWORLD, "Ah! You’ve made it this far… I am\nFlint. Flames test both courage and\rresolve. let’s see if you can handle\nthe heat!\n"
     trainertextentry 375, TEXT_DEFEATED_IN_BATTLE, "Hah… you’ve endured the flames…\nimpressive work!\n"
     trainertextentry 375, TEXT_DEFEATED_IN_OVERWORLD, "Fire tests those who are bold and\nsteadfast. You’ve proven you can stand\rthe heat.\n"
 
@@ -3312,17 +3312,17 @@ _1B94: // Trainer 474
     trainertextentry 474, TEXT_DEFEATED_IN_OVERWORLD, "...\n"
 
 _1B98: // Trainer 475
-    trainertextentry 475, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Dawn! Let’s see how strong you\nare—I’m ready for my very first battle\rwith you!\n"
+    trainertextentry 475, TEXT_NOTICE_IN_OVERWORLD, "Hi! I’m Dawn! Let’s see how strong you\nare. I’m ready for my very first battle\rwith you!\n"
     trainertextentry 475, TEXT_DEFEATED_IN_BATTLE, "Oh… I didn’t win… but that was really\nfun!\n"
     trainertextentry 475, TEXT_DEFEATED_IN_OVERWORLD, "Wow! You’re really strong! I’ll train\neven harder so we can battle again!\n"
 
 _1B9C: // Trainer 476
     trainertextentry 476, TEXT_NOTICE_IN_OVERWORLD, "Hey! so now it’s time to see who’s\nreally stronger!\n"
     trainertextentry 476, TEXT_DEFEATED_IN_BATTLE, "Ah… I didn’t win… but that was so much\nfun!\n"
-    trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "You’re really strong! I’ll train even\nharder—next time, I’m going to win!\n"
+    trainertextentry 476, TEXT_DEFEATED_IN_OVERWORLD, "You’re really strong! I’ll train even\nharder, next time, I’m going to win!\n"
 
 _1BA0: // Trainer 477
-    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "So… you’re the Trainer I’ve heard\nabout. I’m Cynthia. Let’s see how\rstrong you really are—show me the bond\nyou share with your Pokémon.\n"
+    trainertextentry 477, TEXT_NOTICE_IN_OVERWORLD, "So… you’re the Trainer I’ve heard\nabout. I’m Cynthia. Let’s see how\rstrong you really are. show me the bond\nyou share with your Pokémon.\n"
     trainertextentry 477, TEXT_DEFEATED_IN_BATTLE, "Hmm… impressive. You’ve got skill\nbeyond your years.\n"
     trainertextentry 477, TEXT_DEFEATED_IN_OVERWORLD, "You handled yourself well. Keep\ntraining… there’s always room to grow\rstronger.\n"
 
