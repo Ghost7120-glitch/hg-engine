@@ -3202,17 +3202,17 @@ _1B3C: // Trainer 273
     trainertextentry 273, TEXT_DEFEATED_IN_OVERWORLD, "Ahahaha! That was electrifying! Keep\nthat energy flowing, and you’ll go\rfar!\n"
 
 _1B40: // Trainer 292
-    trainertextentry 292, TEXT_NOTICE_IN_OVERWORLD, "Hey! I was hoping we’d run into each\nother again. I’ve been training\rnonstop since our last battle—this\ntime, I won’t fall behind!\n"
+    trainertextentry 292, TEXT_NOTICE_IN_OVERWORLD, "Hey! I was hoping we’d run into each\nother again. I’ve been training\rnonstop since our last battle, this\ntime, I won’t fall behind!\n"
     trainertextentry 292, TEXT_DEFEATED_IN_BATTLE, "Ah… you’re still one step ahead… but\nI’m catching up!\n"
     trainertextentry 292, TEXT_DEFEATED_IN_OVERWORLD, "Battling you really shows me how much\nfurther I can go. Next time, I’ll be\reven stronger!\n"
 
 _1B44: // Trainer 295
-    trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "Whoa! You made it all the way here\ntoo? Hah! That means you’ve gotta be\rstrong! I’m Benga—let’s have a battle\nthat’ll shake Victory Road!\n"
+    trainertextentry 295, TEXT_NOTICE_IN_OVERWORLD, "Whoa! You made it all the way here\ntoo? Hah! That means you’ve gotta be\rstrong! I’m Benga let’s have a battle\nthat’ll shake Victory Road!\n"
     trainertextentry 295, TEXT_DEFEATED_IN_BATTLE, "Haha! That was incredible! You’re\nseriously strong!\n"
     trainertextentry 295, TEXT_DEFEATED_IN_OVERWORLD, "Battles like that are the best! I’m\ngonna keep training till I can match\ryou—no, beat you next time!\n"
 
 _1B48: // Trainer 304
-    trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "Hey… I was hoping we’d meet again.\nThis is it—our final battle. I’ve\rgiven it everything I’ve got to get\nhere, so I won’t hold anything back!\n"
+    trainertextentry 304, TEXT_NOTICE_IN_OVERWORLD, "Hey… I was hoping we’d meet again.\nThis is it. our final battle. I’ve\rgiven it everything I’ve got to get\nhere, so I won’t hold anything back!\n"
     trainertextentry 304, TEXT_DEFEATED_IN_BATTLE, "I… gave it my all… and I’m still\nsmiling. That means I’ve really\rgrown.\n"
     trainertextentry 304, TEXT_DEFEATED_IN_OVERWORLD, "Thank you for battling me all this\nway. I’m going to keep going, keep\rimproving… just like you.\n"
 
