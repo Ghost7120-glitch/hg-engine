@@ -3174,7 +3174,7 @@ _1B24: // Trainer 194
 _1B28: // Trainer 207
     trainertextentry 207, TEXT_NOTICE_IN_OVERWORLD, "Stand firm, Roark. A true battle is\nbuilt on solid foundations. Now,\fchallenger—face the strength of steel\nand stone.\n"
     trainertextentry 207, TEXT_DEFEATED_IN_BATTLE, "Hm… our defenses were not enough…\n"
-    trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "You’ve proven your strength. Continue\nto build it—layer by layer, like the\ffinest steel.\n"
+    trainertextentry 207, TEXT_DEFEATED_IN_OVERWORLD, "You’ve proven your strength. Continue\nto build it, layer by layer, like the\ffinest steel.\n"
 
 _1B2C: // Trainer 208
     trainertextentry 208, TEXT_NOTICE_IN_OVERWORLD, "Welcome, challenger. I am Winona, who\nsoars with the wind and skies of\rHoenn. Let us see if your spirit can\nrise to meet mine.\n"
