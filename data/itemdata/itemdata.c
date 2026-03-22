@@ -13858,7 +13858,7 @@ const ITEMDATA __data[] =
 
 [ITEM_BRIGHT_POWDER] =
 {
-    .price = 30000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_ACC_REDUCE,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -14313,7 +14313,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHOICE_BAND] =
 {
-    .price = 200, // costs 100000 as of SV, but we can not encode that at this moment!
+    .price = 2000, // costs 100000 as of SV, but we can not encode that at this moment!
     .holdEffect = HOLD_EFFECT_CHOICE_ATK,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -14390,9 +14390,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15170,9 +15170,9 @@ const ITEMDATA __data[] =
     .selectable = FALSE,
     .fieldPocket = POCKET_ITEMS,
     .battlePocket = BATTLE_POCKET_NONE,
-    .fieldUseFunc = 0,
+    .fieldUseFunc = 20,
     .battleUseFunc = 0,
-    .partyUse = 0,
+    .partyUse = 1,
     .partyUseParam = {
         .slp_heal = FALSE,
         .psn_heal = FALSE,
@@ -15223,7 +15223,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LEFTOVERS] =
 {
-    .price = 20000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_HP_RESTORE_GRADUAL,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -17238,7 +17238,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WIDE_LENS] =
 {
-    .price = 20000,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_ACCURACY_UP,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -17498,7 +17498,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LIGHT_CLAY] =
 {
-    .price = 20000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_EXTEND_SCREENS,
     .holdEffectParam = 3,
     .pluckEffect = 0,
@@ -17563,7 +17563,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LIFE_ORB] =
 {
-    .price = 50000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_HP_DRAIN_ON_ATK,
     .holdEffectParam = 30,
     .pluckEffect = 0,
@@ -17758,7 +17758,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FLAME_ORB] =
 {
-    .price = 15000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_BRN_USER,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -17953,7 +17953,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ZOOM_LENS] =
 {
-    .price = 10000,
+    .price = 2000,
     .holdEffect = HOLD_EFFECT_ACCURACY_UP_SLOWER,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -18343,7 +18343,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ICY_ROCK] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_EXTEND_HAIL,
     .holdEffectParam = 3,
     .pluckEffect = 0,
@@ -18408,7 +18408,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SMOOTH_ROCK] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_EXTEND_SANDSTORM,
     .holdEffectParam = 3,
     .pluckEffect = 0,
@@ -18473,7 +18473,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEAT_ROCK] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_EXTEND_SUN,
     .holdEffectParam = 3,
     .pluckEffect = 0,
@@ -18538,7 +18538,7 @@ const ITEMDATA __data[] =
 
 [ITEM_DAMP_ROCK] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_EXTEND_RAIN,
     .holdEffectParam = 3,
     .pluckEffect = 0,
@@ -18668,7 +18668,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHOICE_SCARF] =
 {
-    .price = 200, // costs 100000 as of SV, but we can not encode that
+    .price = 2000, // costs 100000 as of SV, but we can not encode that
     .holdEffect = HOLD_EFFECT_CHOICE_SPEED,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -19318,7 +19318,7 @@ const ITEMDATA __data[] =
 
 [ITEM_CHOICE_SPECS] =
 {
-    .price = 200, // costs 100000 as of SV, but we can't encode that
+    .price = 2000, // costs 100000 as of SV, but we can't encode that
     .holdEffect = HOLD_EFFECT_CHOICE_SPATK,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -34983,7 +34983,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EVIOLITE] =
 {
-    .price = 50000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_EVIOLITE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35178,7 +35178,7 @@ const ITEMDATA __data[] =
 
 [ITEM_AIR_BALLOON] =
 {
-    .price = 15000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_UNGROUND_DESTROYED_ON_HIT,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35568,7 +35568,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EJECT_BUTTON] =
 {
-    .price = 30000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_SWITCH_OUT_WHEN_HIT,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -41613,7 +41613,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ASSAULT_VEST] =
 {
-    .price = 50000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_SPDEF_BOOST_NO_STATUS_MOVES,
     .holdEffectParam = 50,
     .pluckEffect = 0,
@@ -72748,7 +72748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EJECT_PACK] =
 {
-    .price = 30000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_SWITCH_OUT_ON_STAT_DROP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -122603,7 +122603,7 @@ const ITEMDATA __data[] =
 
 [ITEM_LOADED_DICE] =
 {
-    .price = 20000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_INCREASE_MULTI_STRIKE_MINIMUM,
     .holdEffectParam = 0,
     .pluckEffect = 0,
