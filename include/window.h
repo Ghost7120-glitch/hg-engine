@@ -58,6 +58,5 @@ void LONG_CALL FillBgTilemapRect(void *bgConfig, u8 bgId, u16 fillValue, u8 x, u
 u32 LONG_CALL FontID_String_GetCenterAlignmentX(u8 fontId, String *string, u32 letterSpacing, u32 windowWidth);
 u8 LONG_CALL GetWindowWidth(struct Window *window);
 void LONG_CALL ScheduleWindowCopyToVram(struct Window *window);
-void LONG_CALL SetBgPriority(u8 bgId, u16 priority);
 
 #endif

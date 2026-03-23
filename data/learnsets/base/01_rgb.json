@@ -40,20 +40,20 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -103,20 +103,20 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -170,21 +170,21 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -227,19 +227,17 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -248,7 +246,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -295,19 +295,17 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -316,7 +314,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -367,8 +367,8 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -376,13 +376,11 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -391,7 +389,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -434,28 +434,28 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -502,28 +502,28 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -574,31 +574,31 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -621,6 +621,14 @@
   "SPECIES_METAPOD": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_STRING_SHOT"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_TACKLE"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_HARDEN"
       }
@@ -631,6 +639,18 @@
   },
   "SPECIES_BUTTERFREE": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_HARDEN"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_STRING_SHOT"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_TACKLE"
+      },
       {
         "Level": 1,
         "Move": "MOVE_CONFUSION"
@@ -667,22 +687,22 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_PSYWAVE",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -706,6 +726,14 @@
   "SPECIES_KAKUNA": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_POISON_STING"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_STRING_SHOT"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_HARDEN"
       }
@@ -716,6 +744,18 @@
   },
   "SPECIES_BEEDRILL": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_HARDEN"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_POISON_STING"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_STRING_SHOT"
+      },
       {
         "Level": 1,
         "Move": "MOVE_FURY_ATTACK"
@@ -747,13 +787,12 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_MEGA_DRAIN",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_MEGA_DRAIN",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -761,7 +800,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -800,10 +840,9 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -812,7 +851,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -855,10 +895,9 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -867,7 +906,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -914,11 +954,10 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -927,7 +966,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -960,17 +1000,17 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -1014,19 +1054,19 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -1072,10 +1112,9 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -1083,7 +1122,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1126,11 +1166,10 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -1138,7 +1177,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1175,23 +1215,23 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1232,24 +1272,24 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1273,47 +1313,63 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 26,
-        "Move": "MOVE_SWIFT"
-      },
-      {
         "Level": 33,
         "Move": "MOVE_AGILITY"
       },
       {
         "Level": 43,
         "Move": "MOVE_THUNDER"
+      },
+      {
+        "Level": 26,
+        "Move": "MOVE_SWIFT"
       }
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_RAICHU": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_AGILITY"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_QUICK_ATTACK"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SWIFT"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_THUNDER"
+      },
       {
         "Level": 1,
         "Move": "MOVE_THUNDER_SHOCK"
@@ -1329,28 +1385,28 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1384,18 +1440,16 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -1403,7 +1457,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1441,19 +1497,17 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -1461,7 +1515,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1481,6 +1537,10 @@
         "Move": "MOVE_SCRATCH"
       },
       {
+        "Level": 43,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 14,
         "Move": "MOVE_POISON_STING"
       },
@@ -1495,21 +1555,17 @@
       {
         "Level": 36,
         "Move": "MOVE_FURY_SWIPES"
-      },
-      {
-        "Level": 43,
-        "Move": "MOVE_DOUBLE_KICK"
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_BLIZZARD",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1540,6 +1596,10 @@
         "Move": "MOVE_SCRATCH"
       },
       {
+        "Level": 50,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 14,
         "Move": "MOVE_POISON_STING"
       },
@@ -1554,25 +1614,21 @@
       {
         "Level": 41,
         "Move": "MOVE_FURY_SWIPES"
-      },
-      {
-        "Level": 50,
-        "Move": "MOVE_DOUBLE_KICK"
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1586,6 +1642,22 @@
   },
   "SPECIES_NIDOQUEEN": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_BITE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FURY_SWIPES"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_GROWL"
+      },
       {
         "Level": 1,
         "Move": "MOVE_TACKLE"
@@ -1607,38 +1679,36 @@
         "Move": "MOVE_SCRATCH"
       },
       {
-        "Level": 14,
-        "Move": "MOVE_POISON_STING"
-      },
-      {
         "Level": 23,
         "Move": "MOVE_BODY_SLAM"
+      },
+      {
+        "Level": 14,
+        "Move": "MOVE_POISON_STING"
       }
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1647,7 +1717,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1667,6 +1739,10 @@
         "Move": "MOVE_HORN_ATTACK"
       },
       {
+        "Level": 43,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 14,
         "Move": "MOVE_POISON_STING"
       },
@@ -1681,22 +1757,18 @@
       {
         "Level": 36,
         "Move": "MOVE_HORN_DRILL"
-      },
-      {
-        "Level": 43,
-        "Move": "MOVE_DOUBLE_KICK"
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_BLIZZARD",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1727,6 +1799,10 @@
         "Move": "MOVE_HORN_ATTACK"
       },
       {
+        "Level": 50,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
         "Level": 14,
         "Move": "MOVE_POISON_STING"
       },
@@ -1741,25 +1817,21 @@
       {
         "Level": 41,
         "Move": "MOVE_HORN_DRILL"
-      },
-      {
-        "Level": 50,
-        "Move": "MOVE_DOUBLE_KICK"
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1773,6 +1845,26 @@
   },
   "SPECIES_NIDOKING": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_DOUBLE_KICK"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FOCUS_ENERGY"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FURY_ATTACK"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_HORN_DRILL"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_LEER"
+      },
       {
         "Level": 1,
         "Move": "MOVE_TACKLE"
@@ -1804,28 +1896,26 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -1834,7 +1924,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -1877,24 +1969,22 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -1903,17 +1993,35 @@
       "MOVE_METRONOME",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_CLEFABLE": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_DEFENSE_CURL"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_GROWL"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_LIGHT_SCREEN"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_POUND"
+      },
       {
         "Level": 1,
         "Move": "MOVE_SING"
@@ -1934,25 +2042,23 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -1961,11 +2067,13 @@
       "MOVE_METRONOME",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2002,12 +2110,12 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -2023,6 +2131,18 @@
   },
   "SPECIES_NINETALES": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_CONFUSE_RAY"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FIRE_SPIN"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FLAMETHROWER"
+      },
       {
         "Level": 1,
         "Move": "MOVE_EMBER"
@@ -2041,13 +2161,13 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -2099,24 +2219,22 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -2124,17 +2242,35 @@
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_WIGGLYTUFF": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_BODY_SLAM"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_DOUBLE_EDGE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_POUND"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_REST"
+      },
       {
         "Level": 1,
         "Move": "MOVE_SING"
@@ -2155,25 +2291,23 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -2181,11 +2315,13 @@
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2220,11 +2356,11 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_MEGA_DRAIN",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_MEGA_DRAIN",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2273,12 +2409,12 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_MEGA_DRAIN",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_MEGA_DRAIN",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2322,19 +2458,19 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2380,25 +2516,33 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_VILEPLUME": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_ABSORB"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SOLAR_BEAM"
+      },
       {
         "Level": 1,
         "Move": "MOVE_STUN_SPORE"
@@ -2430,21 +2574,21 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2478,22 +2622,22 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2535,23 +2679,23 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2592,19 +2736,19 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_PSYWAVE",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -2614,11 +2758,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TACKLE"
+        "Move": "MOVE_DISABLE"
       },
       {
         "Level": 1,
-        "Move": "MOVE_DISABLE"
+        "Move": "MOVE_LEECH_LIFE"
       },
       {
         "Level": 1,
@@ -2626,7 +2770,7 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_LEECH_LIFE"
+        "Move": "MOVE_TACKLE"
       },
       {
         "Level": 24,
@@ -2656,22 +2800,22 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_PSYWAVE",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -2705,14 +2849,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2759,15 +2903,15 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2810,16 +2954,16 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_PAY_DAY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_WATER_GUN",
       "MOVE_BUBBLE_BEAM",
+      "MOVE_WATER_GUN",
+      "MOVE_PAY_DAY",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2871,17 +3015,17 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_PAY_DAY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_WATER_GUN",
       "MOVE_BUBBLE_BEAM",
+      "MOVE_WATER_GUN",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -2922,30 +3066,30 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -2987,31 +3131,31 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3049,20 +3193,19 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -3071,7 +3214,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3080,11 +3224,7 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_SCRATCH"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_FURY_SWIPES"
       },
       {
         "Level": 1,
@@ -3092,7 +3232,11 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_FURY_SWIPES"
+        "Move": "MOVE_LEER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SCRATCH"
       },
       {
         "Level": 15,
@@ -3117,21 +3261,20 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -3140,7 +3283,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3177,13 +3321,13 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -3199,6 +3343,18 @@
   },
   "SPECIES_ARCANINE": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_AGILITY"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_BITE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_FLAMETHROWER"
+      },
       {
         "Level": 1,
         "Move": "MOVE_ROAR"
@@ -3217,14 +3373,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -3271,24 +3427,24 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3335,37 +3491,49 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_POLIWRATH": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_AMNESIA"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_BUBBLE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_HYDRO_PUMP"
+      },
       {
         "Level": 1,
         "Move": "MOVE_HYPNOSIS"
@@ -3394,32 +3562,32 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3434,16 +3602,15 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -3451,11 +3618,12 @@
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3464,15 +3632,15 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TELEPORT"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_CONFUSION"
       },
       {
         "Level": 1,
         "Move": "MOVE_DISABLE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TELEPORT"
       },
       {
         "Level": 16,
@@ -3502,17 +3670,16 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -3520,11 +3687,12 @@
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3533,15 +3701,15 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_TELEPORT"
-      },
-      {
-        "Level": 1,
         "Move": "MOVE_CONFUSION"
       },
       {
         "Level": 1,
         "Move": "MOVE_DISABLE"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_TELEPORT"
       },
       {
         "Level": 16,
@@ -3571,6 +3739,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -3578,11 +3747,9 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_DIG",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -3590,11 +3757,12 @@
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3629,18 +3797,17 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -3649,7 +3816,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3692,18 +3860,17 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -3712,7 +3879,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3755,6 +3923,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -3762,12 +3931,10 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -3776,7 +3943,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3822,19 +3990,19 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3884,25 +4052,37 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_VICTREEBEL": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_GROWTH"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SLAM"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_VINE_WHIP"
+      },
       {
         "Level": 1,
         "Move": "MOVE_SLEEP_POWDER"
@@ -3934,21 +4114,21 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -3994,24 +4174,24 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_MEGA_DRAIN",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_MEGA_DRAIN",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4065,25 +4245,25 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_MEGA_DRAIN",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_MEGA_DRAIN",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4121,28 +4301,28 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4184,28 +4364,28 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4248,6 +4428,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -4255,22 +4436,21 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4307,11 +4487,11 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4370,12 +4550,12 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4422,23 +4602,20 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_PAY_DAY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_STRENGTH",
-      "MOVE_THUNDER_WAVE",
+      "MOVE_PAY_DAY",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4447,11 +4624,14 @@
       "MOVE_FIRE_BLAST",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4501,28 +4681,25 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_THUNDER_WAVE",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4531,11 +4708,14 @@
       "MOVE_FIRE_BLAST",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4572,22 +4752,22 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4632,23 +4812,23 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4687,13 +4867,11 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4702,7 +4880,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4740,11 +4920,10 @@
     ],
     "MachineMoves": [
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4754,7 +4933,8 @@
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4800,12 +4980,11 @@
     ],
     "MachineMoves": [
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -4815,7 +4994,8 @@
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4848,25 +5028,25 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_PAY_DAY",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
+      "MOVE_PAY_DAY",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4907,26 +5087,26 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_PAY_DAY",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
+      "MOVE_PAY_DAY",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -4967,19 +5147,19 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -5025,20 +5205,20 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -5076,14 +5256,13 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
@@ -5092,16 +5271,29 @@
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_SWIFT",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_CLOYSTER": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_ICE_BEAM"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_LEER"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_TACKLE"
+      },
       {
         "Level": 1,
         "Move": "MOVE_WITHDRAW"
@@ -5124,15 +5316,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
@@ -5141,10 +5332,11 @@
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_SWIFT",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5173,20 +5365,20 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_DREAM_EATER",
+      "MOVE_REST",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -5216,20 +5408,20 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_DREAM_EATER",
+      "MOVE_REST",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -5261,6 +5453,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -5268,13 +5461,11 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -5282,10 +5473,11 @@
       "MOVE_SELF_DESTRUCT",
       "MOVE_SKULL_BASH",
       "MOVE_DREAM_EATER",
+      "MOVE_REST",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5322,24 +5514,24 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_SKULL_BASH",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5382,16 +5574,15 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5400,11 +5591,12 @@
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
       "MOVE_DREAM_EATER",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5455,6 +5647,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -5462,10 +5655,8 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5474,11 +5665,12 @@
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
       "MOVE_DREAM_EATER",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5516,23 +5708,23 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5574,24 +5766,24 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5628,12 +5820,11 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_TAKE_DOWN",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
       "MOVE_TOXIC",
+      "MOVE_TAKE_DOWN",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5641,10 +5832,11 @@
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_SWIFT",
-      "MOVE_FLASH",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_EXPLOSION",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5685,13 +5877,12 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5700,10 +5891,11 @@
       "MOVE_SELF_DESTRUCT",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_EXPLOSION",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5744,11 +5936,11 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5756,9 +5948,9 @@
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_EGG_BOMB",
+      "MOVE_REST",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -5766,6 +5958,30 @@
   },
   "SPECIES_EXEGGUTOR": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_LEECH_SEED"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_POISON_POWDER"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_REFLECT"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SLEEP_POWDER"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SOLAR_BEAM"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_STUN_SPORE"
+      },
       {
         "Level": 1,
         "Move": "MOVE_BARRAGE"
@@ -5780,15 +5996,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5796,10 +6011,11 @@
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_EGG_BOMB",
+      "MOVE_REST",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5808,11 +6024,11 @@
     "LevelMoves": [
       {
         "Level": 1,
-        "Move": "MOVE_BONE_CLUB"
+        "Move": "MOVE_GROWL"
       },
       {
         "Level": 1,
-        "Move": "MOVE_GROWL"
+        "Move": "MOVE_BONE_CLUB"
       },
       {
         "Level": 25,
@@ -5838,29 +6054,29 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5873,15 +6089,15 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_FOCUS_ENERGY"
+      },
+      {
+        "Level": 1,
         "Move": "MOVE_GROWL"
       },
       {
         "Level": 1,
         "Move": "MOVE_LEER"
-      },
-      {
-        "Level": 1,
-        "Move": "MOVE_FOCUS_ENERGY"
       },
       {
         "Level": 25,
@@ -5907,30 +6123,30 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -5969,14 +6185,13 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -5985,7 +6200,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6024,14 +6240,13 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6040,7 +6255,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6079,34 +6295,34 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6143,17 +6359,17 @@
       }
     ],
     "MachineMoves": [
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER",
       "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -6195,18 +6411,18 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
-      "MOVE_EXPLOSION",
       "MOVE_REST",
+      "MOVE_EXPLOSION",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -6244,18 +6460,17 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -6263,7 +6478,8 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6313,29 +6529,27 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -6343,7 +6557,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6386,25 +6602,23 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6415,11 +6629,13 @@
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_SOFT_BOILED",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6461,21 +6677,21 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6514,25 +6730,23 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
@@ -6540,7 +6754,9 @@
       "MOVE_SKULL_BASH",
       "MOVE_REST",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6573,14 +6789,13 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6588,7 +6803,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6625,15 +6841,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6641,7 +6856,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6682,15 +6898,14 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6698,7 +6913,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6743,16 +6959,15 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6760,7 +6975,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6801,19 +7017,17 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6821,17 +7035,39 @@
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
   },
   "SPECIES_STARMIE": {
     "LevelMoves": [
+      {
+        "Level": 0,
+        "Move": "MOVE_HYDRO_PUMP"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_LIGHT_SCREEN"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_MINIMIZE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_RECOVER"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_SWIFT"
+      },
       {
         "Level": 1,
         "Move": "MOVE_TACKLE"
@@ -6846,20 +7082,18 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6867,11 +7101,13 @@
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6910,6 +7146,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -6917,13 +7154,11 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6931,10 +7166,11 @@
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -6972,11 +7208,10 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -6984,7 +7219,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7027,20 +7263,20 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7048,8 +7284,8 @@
       "MOVE_BIDE",
       "MOVE_METRONOME",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_PSYWAVE",
       "MOVE_SUBSTITUTE"
     ],
     "EggMoves": [],
@@ -7089,6 +7325,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -7096,13 +7333,10 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7111,10 +7345,12 @@
       "MOVE_METRONOME",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7153,6 +7389,7 @@
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
@@ -7160,10 +7397,8 @@
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7171,9 +7406,10 @@
       "MOVE_METRONOME",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7211,21 +7447,21 @@
     ],
     "MachineMoves": [
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7258,6 +7494,7 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
@@ -7265,20 +7502,19 @@
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_BIDE",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7301,6 +7537,14 @@
   "SPECIES_GYARADOS": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_SPLASH"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_TACKLE"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_BITE"
       },
@@ -7310,11 +7554,11 @@
       },
       {
         "Level": 1,
-        "Move": "MOVE_LEER"
+        "Move": "MOVE_HYDRO_PUMP"
       },
       {
         "Level": 1,
-        "Move": "MOVE_HYDRO_PUMP"
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 20,
@@ -7338,21 +7582,19 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -7360,7 +7602,9 @@
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7401,32 +7645,32 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_PSYWAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7449,16 +7693,16 @@
         "Move": "MOVE_TACKLE"
       },
       {
+        "Level": 31,
+        "Move": "MOVE_TAIL_WHIP"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_SAND_ATTACK"
       },
       {
         "Level": 27,
         "Move": "MOVE_QUICK_ATTACK"
-      },
-      {
-        "Level": 31,
-        "Move": "MOVE_TAIL_WHIP"
       },
       {
         "Level": 37,
@@ -7470,10 +7714,10 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7490,12 +7734,16 @@
   "SPECIES_VAPOREON": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_TACKLE"
       },
       {
-        "Level": 1,
-        "Move": "MOVE_SAND_ATTACK"
+        "Level": 37,
+        "Move": "MOVE_TAIL_WHIP"
       },
       {
         "Level": 1,
@@ -7503,6 +7751,14 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_WATER_GUN"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SAND_ATTACK"
+      },
+      {
+        "Level": 31,
         "Move": "MOVE_WATER_GUN"
       },
       {
@@ -7510,45 +7766,36 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 31,
-        "Move": "MOVE_WATER_GUN"
-      },
-      {
-        "Level": 37,
-        "Move": "MOVE_TAIL_WHIP"
-      },
-      {
         "Level": 40,
         "Move": "MOVE_BITE"
-      },
-      {
-        "Level": 42,
-        "Move": "MOVE_ACID_ARMOR"
       },
       {
         "Level": 44,
         "Move": "MOVE_HAZE"
       },
       {
-        "Level": 48,
-        "Move": "MOVE_MIST"
+        "Level": 42,
+        "Move": "MOVE_ACID_ARMOR"
       },
       {
         "Level": 54,
         "Move": "MOVE_HYDRO_PUMP"
+      },
+      {
+        "Level": 48,
+        "Move": "MOVE_MIST"
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7557,7 +7804,8 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7565,12 +7813,20 @@
   "SPECIES_JOLTEON": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_BITE"
+      },
+      {
+        "Level": 0,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_TACKLE"
       },
       {
-        "Level": 1,
-        "Move": "MOVE_SAND_ATTACK"
+        "Level": 37,
+        "Move": "MOVE_TAIL_WHIP"
       },
       {
         "Level": 1,
@@ -7578,6 +7834,14 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_THUNDER_SHOCK"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SAND_ATTACK"
+      },
+      {
+        "Level": 31,
         "Move": "MOVE_THUNDER_SHOCK"
       },
       {
@@ -7585,28 +7849,20 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 31,
-        "Move": "MOVE_THUNDER_SHOCK"
+        "Level": 42,
+        "Move": "MOVE_DOUBLE_KICK"
       },
       {
-        "Level": 37,
-        "Move": "MOVE_TAIL_WHIP"
+        "Level": 48,
+        "Move": "MOVE_PIN_MISSILE"
       },
       {
         "Level": 40,
         "Move": "MOVE_THUNDER_WAVE"
       },
       {
-        "Level": 42,
-        "Move": "MOVE_DOUBLE_KICK"
-      },
-      {
         "Level": 44,
         "Move": "MOVE_AGILITY"
-      },
-      {
-        "Level": 48,
-        "Move": "MOVE_PIN_MISSILE"
       },
       {
         "Level": 54,
@@ -7614,24 +7870,24 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7639,12 +7895,16 @@
   "SPECIES_FLAREON": {
     "LevelMoves": [
       {
+        "Level": 0,
+        "Move": "MOVE_TAKE_DOWN"
+      },
+      {
         "Level": 1,
         "Move": "MOVE_TACKLE"
       },
       {
-        "Level": 1,
-        "Move": "MOVE_SAND_ATTACK"
+        "Level": 37,
+        "Move": "MOVE_TAIL_WHIP"
       },
       {
         "Level": 1,
@@ -7652,6 +7912,14 @@
       },
       {
         "Level": 1,
+        "Move": "MOVE_EMBER"
+      },
+      {
+        "Level": 1,
+        "Move": "MOVE_SAND_ATTACK"
+      },
+      {
+        "Level": 31,
         "Move": "MOVE_EMBER"
       },
       {
@@ -7659,24 +7927,16 @@
         "Move": "MOVE_QUICK_ATTACK"
       },
       {
-        "Level": 31,
-        "Move": "MOVE_EMBER"
-      },
-      {
-        "Level": 37,
-        "Move": "MOVE_TAIL_WHIP"
-      },
-      {
         "Level": 40,
         "Move": "MOVE_BITE"
       },
       {
-        "Level": 42,
-        "Move": "MOVE_LEER"
-      },
-      {
         "Level": 44,
         "Move": "MOVE_FIRE_SPIN"
+      },
+      {
+        "Level": 42,
+        "Move": "MOVE_LEER"
       },
       {
         "Level": 48,
@@ -7688,11 +7948,11 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7739,17 +7999,16 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_PSYCHIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
+      "MOVE_PSYCHIC",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7757,11 +8016,12 @@
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7794,22 +8054,22 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7846,19 +8106,18 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7866,7 +8125,8 @@
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7899,22 +8159,22 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -7954,18 +8214,17 @@
       "MOVE_RAZOR_WIND",
       "MOVE_SWORDS_DANCE",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
       "MOVE_SUBMISSION",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -7973,7 +8232,8 @@
       "MOVE_BIDE",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8008,13 +8268,12 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_DRAGON_RAGE",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_DRAGON_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -8023,7 +8282,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8061,29 +8321,27 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -8092,10 +8350,12 @@
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_PSYWAVE",
       "MOVE_ROCK_SLIDE",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8126,15 +8386,14 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -8143,7 +8402,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8174,24 +8434,24 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
-      "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
+      "MOVE_THUNDERBOLT",
+      "MOVE_THUNDER",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
       "MOVE_BIDE",
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
-      "MOVE_FLASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8222,11 +8482,10 @@
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
+      "MOVE_TOXIC",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
       "MOVE_HYPER_BEAM",
-      "MOVE_TOXIC",
       "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -8236,7 +8495,8 @@
       "MOVE_SWIFT",
       "MOVE_SKY_ATTACK",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_FLY"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8273,20 +8533,18 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -8295,7 +8553,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8336,21 +8596,19 @@
       }
     ],
     "MachineMoves": [
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -8359,7 +8617,9 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8405,23 +8665,20 @@
     ],
     "MachineMoves": [
       "MOVE_RAZOR_WIND",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
-      "MOVE_RAGE",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
       "MOVE_REFLECT",
@@ -8430,7 +8687,10 @@
       "MOVE_SWIFT",
       "MOVE_SKULL_BASH",
       "MOVE_REST",
-      "MOVE_SUBSTITUTE"
+      "MOVE_THUNDER_WAVE",
+      "MOVE_SUBSTITUTE",
+      "MOVE_SURF",
+      "MOVE_STRENGTH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8476,27 +8736,25 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_SOLAR_BEAM",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -8506,11 +8764,13 @@
       "MOVE_SELF_DESTRUCT",
       "MOVE_FIRE_BLAST",
       "MOVE_SKULL_BASH",
-      "MOVE_FLASH",
-      "MOVE_PSYWAVE",
       "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
+      "MOVE_PSYWAVE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []
@@ -8540,39 +8800,34 @@
     ],
     "MachineMoves": [
       "MOVE_MEGA_PUNCH",
-      "MOVE_PAY_DAY",
       "MOVE_RAZOR_WIND",
       "MOVE_SWORDS_DANCE",
-      "MOVE_CUT",
       "MOVE_WHIRLWIND",
-      "MOVE_FLY",
       "MOVE_MEGA_KICK",
+      "MOVE_TOXIC",
       "MOVE_HORN_DRILL",
       "MOVE_BODY_SLAM",
       "MOVE_TAKE_DOWN",
       "MOVE_DOUBLE_EDGE",
+      "MOVE_BUBBLE_BEAM",
       "MOVE_WATER_GUN",
-      "MOVE_SURF",
       "MOVE_ICE_BEAM",
       "MOVE_BLIZZARD",
-      "MOVE_BUBBLE_BEAM",
       "MOVE_HYPER_BEAM",
+      "MOVE_PAY_DAY",
       "MOVE_SUBMISSION",
       "MOVE_COUNTER",
       "MOVE_SEISMIC_TOSS",
-      "MOVE_STRENGTH",
+      "MOVE_RAGE",
       "MOVE_MEGA_DRAIN",
       "MOVE_SOLAR_BEAM",
       "MOVE_DRAGON_RAGE",
       "MOVE_THUNDERBOLT",
-      "MOVE_THUNDER_WAVE",
       "MOVE_THUNDER",
       "MOVE_EARTHQUAKE",
       "MOVE_FISSURE",
       "MOVE_DIG",
-      "MOVE_TOXIC",
       "MOVE_PSYCHIC",
-      "MOVE_RAGE",
       "MOVE_TELEPORT",
       "MOVE_MIMIC",
       "MOVE_DOUBLE_TEAM",
@@ -8587,13 +8842,18 @@
       "MOVE_SOFT_BOILED",
       "MOVE_DREAM_EATER",
       "MOVE_SKY_ATTACK",
-      "MOVE_FLASH",
+      "MOVE_REST",
+      "MOVE_THUNDER_WAVE",
       "MOVE_PSYWAVE",
       "MOVE_EXPLOSION",
-      "MOVE_REST",
       "MOVE_ROCK_SLIDE",
       "MOVE_TRI_ATTACK",
-      "MOVE_SUBSTITUTE"
+      "MOVE_SUBSTITUTE",
+      "MOVE_CUT",
+      "MOVE_FLY",
+      "MOVE_SURF",
+      "MOVE_STRENGTH",
+      "MOVE_FLASH"
     ],
     "EggMoves": [],
     "TutorMoves": []

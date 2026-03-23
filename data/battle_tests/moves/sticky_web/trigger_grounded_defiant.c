@@ -3,6 +3,7 @@
 
 #include "../../../../include/battle.h"
 #include "../../../../include/constants/ability.h"
+#include "../../../../include/constants/battle_message_constants.h"
 #include "../../../../include/constants/item.h"
 #include "../../../../include/constants/moves.h"
 #include "../../../../include/constants/species.h"
@@ -105,14 +106,9 @@ const struct TestBattleScenario BattleTests[] = {
                 { ACTION_NONE, 0 },
             } },
         .expectations = {
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "The opposing Primeape's Speed fell!" },
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "The opposing Primeape's Attack rose sharply!" },
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "Ariados used Sticky Web!" },
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "But it failed!" },
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "Ariados used Sticky Web!" },
-            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.message = "But it failed!" },
-        },
-        .knownFailing = TRUE
+            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.messageID = BATTLE_MSG_STAT_FELL },
+            { .expectationType = EXPECTATION_TYPE_MESSAGE, .expectationValue.messageID = BATTLE_MSG_STAT_RAISED_SHARPLY },
+        }
     },
 #ifndef GET_TEST_CASE_ONLY
 };
