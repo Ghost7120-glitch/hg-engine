@@ -306,6 +306,10 @@ int LONG_CALL PartyMenu_HandleUseItemOnMon(struct PartyMenu *partyMenu)
         return PARTY_MENU_STATE_SELECT_MOVE;
     }
 
+    if (UseItemMonAttrChangeCheck(partyMenu, itemData) == TRUE) {
+        return PARTY_MENU_STATE_FORM_CHANGE_ANIM;
+    }
+
     if (CanUseItemOnMonInParty(partyMenu->args->party, partyMenu->args->itemId, partyMenu->partyMonIndex, 0, HEAP_ID_PARTY_MENU) == TRUE) {
         if (GetItemAttr_PreloadedItemData(itemData, ITEM_PARAM_EVOLUTION)) {
             Bag_TakeItem(partyMenu->args->bag, partyMenu->args->itemId, 1, HEAP_ID_PARTY_MENU);
