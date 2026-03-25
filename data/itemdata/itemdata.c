@@ -13923,7 +13923,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WHITE_HERB] =
 {
-    .price = 20000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_STATDOWN_RESTORE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -14963,7 +14963,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FOCUS_BAND] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_MAYBE_ENDURE,
     .holdEffectParam = 10,
     .pluckEffect = 0,
@@ -15093,7 +15093,7 @@ const ITEMDATA __data[] =
 
 [ITEM_SCOPE_LENS] =
 {
-    .price = 15000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_CRITRATE_UP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -17433,7 +17433,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EXPERT_BELT] =
 {
-    .price = 30000,
+    .price = 3000,
     .holdEffect = HOLD_EFFECT_POWER_UP_SE,
     .holdEffectParam = 20,
     .pluckEffect = 0,
@@ -17628,7 +17628,7 @@ const ITEMDATA __data[] =
 
 [ITEM_POWER_HERB] =
 {
-    .price = 30000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_CHARGE_SKIP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -17888,7 +17888,7 @@ const ITEMDATA __data[] =
 
 [ITEM_FOCUS_SASH] =
 {
-    .price = 50000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_ENDURE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -35113,7 +35113,7 @@ const ITEMDATA __data[] =
 
 [ITEM_ROCKY_HELMET] =
 {
-    .price = 50000,
+    .price = 10000,
     .holdEffect = HOLD_EFFECT_DAMAGE_ON_CONTACT,
     .holdEffectParam = 6, // attacker takes 1/6th health damage,
     .pluckEffect = 0,
@@ -35568,7 +35568,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EJECT_BUTTON] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_SWITCH_OUT_WHEN_HIT,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -36673,7 +36673,7 @@ const ITEMDATA __data[] =
 
 [ITEM_NORMAL_GEM] =
 {
-    .price = 15000,
+    .price = 200,
     .holdEffect = HOLD_EFFECT_POWERING_UP_MOVE_ONCE,
     .holdEffectParam = TYPE_NORMAL,
     .pluckEffect = 0,
@@ -41548,7 +41548,7 @@ const ITEMDATA __data[] =
 
 [ITEM_WEAKNESS_POLICY] =
 {
-    .price = 50000,
+    .price = 20000,
     .holdEffect = HOLD_EFFECT_BOOST_ATK_AND_SPATK_ON_SE,
     .holdEffectParam = 0,
     .pluckEffect = 0,
@@ -72748,7 +72748,7 @@ const ITEMDATA __data[] =
 
 [ITEM_EJECT_PACK] =
 {
-    .price = 10000,
+    .price = 5000,
     .holdEffect = HOLD_EFFECT_SWITCH_OUT_ON_STAT_DROP,
     .holdEffectParam = 0,
     .pluckEffect = 0,
