@@ -6058,7 +6058,7 @@ const ITEMDATA __data[] =
 
 [ITEM_HEART_SCALE] =
 {
-    .price = 100,
+    .price = 10,
     .holdEffect = 0,
     .holdEffectParam = 0,
     .pluckEffect = 0,
