@@ -681,6 +681,12 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
                     continue;
                 }
 
+                // handle Dragonize - 20% boost if a Normal type move was changed to a Fairy type move. Does not boost Fairy type moves themselves
+                if (AttackingMon.ability == ABILITY_DRAGONIZE && movetype == TYPE_DRAGON && originalMoveType == TYPE_NORMAL) {
+                    basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_2);
+                    continue;
+                }
+
                 // handle Normalize - 20% boost if a Normal type move is used (and it changes types to Normal too)
                 if (AttackingMon.ability == ABILITY_NORMALIZE && movetype == TYPE_NORMAL) {
                     basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__1_2);
