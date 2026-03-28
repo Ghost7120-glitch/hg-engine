@@ -8594,7 +8594,7 @@ mondata SPECIES_CRANIDOS, "Cranidos"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
+    abilities ABILITY_MOLD_BREAKER, ABILITY_DRAGONIZE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_CRANIDOS, "CRANIDOS toughen up their already\nrock-hard heads by headbutting\none another."
@@ -8615,7 +8615,7 @@ mondata SPECIES_RAMPARDOS, "Rampardos"
     basefriendship 70
     growthrate GROWTH_ERRATIC
     egggroups EGG_GROUP_MONSTER, EGG_GROUP_MONSTER
-    abilities ABILITY_MOLD_BREAKER, ABILITY_NONE
+    abilities ABILITY_MOLD_BREAKER, ABILITY_DRAGONIZE
     runchance 0
     colorflip BODY_COLOR_BLUE, 0
     mondexentry SPECIES_RAMPARDOS, "Its skull withstands impacts of any\nmagnitude. As a result, its brain\nnever gets the chance to grow."
@@ -16070,7 +16070,7 @@ mondata SPECIES_NOIBAT, "Noibat"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
-    abilities ABILITY_FRISK, ABILITY_INFILTRATOR
+    abilities ABILITY_DRAGONIZE, ABILITY_INFILTRATOR
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NOIBAT, "They live in pitch black caves. Their\nenormous ears can emit ultrasonic waves\nof 200,000 hertz."
@@ -16091,7 +16091,7 @@ mondata SPECIES_NOIVERN, "Noivern"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FLYING, EGG_GROUP_DRAGON
-    abilities ABILITY_FRISK, ABILITY_INFILTRATOR
+    abilities ABILITY_DRAGONIZE, ABILITY_INFILTRATOR
     runchance 0
     colorflip BODY_COLOR_PURPLE, 0
     mondexentry SPECIES_NOIVERN, "This hot-blooded Pokémon attacks\nanything it sees with ultrasonic waves\nthat can crush boulders."
@@ -21698,7 +21698,7 @@ mondata SPECIES_DUDUNSPARCE, "Dudunspars"
     basefriendship 50
     growthrate GROWTH_MEDIUM_FAST
     egggroups EGG_GROUP_FIELD, EGG_GROUP_FIELD
-    abilities ABILITY_SERENE_GRACE, ABILITY_RUN_AWAY
+    abilities ABILITY_SERENE_GRACE, ABILITY_DRAGONIZE
     runchance 0
     colorflip BODY_COLOR_YELLOW, 0
     mondexentry SPECIES_DUDUNSPARCE, "It drives enemies out of its nest by sucking\nin enough air to fill its long, narrow lungs,\nthen releasing the air in an intense blast."
