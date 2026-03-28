@@ -325,7 +325,8 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
     case MOVE_WEATHER_BALL:
         if (noCloudNineAndAirLock) {
             if ((field_cond & FIELD_CONDITION_WEATHER)
-            && !(field_cond & (WEATHER_STRONG_WINDS | WEATHER_SNOW_ANY))) {
+            && !(field_cond & (WEATHER_STRONG_WINDS | WEATHER_SNOW_ANY))
+            || (AttackingMon.ability == ABILITY_MEGA_SOL)) {
                 movepower *= 2;
             }
         }
@@ -544,7 +545,8 @@ int UNUSED CalcBaseDamageInternal(struct BattleSystem *bw, struct BattleStruct *
 
     if (noCloudNineAndAirLock) {
         if ((field_cond & (FIELD_STATUS_FOG | WEATHER_HAIL_ANY | WEATHER_SANDSTORM_ANY | WEATHER_RAIN_ANY | WEATHER_SNOW_ANY))
-        && (moveno == MOVE_SOLAR_BEAM || moveno == MOVE_SOLAR_BLADE)) {
+        && (moveno == MOVE_SOLAR_BEAM || moveno == MOVE_SOLAR_BLADE)
+        && (AttackingMon.ability != ABILITY_MEGA_SOL)) {
             basePowerModifier = QMul_RoundUp(basePowerModifier, UQ412__0_5);
         }
     }
