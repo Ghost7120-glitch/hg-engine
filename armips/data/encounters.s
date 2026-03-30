@@ -4689,57 +4689,57 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  45   // ???
+encounterdata  45   // Azalea Town
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_TRUBBISH
+pokemon SPECIES_LECHONK
+pokemon SPECIES_COMBEE
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_PIKIPEK
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_DUCKLETT
+pokemon SPECIES_DRAMPA
+pokemon SPECIES_BOUNSWEET
+pokemon SPECIES_FOMANTIS
+pokemon SPECIES_BOUNSWEET
+pokemon SPECIES_FOMANTIS
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_TRUBBISH
+pokemon SPECIES_MINCCINO
+pokemon SPECIES_COMBEE
+pokemon SPECIES_PETILIL
+pokemon SPECIES_DWEBBLE
+pokemon SPECIES_MARACTUS
+pokemon SPECIES_MARACTUS
+pokemon SPECIES_ORTHWORM
+pokemon SPECIES_FIDOUGH
+pokemon SPECIES_TADBULB
+pokemon SPECIES_FIDOUGH
+pokemon SPECIES_TADBULB
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_TRUBBISH
+pokemon SPECIES_SKWOVET
+pokemon SPECIES_COMBEE
+pokemon SPECIES_SKORUPI
+pokemon SPECIES_DRIFLOON
+pokemon SPECIES_MUNNA
+pokemon SPECIES_MUNNA
+pokemon SPECIES_ROSELIA
+pokemon SPECIES_SPOINK
+pokemon SPECIES_CHINGLING
+pokemon SPECIES_SPOINK
+pokemon SPECIES_CHINGLING
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -4897,57 +4897,57 @@ pokemon SPECIES_MAGIKARP
 .close
 
 
-encounterdata  47   // ???
+encounterdata  47   // Goldenrod City
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20, 20
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SKITTY
+pokemon SPECIES_SHROOMISH
+pokemon SPECIES_AIPOM
+pokemon SPECIES_TYROGUE
+pokemon SPECIES_LEDIAN
+pokemon SPECIES_LEDIAN
+pokemon SPECIES_SKITTY
+pokemon SPECIES_NUZLEAF
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_LUNATONE
+pokemon SPECIES_SOLROCK
+pokemon SPECIES_LUNATONE
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SKITTY
+pokemon SPECIES_MUDBRAY
+pokemon SPECIES_STUFFUL
+pokemon SPECIES_CLOBBOPUS
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_PASSIMIAN
+pokemon SPECIES_SKITTY
+pokemon SPECIES_FLAMIGO
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_MEDITITE
+pokemon SPECIES_TIMBURR
+pokemon SPECIES_MEDITITE
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SKITTY
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_SNUBBULL
+pokemon SPECIES_HOUNDOUR
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_SABLEYE
+pokemon SPECIES_SKITTY
+pokemon SPECIES_STUNKY
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_PHANTUMP
+pokemon SPECIES_SCRAGGY
+pokemon SPECIES_PHANTUMP
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -5105,57 +5105,57 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  49   // ???
+encounterdata  49   // Mahogany Town
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40, 40
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_KRICKETOT
+pokemon SPECIES_CASTFORM
+pokemon SPECIES_VIBRAVA
+pokemon SPECIES_VESPIQUEN
+pokemon SPECIES_VESPIQUEN
+pokemon SPECIES_BRONZOR
+pokemon SPECIES_LAIRON
+pokemon SPECIES_TOXTRICITY
+monwithform SPECIES_TOXTRICITY, 1
+pokemon SPECIES_TOXTRICITY
+monwithform SPECIES_TOXTRICITY, 1
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_SNOVER
+pokemon SPECIES_EMOLGA
+pokemon SPECIES_SHELMET
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_FLOATZEL
+pokemon SPECIES_FLOATZEL
+pokemon SPECIES_SNOVER
+pokemon SPECIES_STARAPTOR
+pokemon SPECIES_RAMPARDOS
+pokemon SPECIES_BASTIODON
+pokemon SPECIES_RAMPARDOS
+pokemon SPECIES_BASTIODON
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_ROTOM
+pokemon SPECIES_COFAGRIGUS
+pokemon SPECIES_GOTHORITA
+pokemon SPECIES_DUOSION
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_LAMPENT
+pokemon SPECIES_ROTOM
+pokemon SPECIES_PAWNIARD
+pokemon SPECIES_VULLABY
+pokemon SPECIES_BOMBIRDIER
+pokemon SPECIES_VULLABY
+pokemon SPECIES_BOMBIRDIER
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -5209,57 +5209,57 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  50   // ???
+encounterdata  50   // Safari Zone Gate
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45, 45
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_ORTHWORM
+pokemon SPECIES_FLYGON
+pokemon SPECIES_COPPERAJAH
+pokemon SPECIES_KLEFKI
+pokemon SPECIES_TOGEDEMARU
+pokemon SPECIES_DARMANITAN
+pokemon SPECIES_KROOKODILE
+pokemon SPECIES_REGIROCK
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGISTEEL
+pokemon SPECIES_REGICE
+pokemon SPECIES_REGISTEEL
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_LUXRAY
+pokemon SPECIES_STARAPTOR
+pokemon SPECIES_TSAREENA
+pokemon SPECIES_FLORGES
+pokemon SPECIES_EELEKTROSS
+pokemon SPECIES_DARMANITAN
+pokemon SPECIES_KROOKODILE
+pokemon SPECIES_COBALION
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_VIRIZION
+pokemon SPECIES_TERRAKION
+pokemon SPECIES_VIRIZION
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_DRAPION
+pokemon SPECIES_SKUNTANK
+pokemon SPECIES_GRIMMSNARL
+pokemon SPECIES_PALOSSAND
+pokemon SPECIES_MALAMAR
+pokemon SPECIES_GARBODOR
+pokemon SPECIES_KROOKODILE
+monwithform SPECIES_ARTICUNO, 1
+monwithform SPECIES_ZAPDOS, 1
+monwithform SPECIES_MOLTRES, 1
+monwithform SPECIES_ZAPDOS, 1
+monwithform SPECIES_MOLTRES, 1
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6665,57 +6665,57 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata  64   // ???
+encounterdata  64   // Pewter City
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_AGGRON
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_GIGALITH
+pokemon SPECIES_CRUSTLE
+pokemon SPECIES_ARMALDO
+pokemon SPECIES_CRADILY
+pokemon SPECIES_CARBINK
+pokemon SPECIES_LYCANROC
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_AGGRON
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_GIGALITH
+pokemon SPECIES_CRUSTLE
+pokemon SPECIES_RAMPARDOS
+pokemon SPECIES_BASTIODON
+pokemon SPECIES_SOLROCK
+monwithform SPECIES_LYCANROC, 1
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_AGGRON
+pokemon SPECIES_TORKOAL
+pokemon SPECIES_GIGALITH
+pokemon SPECIES_CRUSTLE
+pokemon SPECIES_TYRANTRUM
+pokemon SPECIES_AURORUS
+pokemon SPECIES_LUNATONE
+monwithform SPECIES_LYCANROC, 2
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
+pokemon SPECIES_NIHILEGO
+pokemon SPECIES_STAKATAKA
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -6771,7 +6771,7 @@ pokemon SPECIES_NONE
 
 encounterdata  65   // Blackthorn City
 
-walkrate 0
+walkrate 10
 surfrate 10
 rocksmashrate 0
 oldrodrate 25
@@ -9369,57 +9369,57 @@ pokemon SPECIES_MAGIKARP
 .close
 
 
-encounterdata  90   // ???
+encounterdata  90   // Saffron City
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_GARDEVOIR
+pokemon SPECIES_GALLADE
+pokemon SPECIES_MUSHARNA
+pokemon SPECIES_BEHEEYEM
+pokemon SPECIES_HATTERENE
+pokemon SPECIES_ESPATHRA
+pokemon SPECIES_METAGROSS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_GARDEVOIR
+pokemon SPECIES_GALLADE
+pokemon SPECIES_MUSHARNA
+pokemon SPECIES_BEHEEYEM
+pokemon SPECIES_HATTERENE
+pokemon SPECIES_ESPATHRA
+pokemon SPECIES_METAGROSS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_GARDEVOIR
+pokemon SPECIES_GALLADE
+pokemon SPECIES_MUSHARNA
+pokemon SPECIES_BEHEEYEM
+pokemon SPECIES_HATTERENE
+pokemon SPECIES_ESPATHRA
+pokemon SPECIES_METAGROSS
+pokemon SPECIES_CRESSELIA
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
+pokemon SPECIES_LATIOS
+pokemon SPECIES_LATIAS
 
 // hoenn encounter slots
 pokemon SPECIES_NONE
@@ -14361,57 +14361,57 @@ pokemon SPECIES_NONE
 .close
 
 
-encounterdata 138   // ???
+encounterdata 138   // Lavender Town
 
-walkrate 0
+walkrate 10
 surfrate 0
 rocksmashrate 0
 oldrodrate 0
 goodrodrate 0
 superrodrate 0
-walklevels 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+walklevels 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60, 60
 
 // morning encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_DEERLING
+pokemon SPECIES_KARRABLAST
+pokemon SPECIES_SHELMET
+pokemon SPECIES_PYROAR
+pokemon SPECIES_BEWEAR
+pokemon SPECIES_DRAMPA
+pokemon SPECIES_DRAMPA
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_MELTAN
+pokemon SPECIES_ZERAORA
+pokemon SPECIES_MELTAN
 
 // day encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+pokemon SPECIES_MAROWAK
+pokemon SPECIES_COTTONEE
+pokemon SPECIES_TOGEKISS
+pokemon SPECIES_XATU
+pokemon SPECIES_SYLVEON
+pokemon SPECIES_MAWILE
+pokemon SPECIES_RIBOMBEE
+pokemon SPECIES_DEDENNE
+pokemon SPECIES_JIRACHI
+pokemon SPECIES_CELEBI
+pokemon SPECIES_JIRACHI
+pokemon SPECIES_CELEBI
 
 // night encounter slots
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
-pokemon SPECIES_NONE
+monwithform SPECIES_MAROWAK, 1
+pokemon SPECIES_SHUPPET
+pokemon SPECIES_YAMASK
+monwithform SPECIES_YAMASK, 1
+pokemon SPECIES_SINISTCHA
+pokemon SPECIES_MIMIKYU
+pokemon SPECIES_ROTOM
+pokemon SPECIES_MISDREAVUS
+pokemon SPECIES_PORYGON_Z
+pokemon SPECIES_NINETALES
+pokemon SPECIES_PORYGON_Z
+pokemon SPECIES_NINETALES
 
 // hoenn encounter slots
 pokemon SPECIES_NONE

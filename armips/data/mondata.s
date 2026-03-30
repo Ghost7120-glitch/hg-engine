@@ -13917,7 +13917,7 @@ mondata SPECIES_FRAXURE, "Fraxure"
 
 
 mondata SPECIES_HAXORUS, "Haxorus"
-    basestats 80, 150, 100, 110, 70, 90
+    basestats 80, 145, 90, 100, 60, 75
     types TYPE_DRAGON, TYPE_DRAGON
     catchrate 45
     baseexp 0 // defined in baseexp.s
