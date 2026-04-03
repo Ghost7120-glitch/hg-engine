@@ -6641,7 +6641,7 @@ evodata SPECIES_OSHAWOTT
 
 evodata SPECIES_DEWOTT
     evolution EVO_LEVEL, 36, SPECIES_SAMUROTT
-    evolutionwithform EVO_LEVEL, 36, SPECIES_SAMUROTT, 1
+    evolutionwithform EVO_LEVEL_NIGHT, 36, SPECIES_SAMUROTT, 1
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
     evolution EVO_NONE, 0, SPECIES_NONE
