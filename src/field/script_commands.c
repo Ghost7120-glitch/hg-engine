@@ -3,8 +3,6 @@
 #include "../../include/battle.h"
 #include "../../include/config.h"
 #include "../../include/debug.h"
-#include "../../include/constants/file.h"
-#include "../../include/message.h"
 #include "../../include/pokemon.h"
 #include "../../include/rtc.h"
 #include "../../include/save.h"
@@ -17,7 +15,6 @@
 #include "../../include/constants/moves.h"
 #include "../../include/constants/species.h"
 #include "../../include/constants/weather_numbers.h"
-#include "../../include/constants/generated/learnsets.h"
 #include "../../include/map_events_internal.h"
 
 /**
@@ -185,8 +182,8 @@ BOOL ScrCmd_DaycareSanitizeMon(SCRIPTCONTEXT *ctx) {
     if (GetBoxMonData(daycareMon, MON_DATA_SPECIES, NULL) != SPECIES_NONE) {
         u32 inheriterMoves[4];
         u32 donorMoves[4];
-        u16 temp_egg_moves[MAX_EGG_MOVES];
-        u16 baby_egg_moves[MAX_EGG_MOVES];
+        u16 temp_egg_moves[EGG_MOVES_PER_MON];
+        u16 baby_egg_moves[EGG_MOVES_PER_MON];
         u8 potentialOverrideMoveSlot;
         u8 numEggMoves;
         u32 newMove;
@@ -369,11 +366,3 @@ void CheckOverworldRequestFlags(OVERWORLD_REQUEST_FLAGS *req, FieldSystem *fsys)
         EventSet_Script(fsys, 2010, NULL); // set up script 2010
     }
 }
-BOOL ScrCmd_BufferItemName(SCRIPTCONTEXT *ctx) {
-    MessageFormat **msgFmt = FieldSysGetAttrAddr(ctx->fsys, 16);
-    u8 idx = ScriptReadByte(ctx);
-    u16 itemId = ScriptGetVar(ctx);
-    BufferItemNameGiveItem(*msgFmt, idx, itemId);
-    return FALSE;
-}
-
