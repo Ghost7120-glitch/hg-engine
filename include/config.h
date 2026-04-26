@@ -7,17 +7,11 @@
 // set FAIRY_TYPE_IMPLEMENTED to 0 if you do not want this to happen
 #define FAIRY_TYPE_IMPLEMENTED 1
 
-// TYPE_EFFECTIVENESS_GEN defines the type chart interactions you would like to use.
-// Defining this as "5" or lower will revert Steel to resisting Ghost- and Dark-type moves.
-// Type chart changes prior to Gen 4 (e.g. Gen 1) are not included.
-#define TYPE_EFFECTIVENESS_GEN GEN_LATEST
-
 // START_ADDRESS should be the same as armips/include/config.h's START_ADDRESS so that hall of fame/pokéathlon overworlds work properly.
 // START_ADDRESS defines the file address within the synthetic overlay where you would like to place all of the code that this project uses.  this is largely the repointed tables that the code uses.
 // if START_ADDRESS is 0x10000, then the tables will be inserted at address 0x10000 of the synthetic overlay
 // the current implementation (with all gen 5 mons) uses ~9222/0x2406 bytes.  make sure this points to that much free space (probably allow for a little bit more than that)
-// currently 0x10 to have space for a marker for DSPRE to disable editors!
-#define START_ADDRESS 0x10
+#define START_ADDRESS 0x0
 
 // ALLOW_SAVE_CHANGES will allow save file field expansions for full feature implementation, but will break compatibility with PKHeX
 // commenting out this define will disable kyurem's forme change method and keep saves compatible with pkhex
@@ -55,12 +49,11 @@
 
 // IMPLEMENT_TRANSPARENT_TEXTBOXES should be used if you want to implement transparent textboxes
 // uncommenting this line out will enable transparent textboxes
-#define IMPLEMENT_TRANSPARENT_TEXTBOXES
+//#define IMPLEMENT_TRANSPARENT_TEXTBOXES
 
 // IMPLEMENT_WILD_DOUBLE_BATTLES defines whether or not grass tiles will have a 10% chance of starting a wild double battle
 // commenting this line out disables wild double battles entirely
-// NOTE:  wild double battles are currently unstable and broken.  i would not use them at this time.  see this issue for updates on this problem: https://github.com/BluRosie/hg-engine/issues/86
-#define IMPLEMENT_WILD_DOUBLE_BATTLES
+//#define IMPLEMENT_WILD_DOUBLE_BATTLES
 
 // IMPLEMENT_CAPTURE_EXPERIENCE defines whether or not capturing wild pokemon will net experience
 // commenting this line out disables capture experience
@@ -84,13 +77,7 @@
 #define IMPLEMENT_LEVEL_CAP
 #define LEVEL_CAP_VARIABLE 0x416F
 //#define UNCAP_CANDIES_FROM_LEVEL_CAP
-//#define ALLOW_LEVEL_CAP_EVOLVE
-
-// System flags that need to be enabled for the player to use the gimmick. If you want to change them, remember to change them in flags.s as well for consistency
-#define FLAG_MEGA_EVOLUTION_ENABLED 2518
-#define FLAG_Z_MOVE_ENABLED 2519
-#define FLAG_DYNAMAX_ENABLED 2520
-#define FLAG_TERASTALIZATION_ENABLED 2521
+#define ALLOW_LEVEL_CAP_EVOLVE
 
 // UPDATE_OVERWORLD_POISON will remove overworld poison if enabled
 // comment the line out below to retain overworld poison
@@ -98,7 +85,7 @@
 
 // DISABLE_END_OF_TURN_WEATHER_MESSAGE removes the weather messages at the end of the turn.  instead the bottom screen icon can be used
 // uncomment the line out to get this functionality
-#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
+//#define DISABLE_END_OF_TURN_WEATHER_MESSAGE
 
 // IMPLEMENT_SEASONS currently implements season mechanics. Used for changing forms of Deerling and Sawsbuck.
 // Comment the line out to disable this functionality (Gen 6+)
@@ -107,7 +94,7 @@
 // IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS allows wild species to appear with different forms if it has multiple forms.
 // Normally you will use monwithform, encounterwithform, headbuttencounterwithform to specify different forms (similar to Gen 5+)
 // Uncomment this line to enable this functionality
-#define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
+// #define IMPLEMENT_DYNAMIC_WILD_SPECIES_FORMS
 
 // Some forms only exist in their debut games, with accompying mechanics. IMPLEMENT_GONE_SPECIES_MECHANICS lets these forms' mechanics coexist with the latest mechanics. Examples include Noble Pokémon
 #define IMPLEMENT_DEXIT_FORMS_MECHANICS
@@ -121,13 +108,17 @@
 // this will change existing mons too!  if you want to change the odds of wild mons only, you will have to add a certain amount of pid rerolls to the AddWildPartyPokemon routine
 #define SHINY_ODDS 8
 
+// LEARNSET_TOTAL_MOVES is the amount of moves that each pokémon should be able to learn by level up
+#define LEARNSET_TOTAL_MOVES 41 // 40+terminate - currently driven by gallade
+
 // FRIENDSHIP_EVOLUTION_THRESHOLD defines the amount of friendship needed to evolve mons with friendship-related evolutions
 // modern generations have this value at 160, older ones at 220.  still max out at 255
 #define FRIENDSHIP_EVOLUTION_THRESHOLD 160
 
+
 // Friendship grants additional bonuses.
 // Comment out the line below to revert back to Gen 5- behaviour
-#define FRIENDSHIP_EFFECTS
+// #define FRIENDSHIP_EFFECTS
 
 // RESTORE_ITEMS_AT_BATTLE_END will restore held items that are single-use at the end of battle (Gen 9)
 // comment out the line below to revert back to Gen 8- behavior
@@ -142,6 +133,8 @@
 // CORROSIVE_GAS_IMPLIED_BEHAVIOUR defines the behavior that Corrosive Gas should exhibit, where it either does it does not affect a Kyogre, a Groudon, or species holding their respective Mega Stones to not lose their Blue Orb, Red Orb, and Mega Stones respectively (TRUE), or affects species in the above cases (FALSE).
 #define CORROSIVE_GAS_IMPLIED_BEHAVIOUR TRUE
 
+#define IMPLEMENT_FORM_REVERSION TRUE
+
 // SNOW_WARNING_GENERATION controls whether to summon Snow or Hail when the ability is activated.
 // 9 or above: Snow
 // Otherwise: Hail
@@ -154,68 +147,12 @@
 #define UPDATE_VITAMIN_EV_CAPS
 
 // DISABLE_ITEMS_IN_TRAINER_BATTLE will disable the usage of items in trainer battles. This is also true for the AI.
-#define DISABLE_ITEMS_IN_TRAINER_BATTLE
+//#define DISABLE_ITEMS_IN_TRAINER_BATTLE
 
 // REUSABLE_TMS will make TMs infinite and hide the quantity number.
 #define REUSABLE_TMS
 
-// DELETABLE_HMS allows HMs to be forgotten, this also makes their quantity reduce, but the infinite TMs change prevents this.
-#define DELETABLE_HMS
-
-// MART_EXPANSION allows for adding and modifying items to the mart inventories
-#define MART_EXPANSION
-
-// POKEATHLON_EXPANSION allows for adding and modifying items to the Pokéathlon shop inventories
-//#define POKEATHLON_SHOP_EXPANSION
-
 // STATIC_HP_BAR updates the HP bar to increase/decrease at a fixed rate like later generations
 #define STATIC_HP_BAR
-
-// UPDATED_MACHINE_MOVE_LABELS modernizes bag label rendering for machine moves (TMs, HMs, and TRs)
-// to more closely match later generations. Note that disabling this will break TMs > 99 rendering in the bag
-// Comment out the line below to disable this feature
-#define UPDATE_MACHINE_MOVE_LABELS
-
-// Configs the ball capture ratio. 4 emulates the behaviour in HeartGold. However, due to the modernization of
-// the capture formula, it is only an estimate. Some are left as 4 to be less disruptive. Use GEN_LATEST for vanilla behaviour
-#define NEST_BALL_GENERATION    GEN_LATEST
-#define NET_BALL_GENERATION     GEN_LATEST
-#define REPEAT_BALL_GENERATION  GEN_LATEST
-#define TIMER_BALL_GENERATION   GEN_LATEST
-#define DUSK_BALL_GENERATION    GEN_LATEST
-#define QUICK_BALL_GENERATION   GEN_LATEST
-#define SAFARI_BALL_GENERATION  4
-#define LURE_BALL_GENERATION    4
-#define SPORT_BALL_GENERATION   4
-#define MOON_BALL_GENERATION    GEN_LATEST
-
-// If caught, the Pokémon's friendship is set to 200 in Generations II through VII, or 150 in Generation VIII onwards.
-#define FRIEND_BALL_GENERATION  GEN_LATEST
-
-// THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN makes the Thunder & Storm map header weathers set permanent
-// Electric Terrain (and rain) in battle
-#define THUNDER_STORM_WEATHER_ELECTRIC_TERRAIN
-
-// FOG_SETS_MISTY_TERRAIN makes the Fog map header weather set permanent Misty Terrain in battle
-#define FOG_WEATHER_MISTY_TERRAIN
-
-// NATURAL_GIFT_POWER_GEN defines the power of Natural Gift based on generation. Gen 6 or higher are modernized values.
-#define NATURAL_GIFT_POWER_GEN GEN_LATEST
-
-// BLOCK_LEARNING_UNIMPLEMENTED_MOVES prevents learning moves that are not implemented
-// based on the move having FLAG_UNUSABLE_UNIMPLEMENTED
-#define BLOCK_LEARNING_UNIMPLEMENTED_MOVES
-
-// VANILLA_PARADOX_BOOSTER_ENERGY_BEHAVIOUR makes the Paradox Booster item behave as it does in vanilla, where the
-// DLC paradox forms can have Booster Energy tricked onto them.
-// Further info: vxtwitter.com/DaWoblefet/status/1737659599480565762
-// Comment out this define so all Paradox forms behave the same vis a vis Booster Energy
-#define VANILLA_PARADOX_BOOSTER_ENERGY_BEHAVIOUR
-
-// VANILLA_MYTHICALS disallows non vanilla mythical pokemon to be treated as mythical
-// Vanilla behaviour adds shiiontic as a mythical more info here: https://xcancel.com/Sibuna_Switch/status/1613414136079323137
-// if VANILLA_MYTHICALS is not defined, but you can change that in the EXTRA_MYTHICALS macro if you want to
-// add or remove mythicals as you see fit
-#define VANILLA_MYTHICALS
 
 #endif
