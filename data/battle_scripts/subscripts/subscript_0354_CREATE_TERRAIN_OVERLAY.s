@@ -3,47 +3,33 @@
 .data
 
 _000:
-    CompareVarToValue OPCODE_NEQ, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_ABILITY, _skipAbilityPopup
-    AbilityPopup BATTLER_CATEGORY_MSG_TEMP
-    CheckAbility CHECK_OPCODE_HAVE, BATTLER_CATEGORY_MSG_BATTLER_TEMP, ABILITY_HADRON_ENGINE, _HadronEngineTerrain
-_skipAbilityPopup:
+    UpdateTerrainOverlay FALSE, _045
     GotoIfTerrainOverlayIsType GRASSY_TERRAIN, _019
     GotoIfTerrainOverlayIsType MISTY_TERRAIN, _024
     GotoIfTerrainOverlayIsType ELECTRIC_TERRAIN, _029
     GotoIfTerrainOverlayIsType PSYCHIC_TERRAIN, _034
     GoTo _049
 
-_HadronEngineTerrain:
-    PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_ELECTRIC_TERRAIN
-    Wait
-    // {0} turned the ground into Electric Terrain, energizing its futuristic engine!
-    PrintMessage 1701, TAG_NICKNAME, BATTLER_CATEGORY_MSG_BATTLER_TEMP
-    Wait
-    WaitButtonABTime 30
-    GoTo _ActivateParadoxTerrainAbility
-
 _019:
     PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_GRASSY_TERRAIN
     Wait
     // Grass grew to cover the battlefield!
     PrintMessage 1388, TAG_NONE
-    GoTo _ResetParadoxTerrainAbility
+    GoTo _037
 
 _024:
     PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_MISTY_TERRAIN
     Wait
     // Mist swirled about the battlefield!
     PrintMessage 1390, TAG_NONE
-    GoTo _ResetParadoxTerrainAbility
+    GoTo _037
 
 _029:
     PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_ELECTRIC_TERRAIN
     Wait
     // An electric current ran across the battlefield!
     PrintMessage 1392, TAG_NONE
-    Wait
-    WaitButtonABTime 30
-    GoTo _ActivateParadoxTerrainAbility
+    GoTo _037
 
 _034:
     PlayBattleAnimation BATTLER_CATEGORY_ATTACKER, BATTLE_ANIMATION_PSYCHIC_TERRAIN
@@ -51,20 +37,17 @@ _034:
     // The battlefield got weird!
     PrintMessage 1394, TAG_NONE
 
-// TODO: something weird is happening after using Terrain move rather than Surge ability
-
-_ResetParadoxTerrainAbility:
+_037:
     Wait
     WaitButtonABTime 30
-    ResetParadoxAbility ABILITY_QUARK_DRIVE
-
-// Other Terrains reach this command to activate through Booster Energy
-_ActivateParadoxTerrainAbility:
-    ActivateParadoxAbility ABILITY_QUARK_DRIVE
-
-_037:
     UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_MOVE_ANIMATIONS_OFF
+    // restore the mon's current move to the original one
+    CompareVarToValue OPCODE_NEQ, BSCRIPT_VAR_SIDE_EFFECT_TYPE, SIDE_EFFECT_TYPE_ABILITY, _049
+    UpdateVarFromVar OPCODE_SET, BSCRIPT_VAR_MOVE_NO_CUR, BSCRIPT_VAR_CALC_TEMP
     End
+
+_045:
+    UpdateVar OPCODE_FLAG_ON, BSCRIPT_VAR_MOVE_STATUS_FLAGS, MOVE_STATUS_FAILED
 
 _049:
     End

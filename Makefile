@@ -77,12 +77,7 @@ PYTHON = $(PYTHON_NO_VENV)
 VENV_ACTIVATE =
 endif
 
-.PHONY: clean all dumprom move_narc
-
-move_narc clean restore: NOSCAN = 1
-
-NOSCAN ?= 0
-
+.PHONY: clean all dumprom
 
 default: all
 
@@ -233,35 +228,33 @@ $(ENCODEPWIMG):
 TOOLS += $(ENCODEPWIMG)
 
 ####################### Build #######################
-$(BUILD)/rom_gen.ld:$(LINK) $(OUTPUT) rom.ld $(VENV_ACTIVATE)
-	cp rom.ld $(BUILD)/rom_gen.ld
-	$(PYTHON) scripts/generate_ld.py $(BUILD)/rom_gen.ld $(LINK)
+rom_gen.ld:$(LINK) $(OUTPUT) rom.ld $(VENV_ACTIVATE)
+	cp rom.ld rom_gen.ld
+	$(PYTHON) scripts/generate_ld.py
 
 # create output folders if they do not exist
-$(CODE_BUILD_DIRS):
-	mkdir -p $@
+define FOLDER_CREATE_DEFINE
+$1: ; mkdir -p $1
+endef
+$(foreach folder, $(CODE_BUILD_DIRS), $(eval $(call FOLDER_CREATE_DEFINE,$(folder))))
 
 # generate .d dependency files that are included as part of compiling if it does not exist
 define SRC_OBJ_INC_DEFINE
 # this generates the objects as part of generating the dependency list which will just be massive files of rules
-$1: $2 $(LEARNSETS_HEADER) $(BATTLETESTS_HEADER) | $(dir $1)
+$1: $2 $(CODE_BUILD_DIRS) $(LEARNSETS_HEADER) $(BATTLETESTS_HEADER)
 	$(CC) -MMD -MF $(basename $1).d $(CFLAGS) -c $2 -o $1
 	@#printf "\t$(CC) $(CFLAGS) -c $2 -o $1" >> $(basename $1).d
-endef
 
-ifneq (1,$(NOSCAN))
+-include $(basename $1).d
+endef
 $(foreach src, $(ALL_C_SRCS), $(eval $(call SRC_OBJ_INC_DEFINE,$(patsubst $(C_SUBDIR)/%.c,$(BUILD)/%.o, $(src)),$(src))))
-endif
 
 define ASM_OBJ_INC_DEFINE
 # these should have similar dependency scanning, but we do not currently use them in a way conducive to it
-$1: $2 | $(dir $1)
+$1: $2 $(CODE_BUILD_DIRS)
 	$(AS) $(ASFLAGS) -c $2 -o $1
 endef
-
-ifneq (1,$(NOSCAN))
 $(foreach src, $(ALL_ASM_SRCS), $(eval $(call ASM_OBJ_INC_DEFINE,$(patsubst $(ASM_SUBDIR)/%.s,$(BUILD)/%.o, $(src)),$(src))))
-endif
 
 $(LINK):$(OBJS)
 	$(LD) $(LDFLAGS) -o $@ $(OBJS)
@@ -269,11 +262,13 @@ $(LINK):$(OBJS)
 $(OUTPUT):$(LINK)
 	$(OBJCOPY) -O binary $< $@
 
-# only reextract from the rom if the romname is newer than the extracted arm9.bin
-$(BASE)/arm9.bin: $(ROMNAME) $(NDSTOOL)
+
+
+all: $(TOOLS) $(OUTPUT) $(OVERLAY_OUTPUTS)
 	rm -rf $(BASE)
 	@mkdir -p $(REQUIRED_DIRECTORIES)
 	$(NDSTOOL) -x $(ROMNAME) -9 $(BASE)/arm9.bin -7 $(BASE)/arm7.bin -y9 $(BASE)/overarm9.bin -y7 $(BASE)/overarm7.bin -d $(FILESYS) -y $(BASE)/overlay -t $(BASE)/banner.bin -h $(BASE)/header.bin
+	@echo "$(ROMNAME) Decompression successful!!"
 	$(NARCHIVE) extract $(FILESYS)/a/0/2/8 -o $(BUILD)/a028/ -nf
 
 all: $(OUTPUT) $(OVERLAY_OUTPUTS) $(TOOLS) $(BASE)/arm9.bin
@@ -301,7 +296,7 @@ restore_build: | restore all
 
 ####################### Clean #######################
 clean:
-	rm -rf $(BUILD) $(BASE) $(BUILD)/rom_gen.ld $(BUILD)/rom_gen_battle.ld
+	rm -rf $(BUILD) $(BASE) rom_gen.ld rom_gen_battle.ld
 	rm -rf $(shell find . -type d -name "generated")
 	@echo "Build artifacts removed."
 
@@ -313,7 +308,7 @@ ALL_CODE_OBJS := $(patsubst $(C_SUBDIR)/%.c,$(BUILD)/%.o,$(ALL_C_SRCS)) \
  $(patsubst $(C_SUBDIR)/%.c,$(BUILD)/%.d,$(ALL_C_SRCS))
 
 clean_code:
-	rm -f $(ALL_CODE_OBJS) $(LINKED_OUTPUTS) $(OUTPUT) $(OVERLAY_OUTPUTS) $(BUILD)/rom_gen.ld $(BUILD)/rom_gen_battle.ld
+	rm -f $(ALL_CODE_OBJS) $(LINKED_OUTPUTS) $(OUTPUT) $(OVERLAY_OUTPUTS) rom_gen.ld rom_gen_battle.ld
 
 ####################### Final ROM Build #######################
 CODE_ADDON_ARTIFACTS := $(wildcard $(BUILD)/a028/9_*) $(wildcard $(BUILD)/a028/8_1*) $(wildcard build/$(BUILD)/8_2*) $(BUILD)/a028/8_07 $(BUILD)/a028/8_08 $(BUILD)/a028/8_09

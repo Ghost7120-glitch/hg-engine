@@ -3,7 +3,11 @@
 .data
 
 _000:
-    //CalcNaturalGiftParams _008
+    CalcNaturalGiftParams _008
+    GotoIfFirstHitOfParentalBond _005
+    RemoveItem BATTLER_CATEGORY_ATTACKER
+
+_005:
     CalcCrit 
     CalcDamage 
     End 

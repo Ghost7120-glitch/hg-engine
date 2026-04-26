@@ -346,7 +346,8 @@ BOOL btl_scr_cmd_33_statbuffchange(void *bw, struct BattleStruct *sp)
                       && (sp->addeffect_type == ADD_EFFECT_INDIRECT))
                 {
                     flag = 1;
-                } else if (CheckSubstitute(sp, sp->state_client) == TRUE)
+                }
+                else if (sp->battlemon[sp->state_client].condition2 & STATUS2_SUBSTITUTE)
                 {
                     flag = 2;
                 }

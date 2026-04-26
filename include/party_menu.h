@@ -5,6 +5,7 @@
 
 #include "bag.h"
 #include "message.h"
+#include "pokemon.h"
 #include "window.h"
 
 #define MAX_MON_MOVES             4
