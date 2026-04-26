@@ -10,19 +10,22 @@
 
 .create "build/move/move_anim/0_863", 0
 
-// Population Bomb
-
 a010_863:
-    loadparticlefromspa 0, 420 //seedbomb
+    loadparticlefromspa 0, 486
     waitparticle
 
-    addparticle 0, 0, 17
-    cmd37 6, 0, 2, 2, 0, 0, 0, "NaN", "NaN"
-    wait 6
-    shaketargetmon 4, 4
-    waitse 1993, 117, 12
-    waitse 1993, 117, 24
-    waitstate
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    addparticle 0, 0, 3
+    wait 10
+
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    wait 10
+
+    addparticle 0, 2, 3
+    addparticle 0, 0, 3
     waitparticle
 
     unloadparticle 0

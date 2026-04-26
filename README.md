@@ -21,7 +21,7 @@
 
 ## Features:
 * Dex Expansion (through Gen 6 almost entirely implemented)
-* Ability Expansion up to 512 (through Gen 6 almost entirely implemented)
+* Ability Expansion (through Gen 6 almost entirely implemented)
 * Move Expansion with future generation moves
 * Item Expansion with future generation items
 * Mega Evolutions + Primal Reversions
@@ -37,16 +37,14 @@
 
 *A more comprehensive list of features + a roadmap can be found by visiting the [hg-engine wiki](https://github.com/BluRosie/hg-engine/wiki).  Please read this README and the Wiki thoroughly before asking questions.*
 
-If you are looking to contribute to hg-engine, please see the [CONTRIBUTING.md](CONTRIBUTING.md).
-
 ## Setup Instructions (Linux with apt)
-1. In a Terminal window, run the following command:
+1. In a Terminal window, run the following commands:
     * ```sudo apt-get install libpng-dev build-essential cmake python3-pip python3-venv git automake autoconf gcc-arm-none-eabi pkg-config```
 2. Continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
 
 
 ## Setup Instructions (Linux with apk)
-1. In a Terminal window, run the following command:
+1. In a Terminal window, run the following commands:
     * ```apk add libpng-dev build-base cmake python3 git automake autoconf```
     * Grab your Alpine Linux version using the command `grep PRETTY_NAME /etc/os-release`.  I get `PRETTY_NAME='Alpine Linux v3.14'`, so my version is `v3.14`.  Substitute that into the next command for `[version]`.
     * ```apk add --no-cache binutils-arm-none-eabi gcc-arm-none-eabi newlib-arm-none-eabi --repository http://dl-cdn.alpinelinux.org/alpine/[version]/community```
@@ -54,14 +52,8 @@ If you are looking to contribute to hg-engine, please see the [CONTRIBUTING.md](
 
 
 ## Setup Instructions (Linux with dnf or yum)
-1. In a Terminal window, run the following command (replace `dnf` with `yum` if applicable):
+1. In a Terminal window, run the following commands (replace `dnf` with `yum` if applicable):
     * ```sudo dnf install libpng-devel arm-none-eabi-gcc-cs arm-none-eabi-newlib.noarch cmake python3 git automake autoconf make```
-2. Continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
-
-
-## Setup Instructions (Linux with pacman)
-1. In a Terminal window, run the following command:
-    * ```sudo pacman -S libpng cmake python-pip python git automake autoconf arm-none-eabi-gcc arm-none-eabi-newlib pkg-config base-devel```
 2. Continue to [Further Setup Instructions](#further-setup-instructions-all-platforms-continued-from-individual-sections)
 
 
@@ -146,7 +138,6 @@ You will still have to `make clean` and `make clean_code` manually when changing
         * ```cd ~/git/hg-engine```
         * ```make tools/nitrogfx```
         * ```make tools/ENCODE_IMG```
-        * ```make tools/btx```
     * Make sure to undo your changes to Terminal after you are done so it will run as a native arm64 application again (uncheck the checkbox from before).
 3. After the process completes, a new file will appear in the `hg-engine` folder named **test.nds**.
    * It is important to note that this alone will not add new Pokémon to the wild, trainers, etc...; it simply makes them available in your game. It is up to you to place them.
@@ -159,7 +150,6 @@ You will still have to `make clean` and `make clean_code` manually when changing
 * [**PokeDiamond decompilation projects (nitrogfx, msgenc)**][diamond]
 * [**Mikelan98, Nomura (ARM9 Expansion Subroutine )**][ARM9]
 * Rafael Vuijk (ndstool)
-* Come swing by the [Kingdom of DS Hacking](https://discord.gg/zAtqJDW2jC) or [DS Modding Community](https://discord.gg/YBtdN3aXfv) Discord servers for any help with this!
 
 [MONEXPAND]: https://github.com/BluRosie/hgss-monexpansion
 [CFRU]: https://github.com/Skeli789/Complete-Fire-Red-Upgrade

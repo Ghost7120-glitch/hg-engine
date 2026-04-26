@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_152", 0
 
-//Crabhammer
-
 a010_152:
     initspriteresource
     loadspriteresource 0

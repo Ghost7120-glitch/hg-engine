@@ -49,8 +49,6 @@ a010_506:
     waitparticle
     unloadparticle 2
     waitstate
-    unloadparticle 3
-    waitstate
     end
     
 

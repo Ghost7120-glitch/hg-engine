@@ -45,27 +45,37 @@ If you have read all of this and still need help, feel free to swing by the Disc
 #### 1. Get a working local copy
 If you haven't already, follow [README.md](README.md) to get a working local copy of `hg-engine`.
 
-Make sure to set up your own fork so that you have your own repository you can push code to.
+Contributors should work from their own fork so they have a repository they can push branches to while still pulling updates from the main project.
 
-#### 2. Set hg-engine as a remote
-This will designate the main `hg-engine` repository as a remote.
+#### 2. Fork the repository
+Create your own fork of `BluRosie/hg-engine` on GitHub.
+
+#### 3. Clone your fork
+Replace `[YOUR-USERNAME]` with your GitHub username.
 ```bash
-git remote add hge https://github.com/BluRosie/hg-engine.git # You can replace hge with anything you want. This tutorial assumes you used hge.
+git clone --recursive https://github.com/[YOUR-USERNAME]/hg-engine.git
+cd hg-engine
 ```
 
-#### 3. Create a new branch
+#### 4. Set hg-engine as an upstream remote
+This designates the main `hg-engine` repository as the place you pull updates from.
+```bash
+git remote add upstream https://github.com/BluRosie/hg-engine.git
+```
+
+#### 5. Create a new branch
 This will create a new branch and switch to it.
 ```bash
 git switch -c newFeature # the name newFeature can be anything you want. This tutorial assumes you used newFeature.
 ```
 
-#### 4. Copy main to your new branch
-This will change your new branch to match the latest version of main.
+#### 6. Copy main to your new branch
+This will change your new branch to match the latest version of your local `main`.
 ```bash
 git reset --hard main
 ```
 
-#### 5. Implement your code
+#### 7. Implement your code
 All of your work should go on this new, clean branch. If you already started work on a different branch, you can [cherry-pick](https://git-scm.com/docs/git-cherry-pick) you old commits onto this new branch, or just copy and paste the changes from the original files.
 
 #### 8. Format your changes

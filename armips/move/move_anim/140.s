@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_140", 0
 
-//Barrage
-
 a010_140:
     initspriteresource
     loadspriteresource 0

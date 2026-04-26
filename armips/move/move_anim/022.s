@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_022", 0
 
-//Vine Whip
-
 a010_022:
     initspriteresource
     loadspriteresource 0

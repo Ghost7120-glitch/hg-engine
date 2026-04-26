@@ -105,9 +105,6 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
                 // debug_printf("In SBA_SET_GIMMICK_REQUEST_STATUS\n");
 
                 for (client_no = 0; client_no < client_set_max; client_no++) {
-#ifdef DEBUG_BATTLE_SCENARIOS
-                    newBS.playerWantMega = No2Bit(client_no);
-#endif
                     flag = FALSE;
                     if (sp->playerActions[0][3] != SELECT_ESCAPE_COMMAND &&
                         sp->playerActions[2][3] != SELECT_ESCAPE_COMMAND) {
@@ -124,7 +121,7 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
                             }
                             // ai requests mega
                             else {
-                                if (CheckCanMega(sp, client_no) && (BattleTypeGet(bw) & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_BATTLE_TOWER))) {
+                                if (CheckCanMega(sp, client_no)) {
                                     sp->battlemon[client_no].canMega = 1;
                                     newBS.SideMega[client_no] = TRUE;
                                     flag = TRUE;
@@ -142,7 +139,7 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
                             }
                             // ai requests mega
                             else {
-                                if (CheckCanMega(sp, client_no) && (BattleTypeGet(bw) & (BATTLE_TYPE_TRAINER | BATTLE_TYPE_BATTLE_TOWER))) {
+                                if (CheckCanMega(sp, client_no)) {
                                     sp->battlemon[client_no].canMega = 1;
                                     newBS.SideMega[1] = TRUE;
                                     newBS.SideMega[3] = TRUE;
@@ -407,6 +404,7 @@ void __attribute__((section (".init"))) ServerBeforeActInternal(struct BattleSys
 static BOOL MegaEvolutionOrUltraBurst(struct BattleSystem *bsys, struct BattleStruct *ctx) {
     int client_no, i;
     int client_set_max;
+    int seq;
 
     client_set_max = BattleWorkClientSetMaxGet(bsys);
     for (i = 0; i < client_set_max; i++) {
@@ -439,11 +437,13 @@ static BOOL MegaEvolutionOrUltraBurst(struct BattleSystem *bsys, struct BattleSt
         }
         if (newBS.needMega[client_no] == MEGA_CHECK_APPER && ctx->battlemon[client_no].hp) {
             newBS.needMega[client_no] = MEGA_NO_NEED;
-
-            LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, SUB_SEQ_SWITCH_IN_ABILITY_CHECK);
-            ctx->next_server_seq_no = ctx->server_seq_no;
-            ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
-            return TRUE;
+            seq = ST_ServerPokeAppearCheck(bsys, ctx);
+            if (seq) {
+                LoadBattleSubSeqScript(ctx, ARC_BATTLE_SUB_SEQ, seq);
+                ctx->next_server_seq_no = ctx->server_seq_no;
+                ctx->server_seq_no = CONTROLLER_COMMAND_RUN_SCRIPT;
+                return TRUE;
+            }
         }
         newBS.needMega[client_no] = MEGA_NO_NEED;
     }

@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_340", 0
 
-//Bounce
-
 a010_340:
     initspriteresource
     loadspriteresource 0

@@ -1,6 +1,7 @@
 #ifndef RTC_H
 #define RTC_H
 
+#include "pokemon.h"
 #include "types.h"
 
 /* defines all taken from pokeheartgold */
@@ -47,8 +48,6 @@ struct GF_RTC_DateTime {
     struct RTCDate date;
     struct RTCTime time;
 };
-
-struct Party; // file too general for pokemon.h to be included
 
 void LONG_CALL Party_ResetAllShayminToLandForme(struct Party *party);
 void LONG_CALL GF_RTC_CopyDateTime(struct RTCDate *date, struct RTCTime *time);
