@@ -7,7 +7,6 @@
 #include "../../include/overlay.h"
 #include "../../include/pokemon.h"
 #include "../../include/save.h"
-#include "../../include/system.h"
 #include "../../include/window.h"
 #include "../../include/message.h"
 #include "../../include/constants/ability.h"
