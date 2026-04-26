@@ -17,9 +17,7 @@ _noMega:
     UpdateVar OPCODE_SET, BSCRIPT_VAR_POWER_MULTI, 20
     CalcCrit 
     CalcDamage 
-    // handled in CalcDamage already
-    // TODO: apply the effectiveness flag
-    // ApplyTypeEffectiveness 
+    ApplyTypeEffectiveness 
     UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_NO_ATTACK_MESSAGE
     UpdateVar OPCODE_FLAG_OFF, BSCRIPT_VAR_BATTLE_STATUS, BATTLE_STATUS_MOVE_ANIMATIONS_OFF
     PrintAttackMessage 

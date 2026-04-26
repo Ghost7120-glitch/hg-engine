@@ -10,19 +10,22 @@
 
 .create "build/move/move_anim/0_567", 0
 
-//Sticky Web
-
 a010_567:
-    loadparticlefromspa 0, 543 //electroweb particles from gen 5
+    loadparticlefromspa 0, 486
     waitparticle
 
-    addparticle 0, 3, 4
-    addparticle 0, 4, 4
-    playsepan 1919, 117
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    addparticle 0, 0, 3
     wait 10
-    playsepan 1919, 117
-    wait 5
-    playsepan 1919, 117
+
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    wait 10
+
+    addparticle 0, 2, 3
+    addparticle 0, 0, 3
     waitparticle
 
     unloadparticle 0

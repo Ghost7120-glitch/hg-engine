@@ -10,6 +10,7 @@
 /*
  *  if you would like to add new overworlds, go to
  *  https://ds-pokemon-hacking.github.io/docs/generation-iv/guides/hgss-new_overworlds/
+ *  this describes how to edit narcs.mk to introduce a custom subfolder to your project
  */
 
 #define NEW_NPC_START 7000
@@ -1668,58 +1669,13 @@ struct OVERWORLD_TAG gOWTagToFileNum[] = // skip down a bit to see the parts tha
     { .tag = 1788, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // hearthflame
     { .tag = 1789, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // cornerstone
     { .tag = 1790, .gfx = 1545, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_ARCHALUDON
-    { .tag = 1791, .gfx = 1546, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_HYDRAPPLE
+    { .tag = 1791, .gfx = 1546, .callback_params = OVERWORLD_SIZE_LARGE}, // SPECIES_HYDRAPPLE
     { .tag = 1792, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_GOUGING_FIRE
     { .tag = 1793, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_RAGING_BOLT
     { .tag = 1794, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_BOULDER
     { .tag = 1795, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_IRON_CROWN
     { .tag = 1796, .gfx =  297, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_TERAPAGOS
     { .tag = 1797, .gfx = 1547, .callback_params = OVERWORLD_SIZE_SMALL}, // SPECIES_PECHARUNT
-    NEW_NPC_ENTRY(0), // Wallace
-	NEW_NPC_ENTRY(1), // Sidney
-    NEW_NPC_ENTRY(2), // Glacia
-    NEW_NPC_ENTRY(3), // Phoebe
-    NEW_NPC_ENTRY(4), // Drake
-    NEW_NPC_ENTRY(5), // Roxanne
-    NEW_NPC_ENTRY(6), // Brawly
-    NEW_NPC_ENTRY(7), // Flannery
-    NEW_NPC_ENTRY(8), // Wattson
-    NEW_NPC_ENTRY(9), // Winona
-    NEW_NPC_ENTRY(10), // Norman
-    NEW_NPC_ENTRY(11), // Liza
-    NEW_NPC_ENTRY(12), // Tate
-    NEW_NPC_ENTRY(13), // Juan
-    NEW_NPC_ENTRY(14), // Looker
-    NEW_NPC_ENTRY(15), // Aaron
-    NEW_NPC_ENTRY(16), // Flint
-    NEW_NPC_ENTRY(17), // Lucian
-    NEW_NPC_ENTRY(18), // Bertha
-    NEW_NPC_ENTRY(19), // Green
-    NEW_NPC_ENTRY(20), // Yellow
-    NEW_NPC_ENTRY(21), // Leaf
-    NEW_NPC_ENTRY(22), // Kris
-    NEW_NPC_ENTRY(23), // Brendan
-    NEW_NPC_ENTRY(24), // May
-    NEW_NPC_ENTRY(25), // Wally
-    NEW_NPC_ENTRY(26), // Barry
-    NEW_NPC_ENTRY(27), // Noland
-    NEW_NPC_ENTRY(28), // Tucker
-    NEW_NPC_ENTRY(29), // Greta
-    NEW_NPC_ENTRY(30), // Lucy
-    NEW_NPC_ENTRY(31), // Brandon
-    NEW_NPC_ENTRY(32), // Spenser
-    NEW_NPC_ENTRY(33), // Anabel
-    NEW_NPC_ENTRY(34), // Matt
-    NEW_NPC_ENTRY(35), // Shelly
-    NEW_NPC_ENTRY(36), // Archie
-    NEW_NPC_ENTRY(37), // Courtney
-    NEW_NPC_ENTRY(38), // Tabitha
-    NEW_NPC_ENTRY(39), // Maxie
-    NEW_NPC_ENTRY(40), // Mars
-    NEW_NPC_ENTRY(41), // Jupiter
-    NEW_NPC_ENTRY(42), // Saturn
-    NEW_NPC_ENTRY(43), // Charon
-    NEW_NPC_ENTRY(44), // Cyrus
     { 0xFFFF, 0, 0},
 };
 

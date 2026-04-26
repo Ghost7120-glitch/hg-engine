@@ -67,12 +67,3 @@ BOOL AnimCmd_PlayCryEdit(u32 client)
         PlayCry(sp->battlemon[client].species, form);
     return (form != 0);
 }
-
-#ifdef DEBUG_BATTLE_SCENARIOS
-BOOL LONG_CALL CheckTrainerMessage(struct BattleSystem *bw UNUSED, struct BattleStruct *sp UNUSED)
-{
-    return FALSE;
-}
-#endif // DEBUG_BATTLE_SCENARIOS
-
-

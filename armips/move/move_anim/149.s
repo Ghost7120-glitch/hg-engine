@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_149", 0
 
-//Psywave
-
 a010_149:
     initspriteresource
     loadspriteresource 0

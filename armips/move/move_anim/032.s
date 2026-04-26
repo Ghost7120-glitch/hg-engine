@@ -10,8 +10,6 @@
 
 .create "build/move/move_anim/0_032", 0
 
-//Horn Drill
-
 a010_032:
     initspriteresource
     loadspriteresource 0

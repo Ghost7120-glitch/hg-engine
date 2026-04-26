@@ -30,9 +30,6 @@ extern struct ILLUSION_STRUCT gIllusionStruct;
  */
 int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-    debug_printf("in SwitchInAbilityCheck %d\n", sp->server_seq_no);
-#endif
     // Sort clients because abilities may affect speed
     DynamicSortClientExecutionOrder(bw, sp, FALSE);
     int i;
@@ -50,9 +47,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
         {
             case SWITCH_IN_CHECK_WEATHER:  // 022531DE
             {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-            debug_printf("in SWITCH_IN_CHECK_WEATHER %d\n", sp->switch_in_check_seq_no);
-#endif
                 if (sp->weather_check_flag == 0) {
                     switch (BattleWorkWeatherGet(bw)) {
                         case WEATHER_SYS_RAIN:
@@ -97,9 +91,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 break;
             // https://bulbapedia.bulbagarden.net/wiki/User:FIQ/Turn_sequence
             case SWITCH_IN_CHECK_ENTRY_EFFECT_NEUTRALIZING_GAS_TERA_SHIFT: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_NEUTRALIZING_GAS_TERA_SHIFT %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
 
@@ -122,12 +113,9 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 if (i == client_set_max) {
                     sp->switch_in_check_seq_no++;
                 }
-            }
+            } 
                 break;
             case SWITCH_IN_CHECK_ENTRY_EFFECT_UNNERVE: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_UNNERVE %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
 
@@ -157,12 +145,9 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             }
                 break;
             case SWITCH_IN_CHECK_ENTRY_EFFECT_HEALING_WISH: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_HEALING_WISH %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
-
+                    
                     // Heal from Healing Wish, Lunar Dance, Z-Memento, or Z-Parting Shot if applicable
                     {
 
@@ -180,19 +165,16 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             }
                 break;
             case SWITCH_IN_CHECK_ENTRY_EFFECT_HAZARDS: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_HAZARDS %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
 
-
+                    
                     // Entry hazards
                     {
 
                     }
 
-
+                    
                     // Need to trigger script
                     if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
                         break;
@@ -205,10 +187,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             }
                 break;
             case SWITCH_IN_CHECK_ENTRY_EFFECT_ABILITIES_AIR_BALLOON: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_ABILITIES_AIR_BALLOON %d\n", sp->switch_in_check_seq_no);
-#endif
-                for (i = 0; i < client_set_max; i++) {
+                for (i = 0; i < client_set_max; i++) {      
                     client_no = sp->turnOrder[i];
 
                     // Abilities with entry effects can announce, except Neutralizing Gas/Unnerve (earlier) and form-changing abilities (later)
@@ -222,13 +201,8 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                         sp->defence_client_work = TraceClientGet(bw, sp, def1, def2);
 
-                        if ((sp->battlemon[client_no].ability_activated_flag == 0)
-                            && (sp->defence_client_work != 0xFF)
-                            && (sp->battlemon[client_no].hp)
-                            && (sp->battlemon[client_no].item != ITEM_GRISEOUS_ORB)
-                            && (sp->battlemon[sp->defence_client_work].hp)
-                            && (GetBattlerAbility(sp, client_no) == ABILITY_TRACE))
-                        {
+                        if ((sp->battlemon[client_no].ability_activated_flag == 0) && (sp->defence_client_work != 0xFF) && (sp->battlemon[client_no].hp) && (sp->battlemon[client_no].item != ITEM_GRISEOUS_ORB) && (sp->battlemon[sp->defence_client_work].hp) && (GetBattlerAbility(sp, client_no) == ABILITY_TRACE)) {
+                            sp->battlemon[client_no].ability_activated_flag = 1;
                             sp->battlerIdTemp = client_no;
                             scriptnum = SUB_SEQ_TRACE;
                             ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
@@ -620,7 +594,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             src = (u8 *)&sp->battlemon[sp->attack_client];
                             dest = (u8 *)&sp->battlemon[sp->defence_client];
 
-                            for (num = 0; num <= (int)0x26/*offsetof(struct BattlePokemon, ability)*/; num++) {
+                            for (num = 0; num <= (int)offsetof(struct BattlePokemon, ability); num++) {
                                 src[num] = dest[num];
                             }
 
@@ -631,7 +605,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             sp->battlemon[sp->attack_client].slow_start_flag = 0;
                             sp->battlemon[sp->attack_client].slow_start_end_flag = 0;
                             ClearBattleMonFlags(sp, sp->attack_client);  // clear extra flags here too
-                            sp->moveConditionsFlags[sp->attack_client].laserFocusTimer = sp->moveConditionsFlags[sp->defence_client].laserFocusTimer;
 
                             for (num = 0; num < 4; num++) {
                                 sp->battlemon[sp->attack_client].move[num] = sp->battlemon[sp->defence_client].move[num];
@@ -651,23 +624,23 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                             (sp->battlemon[client_no].hp)) {
                             switch (GetBattlerAbility(sp, client_no)) {
                                 case ABILITY_GRASSY_SURGE:
-                                    sp->addeffect_type = ADD_EFFECT_ABILITY;
-                                    UpdateTerrainOverlay(sp, client_no, GRASSY_TERRAIN);
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_GRASSY_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_MISTY_SURGE:
-                                    sp->addeffect_type = ADD_EFFECT_ABILITY;
-                                    UpdateTerrainOverlay(sp, client_no, MISTY_TERRAIN);
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_MISTY_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_ELECTRIC_SURGE:
-                                    sp->addeffect_type = ADD_EFFECT_ABILITY;
-                                    UpdateTerrainOverlay(sp, client_no, ELECTRIC_TERRAIN);
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_ELECTRIC_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 case ABILITY_PSYCHIC_SURGE:
-                                    sp->addeffect_type = ADD_EFFECT_ABILITY;
-                                    UpdateTerrainOverlay(sp, client_no, PSYCHIC_TERRAIN);
+                                    sp->calc_work = sp->current_move_index;
+                                    sp->current_move_index = MOVE_PSYCHIC_TERRAIN;  // need this for UpdateTerrainOverlay
                                     ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
                                     break;
                                 default:
@@ -676,9 +649,9 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                             if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
                                 sp->battlemon[client_no].ability_activated_flag = 1;
-                                sp->battlerIdTemp = client_no; // For ability popup
                                 sp->attack_client = client_no; // this should allow for the seeds to affect the terrain
                                 scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY;
+                                sp->addeffect_type = ADD_EFFECT_ABILITY; // need to restore the current move index after the animation has played
                                 break;
                             }
                         }
@@ -690,7 +663,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_INTREPID_SWORD)) {
                             sp->onceOnlyAbilityFlags[SanitizeClientForTeamAccess(bw, client_no)][sp->sel_mons_no[client_no]].intrepidSwordFlag = TRUE;
-                            sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_ATTACK_UP;
+                            sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_ATTACK_UP;                        
                             sp->addeffect_type = ADD_STATUS_ABILITY;
                             sp->state_client = client_no;
                             scriptnum = SUB_SEQ_BOOST_STATS;
@@ -705,7 +678,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         && (sp->battlemon[client_no].hp)
                         && (GetBattlerAbility(sp, client_no) == ABILITY_DAUNTLESS_SHIELD)) {
                             sp->onceOnlyAbilityFlags[SanitizeClientForTeamAccess(bw, client_no)][sp->sel_mons_no[client_no]].dauntlessShieldFlag = TRUE;
-                            sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_DEFENSE_UP;
+                            sp->addeffect_param = ADD_STATUS_EFF_BOOST_STATS_DEFENSE_UP;                        
                             sp->addeffect_type = ADD_STATUS_ABILITY;
                             sp->state_client = client_no;
                             scriptnum = SUB_SEQ_BOOST_STATS;
@@ -755,39 +728,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
-                    // Orichalcum Pulse
-                    {
-                        if ((sp->battlemon[client_no].hp)
-                        && (sp->battlemon[client_no].ability_activated_flag == 0)
-                        && (GetBattlerAbility(sp, client_no) == ABILITY_ORICHALCUM_PULSE)) {
-                            sp->battlemon[client_no].ability_activated_flag = 1;
-                            sp->ability_client = client_no; // Use ability_client instead of battlerIdTemp so ActivateParadoxAbility doesn't interfere
-                            scriptnum = SUB_SEQ_ORICHALCUM_PULSE;
-                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                            break;
-                        }
-                    }
-
-                    // Hadron Engine
-                    {
-                        if ((sp->battlemon[client_no].hp)
-                        && (sp->battlemon[client_no].ability_activated_flag == 0)
-                        && (GetBattlerAbility(sp, client_no) == ABILITY_HADRON_ENGINE)) {
-                            sp->battlemon[client_no].ability_activated_flag = 1;
-                            sp->battlerIdTemp = client_no;
-                            sp->addeffect_type = ADD_EFFECT_ABILITY;
-                            if (sp->terrainOverlay.type == ELECTRIC_TERRAIN
-                            && sp->terrainOverlay.numberOfTurnsLeft > 0) {
-                                scriptnum = SUB_SEQ_HADRON_ENGINE_NO_TERRAIN_SETUP;
-                            } else {
-                                UpdateTerrainOverlay(sp, client_no, ELECTRIC_TERRAIN);
-                                scriptnum = SUB_SEQ_CREATE_TERRAIN_OVERLAY;
-                            }
-                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                            break;
-                        }
-                    }
-
                     // Air Balloon is announced
                     // https://www.smogon.com/forums/threads/sword-shield-battle-mechanics-research.3655528/post-9227933
                     {
@@ -814,9 +754,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
             }
                 break;
             case SWITCH_IN_CHECK_ENTRY_EFFECT_PRIMAL_REVERSION_SEEDS_SCHOOLING_SHIELDS_DOWN: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_PRIMAL_REVERSION_SEEDS_SCHOOLING_SHIELDS_DOWN %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
 
@@ -848,19 +785,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                         }
                     }
 
-                    // Room Service
-                    {
-                        u16 heldItem;
-
-                        heldItem = GetBattleMonItem(sp, client_no);
-                        if (heldItem == ITEM_ROOM_SERVICE && sp->field_condition & FIELD_STATUS_TRICK_ROOM) {
-                            sp->state_client = client_no;
-                            scriptnum = SUB_SEQ_HANDLE_ROOM_SERVICE;
-                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                            break;
-                        }
-                    }
-
                     // Schooling
                     {
 
@@ -881,10 +805,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 }
             }
                 break;
-            case SWITCH_IN_CHECK_ENTRY_EFFECT_WHITE_HERB_FLOWER_GIFT_FORECAST_ICE_FACE_COSTAR_COMMANDER_PROTOSYNTHESIS_QUARK_DRIVE_HOSPITALITY: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_WHITE_HERB_FLOWER_GIFT_FORECAST_ICE_FACE_COSTAR_COMMANDER_PROTOSYNTHESIS_QUARK_DRIVE_HOSPITALITY %d\n", sp->switch_in_check_seq_no);
-#endif 
+            case SWITCH_IN_CHECK_ENTRY_EFFECT_WHITE_HERB_FLOWER_GIFT_FORECAST_ICE_FACE_COSTAR_COMMANDER_PROTOSYNTHESIS_QUARK_DRIVE_HOSPITALITY_EJECT_PACK: {
                 for (i = 0; i < client_set_max; i++) {
                     client_no = sp->turnOrder[i];
 
@@ -934,7 +855,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                     // Costar
                     {
-
+                        
                     }
 
                     // Commander
@@ -942,17 +863,22 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                     }
 
-                    // Protosynthesis and Quark Drive
+                    // Protosynthesis
                     {
-                        scriptnum = ActivateParadoxAbility(bw, sp, client_no);
-                        if (scriptnum > 0) {
-                            // debug_printf("[Paradox Abilities] Activation via SwitchInAbilityCheck\n");
-                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                            break;
-                        }
+
+                    }
+
+                    // Quark Drive
+                    {
+
                     }
 
                     // Hospitality
+                    {
+
+                    }
+
+                    // Eject Pack
                     {
 
                     }
@@ -974,7 +900,7 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
 
                     // Opportunist
                     {
-
+                        
                     }
 
                     // Need to trigger script
@@ -1002,9 +928,6 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                 break;
                 // 02253CFC
             case SWITCH_IN_CHECK_ABILITY_HEAL_STATUS:{
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ABILITY_HEAL_STATUS %d\n", sp->switch_in_check_seq_no);
-#endif
                 for (i = 0; i < client_set_max; i++)
                 {
                     client_no = sp->turnOrder[i];
@@ -1020,41 +943,8 @@ int UNUSED SwitchInAbilityCheck(void *bw, struct BattleStruct *sp)
                     sp->switch_in_check_seq_no++;
                 }
             }
-                break;
-            case SWITCH_IN_CHECK_ENTRY_EFFECT_EJECT_PACK: {
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_ENTRY_EFFECT_EJECT_PACK %d\n", sp->switch_in_check_seq_no);
-                debug_printf("faintClient %d, switchClient %d\n", sp->fainting_client, sp->reshuffle_client);
-#endif
-                // only one eject pack can activate
-                sp->switch_in_check_seq_no++;
-                /* for (i = 0; i < client_set_max; i++) {
-                    client_no = sp->turnOrder[i];
-
-                    if (HeldItemHoldEffectGet(sp, client_no) == HOLD_EFFECT_SWITCH_OUT_ON_STAT_DROP
-                        && sp->currentMoveSwitchStatus < CURRENT_MOVE_SWITCH_PENDING) {
-                        if (sp->moveConditionsFlags[client_no].anyStatLoweredThisTurn) {
-                            sp->addeffect_type = ADD_EFFECT_STICKY_WEB;
-                            sp->battlerIdTemp = client_no;
-                            sp->state_client = client_no;
-                            scriptnum = SUB_SEQ_HANDLE_SWITCHING_ITEMS;
-                            ret = SWITCH_IN_CHECK_MOVE_SCRIPT;
-                            break;
-                        }
-                    }
-                }
-
-                if (ret == SWITCH_IN_CHECK_MOVE_SCRIPT) {
-                    sp->switch_in_check_seq_no = 0;
-                    break;
-                }
-               */
-                FALLTHROUGH;
-            }
+                break;    
             case SWITCH_IN_CHECK_END:
-#ifdef DEBUG_SWITCH_IN_ABILITY_CHECK
-                debug_printf("in SWITCH_IN_CHECK_END %d\n", sp->switch_in_check_seq_no);
-#endif
                 sp->switch_in_check_seq_no = 0;
                 ret = SWITCH_IN_CHECK_CHECK_END;
                 break;

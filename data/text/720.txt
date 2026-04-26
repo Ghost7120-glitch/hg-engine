@@ -309,5 +309,3 @@ Tera Shift
 Tera Shell
 Teraform Zero
 Poison Puppeteer
-Mega Sol
-Dragonize

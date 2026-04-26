@@ -10,24 +10,27 @@
 
 .create "build/move/move_anim/0_817", 0
 
-//Dual Wingbeat
-//wing attack twice
 a010_817:
-    loadparticlefromspa 0, 48
+    loadparticlefromspa 0, 486
     waitparticle
 
-    addparticle 0, 0, 4
-    addparticle 0, 1, 4
-    repeatse 1916, 117, 2, 2
-    callfunction 36, 5, 3, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
-    wait 20
-    addparticle 0, 0, 4
-    addparticle 0, 1, 4
-    repeatse 1916, 117, 2, 2
-    callfunction 36, 5, 3, 0, 1, 2, 264, "NaN", "NaN", "NaN", "NaN", "NaN"
+    addparticle 0, 2, 3
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    addparticle 0, 0, 3
+    wait 10
+
+    addparticle 0, 1, 3
+    addparticle 0, 1, 3
+    wait 10
+
+    addparticle 0, 2, 3
+    addparticle 0, 0, 3
     waitparticle
+
     unloadparticle 0
     waitstate
     end
+    
 
 .close
